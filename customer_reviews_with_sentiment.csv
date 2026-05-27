@@ -1,0 +1,1364 @@
+ReviewID,CustomerID,CustomerName,Country,ProductID,ProductName,Rating,ReviewText,ReviewDate,SentimentScore,SentimentCategory,SentimentBucket
+1,77,David Lopez,Spain,18,Volleyball,3,"Average  experience,  nothing  special.",2023-12-23,-0.3089,Mixed Negative,-0.49 to 0.0
+2,80,Laura Jones,Netherlands,19,Hockey Stick,5,The  quality  is    top-notch.,2024-12-25,0.0,Positive,0.0 to 0.49
+3,50,Olivia Miller,France,13,Swim Goggles,4,Five  stars  for  the  quick  delivery.,2025-01-26,0.0,Positive,0.0 to 0.49
+4,78,Olivia Smith,Sweden,15,Climbing Rope,3,"Good  quality,  but  could  be  cheaper.",2025-04-21,0.2382,Mixed Positive,0.0 to 0.49
+5,64,Sarah Martinez,Belgium,2,Fitness Tracker,3,"Average  experience,  nothing  special.",2023-07-16,-0.3089,Mixed Negative,-0.49 to 0.0
+6,81,Emily Wilson,Switzerland,1,Running Shoes,4,Customer  support  was  very  helpful.,2025-12-21,0.6997,Positive,0.5 to 1.0
+7,16,Michael Martinez,Italy,1,Running Shoes,3,"Average  experience,  nothing  special.",2024-01-29,-0.3089,Mixed Negative,-0.49 to 0.0
+8,55,Emily Lopez,UK,8,Football Helmet,5,The  quality    is  top-notch.,2024-08-15,0.0,Positive,0.0 to 0.49
+9,3,Robert Hernandez,Netherlands,13,Swim Goggles,4,"I  love  this  product,  will  buy  again!",2023-09-01,0.6696,Positive,0.5 to 1.0
+10,78,Olivia Smith,Sweden,6,Tennis Racket,5,"Excellent  product,  highly  recommend!",2024-06-17,0.7773,Positive,0.5 to 1.0
+11,54,Michael Gonzalez,Italy,9,Baseball Glove,4,"Great  purchase,  very  satisfied.",2023-07-17,0.8016,Positive,0.5 to 1.0
+12,77,David Lopez,Spain,2,Fitness Tracker,2,Product  did    not  meet  my  expectations.,2025-01-13,0.0,Negative,0.0 to 0.49
+13,93,Jane Rodriguez,Spain,6,Tennis Racket,5,"Great  purchase,  very  satisfied.",2024-08-20,0.8016,Positive,0.5 to 1.0
+14,23,Isabella Garcia,Italy,2,Fitness Tracker,4,"Good  quality,  but  could  be  cheaper.",2025-06-16,0.2382,Positive,0.0 to 0.49
+15,29,Sophia Anderson,Italy,11,Ski Boots,5,"Great  purchase,  very  satisfied.",2023-01-27,0.8016,Positive,0.5 to 1.0
+16,95,James Jones,Germany,17,Surfboard,5,"Excellent  product,  highly  recommend!",2023-01-06,0.7773,Positive,0.5 to 1.0
+17,88,James Brown,France,4,Dumbbells,3,Not  worth  the  money.,2025-10-29,-0.1695,Mixed Negative,-0.49 to 0.0
+18,17,Daniel Thomas,Germany,16,Kayak,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-11-23,0.0,Positive,0.0 to 0.49
+19,34,Daniel Miller,France,13,Swim Goggles,4,The  quality  is  top-notch.,2024-01-04,0.0,Positive,0.0 to 0.49
+20,34,Daniel Miller,France,6,Tennis Racket,1,I  had  a  bad  experience  with  this  product.,2023-04-29,-0.5423,Negative,-1.0 to -0.5
+21,22,Alex Wilson,Germany,15,Climbing Rope,5,Amazing  value  for  the  price.,2023-04-08,0.7351,Positive,0.5 to 1.0
+22,52,Robert Williams,Switzerland,3,Yoga Mat,4,The  quality  is  top-notch.,2025-10-30,0.0,Positive,0.0 to 0.49
+23,69,Emma Gonzalez,Spain,18,Volleyball,5,Five  stars  for  the  quick  delivery.,2023-07-02,0.0,Positive,0.0 to 0.49
+24,100,Jane Brown,Austria,4,Dumbbells,3,"I  love  this    product,  will  buy  again!",2025-07-18,0.6696,Mixed Positive,0.5 to 1.0
+25,55,Emily Lopez,UK,20,Boxing Gloves,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-12-19,0.0,Positive,0.0 to 0.49
+26,76,Michael Lopez,Austria,11,Ski Boots,4,Five  stars  for  the  quick  delivery.,2024-08-21,0.0,Positive,0.0 to 0.49
+27,56,Sophia Davis,Switzerland,6,Tennis Racket,4,The  quality  is  top-notch.,2025-11-24,0.0,Positive,0.0 to 0.49
+28,76,Michael Lopez,Austria,8,Football Helmet,5,Five  stars  for  the  quick  delivery.,2025-05-27,0.0,Positive,0.0 to 0.49
+29,38,John Garcia,Spain,13,Swim Goggles,4,"I  love  this  product,  will  buy  again!",2023-05-31,0.6696,Positive,0.5 to 1.0
+30,84,Michael Williams,Spain,6,Tennis Racket,4,Five  stars  for  the  quick  delivery.,2024-03-18,0.0,Positive,0.0 to 0.49
+31,93,Jane Rodriguez,Spain,4,Dumbbells,3,"Good  quality,  but  could  be    cheaper.",2025-08-25,0.2382,Mixed Positive,0.0 to 0.49
+32,91,John Brown,Spain,1,Running Shoes,4,The  quality  is  top-notch.,2023-07-15,0.0,Positive,0.0 to 0.49
+33,30,Alex Garcia,Belgium,2,Fitness Tracker,4,Shipping  was  fast  and  the  item  was  well-packaged.,2023-02-21,0.0,Positive,0.0 to 0.49
+34,81,Emily Wilson,Switzerland,15,Climbing Rope,5,"Excellent  product,  highly  recommend!",2024-03-30,0.7773,Positive,0.5 to 1.0
+35,27,John Rodriguez,UK,12,Ice Skates,3,"Average  experience,  nothing  special.",2024-03-13,-0.3089,Mixed Negative,-0.49 to 0.0
+36,96,Emily Gonzalez,Austria,9,Baseball Glove,3,"Good  quality,  but  could  be  cheaper.",2025-12-05,0.2382,Mixed Positive,0.0 to 0.49
+37,38,John Garcia,Spain,3,Yoga Mat,3,"Average  experience,  nothing    special.",2023-09-11,-0.3089,Mixed Negative,-0.49 to 0.0
+38,45,Sarah Hernandez,Italy,17,Surfboard,5,"Great  purchase,  very  satisfied.",2024-05-07,0.8016,Positive,0.5 to 1.0
+39,54,Michael Gonzalez,Italy,1,Running Shoes,5,Customer  support  was  very  helpful.,2023-10-02,0.6997,Positive,0.5 to 1.0
+40,33,David Thomas,Spain,2,Fitness Tracker,5,Five  stars    for  the  quick  delivery.,2025-01-03,0.0,Positive,0.0 to 0.49
+41,93,Jane Rodriguez,Spain,17,Surfboard,3,"Average  experience,  nothing  special.",2025-05-15,-0.3089,Mixed Negative,-0.49 to 0.0
+42,72,Sophia Miller,Sweden,15,Climbing Rope,5,Five  stars  for  the  quick  delivery.,2023-03-21,0.0,Positive,0.0 to 0.49
+43,84,Michael Williams,Spain,15,Climbing Rope,4,Exceeded  my    expectations!,2025-02-02,0.0,Positive,0.0 to 0.49
+44,44,Olivia Brown,Switzerland,17,Surfboard,5,"Excellent  product,    highly  recommend!",2023-04-20,0.7773,Positive,0.5 to 1.0
+45,11,Emma Garcia,Austria,16,Kayak,3,Not  worth  the  money.,2023-03-23,-0.1695,Mixed Negative,-0.49 to 0.0
+46,27,John Rodriguez,UK,5,Soccer Ball,4,Five  stars  for  the  quick  delivery.,2025-05-07,0.0,Positive,0.0 to 0.49
+47,19,Emma Wilson,Netherlands,13,Swim Goggles,4,Five  stars  for  the  quick  delivery.,2024-06-01,0.0,Positive,0.0 to 0.49
+48,70,James Garcia,Belgium,17,Surfboard,4,Shipping  was  fast  and  the  item    was  well-packaged.,2023-10-08,0.0,Positive,0.0 to 0.49
+49,3,Robert Hernandez,Netherlands,7,Basketball,3,"Good  quality,  but  could    be  cheaper.",2025-06-09,0.2382,Mixed Positive,0.0 to 0.49
+50,62,Michael Hernandez,Sweden,4,Dumbbells,1,The  product  stopped  working  after  a  month.,2023-01-07,-0.2263,Negative,-0.49 to 0.0
+51,49,Michael Smith,Spain,17,Surfboard,4,Five  stars  for  the  quick  delivery.,2023-04-14,0.0,Positive,0.0 to 0.49
+52,75,David Smith,Netherlands,11,Ski Boots,4,"I  love  this  product,  will  buy  again!",2024-04-07,0.6696,Positive,0.5 to 1.0
+53,73,Sarah Gonzalez,Spain,18,Volleyball,4,Five  stars  for    the  quick  delivery.,2025-12-28,0.0,Positive,0.0 to 0.49
+54,33,David Thomas,Spain,8,Football Helmet,5,"Excellent  product,  highly  recommend!",2023-05-03,0.7773,Positive,0.5 to 1.0
+55,57,James Rodriguez,Spain,9,Baseball Glove,3,Customer  support  was    very  helpful.,2025-11-03,0.6997,Mixed Positive,0.5 to 1.0
+56,15,Emma Martinez,Switzerland,10,Golf Clubs,3,Shipping  was  fast  and  the  item  was  well-packaged.,2025-12-11,0.0,Neutral,0.0 to 0.49
+57,41,Laura Wilson,Germany,10,Golf Clubs,2,Disappointed  with  the  performance.,2024-04-06,-0.4767,Negative,-0.49 to 0.0
+58,78,Olivia Smith,Sweden,7,Basketball,2,"The  product    is  okay,  but  the  instructions  were  unclear.",2024-07-16,-0.2617,Negative,-0.49 to 0.0
+59,98,Chris Lopez,Austria,9,Baseball Glove,4,The  build  quality  is  impressive.,2024-09-01,0.5106,Positive,0.5 to 1.0
+60,11,Emma Garcia,Austria,16,Kayak,4,"Great  purchase,  very  satisfied.",2023-12-27,0.8016,Positive,0.5 to 1.0
+61,50,Olivia Miller,France,19,Hockey Stick,4,"Great  purchase,    very  satisfied.",2023-02-24,0.8016,Positive,0.5 to 1.0
+62,35,Robert Rodriguez,Germany,17,Surfboard,2,"Average  experience,  nothing  special.",2023-03-18,-0.3089,Negative,-0.49 to 0.0
+63,93,Jane Rodriguez,Spain,2,Fitness Tracker,4,Five  stars  for  the  quick  delivery.,2025-01-05,0.0,Positive,0.0 to 0.49
+64,86,James Hernandez,Austria,11,Ski Boots,4,Customer  support  was  very  helpful.,2025-10-30,0.6997,Positive,0.5 to 1.0
+65,34,Daniel Miller,France,3,Yoga Mat,1,Not  worth  the  money.,2024-06-15,-0.1695,Negative,-0.49 to 0.0
+66,94,Jane Anderson,Belgium,16,Kayak,4,"I  love  this  product,  will  buy    again!",2023-06-17,0.6696,Positive,0.5 to 1.0
+67,67,Alex Johnson,Spain,13,Swim Goggles,3,"Average  experience,  nothing  special.",2025-04-12,-0.3089,Mixed Negative,-0.49 to 0.0
+68,38,John Garcia,Spain,7,Basketball,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-03-23,-0.2617,Mixed Negative,-0.49 to 0.0
+69,77,David Lopez,Spain,12,Ice Skates,3,Five  stars  for  the  quick  delivery.,2025-08-03,0.0,Neutral,0.0 to 0.49
+70,93,Jane Rodriguez,Spain,5,Soccer Ball,4,Shipping  was  fast    and  the  item  was  well-packaged.,2024-01-30,0.0,Positive,0.0 to 0.49
+71,24,Chris Hernandez,Italy,11,Ski Boots,3,"Good  quality,  but  could  be  cheaper.",2025-07-28,0.2382,Mixed Positive,0.0 to 0.49
+72,29,Sophia Anderson,Italy,4,Dumbbells,5,The    build  quality  is  impressive.,2023-05-29,0.5106,Positive,0.5 to 1.0
+73,68,David Gonzalez,Netherlands,19,Hockey Stick,5,"I  love  this  product,  will  buy  again!",2025-05-05,0.6696,Positive,0.5 to 1.0
+74,59,James Smith,Netherlands,9,Baseball Glove,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-05-16,-0.2617,Mixed Negative,-0.49 to 0.0
+75,22,Alex Wilson,Germany,3,Yoga Mat,5,Shipping  was  fast  and  the  item  was  well-packaged.,2024-01-13,0.0,Positive,0.0 to 0.49
+76,9,Emily Thomas,Austria,10,Golf Clubs,4,"Great  purchase,  very  satisfied.",2025-08-31,0.8016,Positive,0.5 to 1.0
+77,74,Jane Smith,UK,5,Soccer Ball,4,"Great  purchase,    very  satisfied.",2023-03-15,0.8016,Positive,0.5 to 1.0
+78,6,Daniel Rodriguez,Belgium,10,Golf Clubs,5,Five  stars  for  the  quick  delivery.,2024-12-09,0.0,Positive,0.0 to 0.49
+79,84,Michael Williams,Spain,15,Climbing Rope,2,The  product  arrived    late.,2024-05-28,0.0,Negative,0.0 to 0.49
+80,98,Chris Lopez,Austria,16,Kayak,3,Not  worth  the  money.,2025-05-24,-0.1695,Mixed Negative,-0.49 to 0.0
+81,3,Robert Hernandez,Netherlands,19,Hockey Stick,4,Five  stars  for  the  quick  delivery.,2024-09-04,0.0,Positive,0.0 to 0.49
+82,78,Olivia Smith,Sweden,13,Swim Goggles,4,Shipping    was  fast  and  the  item  was  well-packaged.,2023-05-02,0.0,Positive,0.0 to 0.49
+83,32,Laura Anderson,Spain,11,Ski Boots,4,The  quality  is    top-notch.,2025-05-26,0.0,Positive,0.0 to 0.49
+84,40,Olivia Thomas,Germany,20,Boxing Gloves,4,"Good  quality,  but  could  be  cheaper.",2023-07-17,0.2382,Positive,0.0 to 0.49
+85,17,Daniel Thomas,Germany,6,Tennis Racket,5,Five  stars  for  the  quick  delivery.,2025-10-25,0.0,Positive,0.0 to 0.49
+86,78,Olivia Smith,Sweden,3,Yoga Mat,5,"Excellent  product,  highly  recommend!",2025-10-06,0.7773,Positive,0.5 to 1.0
+87,89,Alex Rodriguez,Sweden,17,Surfboard,3,Not    worth  the  money.,2023-05-26,-0.1695,Mixed Negative,-0.49 to 0.0
+88,93,Jane Rodriguez,Spain,19,Hockey Stick,4,Exceeded  my  expectations!,2025-08-26,0.0,Positive,0.0 to 0.49
+89,60,John Thomas,Netherlands,3,Yoga Mat,3,The  quality  is  top-notch.,2024-07-08,0.0,Neutral,0.0 to 0.49
+90,47,Sophia Thomas,Netherlands,17,Surfboard,4,Five  stars  for  the  quick  delivery.,2025-11-12,0.0,Positive,0.0 to 0.49
+91,4,David Garcia,Sweden,16,Kayak,3,"Great  purchase,  very  satisfied.",2025-09-27,0.8016,Mixed Positive,0.5 to 1.0
+92,2,Sarah Brown,Spain,16,Kayak,3,Not  worth  the  money.,2023-11-21,-0.1695,Mixed Negative,-0.49 to 0.0
+93,60,John Thomas,Netherlands,13,Swim Goggles,3,Not  worth  the  money.,2024-09-05,-0.1695,Mixed Negative,-0.49 to 0.0
+94,2,Sarah Brown,Spain,16,Kayak,4,The  quality  is  top-notch.,2025-03-14,0.0,Positive,0.0 to 0.49
+95,16,Michael Martinez,Italy,16,Kayak,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-04-07,0.0,Positive,0.0 to 0.49
+96,19,Emma Wilson,Netherlands,13,Swim Goggles,3,"Good  quality,  but  could  be  cheaper.",2023-09-02,0.2382,Mixed Positive,0.0 to 0.49
+97,64,Sarah Martinez,Belgium,6,Tennis Racket,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-01-19,-0.2617,Mixed Negative,-0.49 to 0.0
+98,96,Emily Gonzalez,Austria,3,Yoga Mat,5,Exceeded  my  expectations!,2025-11-20,0.0,Positive,0.0 to 0.49
+99,79,John Jones,Netherlands,16,Kayak,2,"Average  experience,  nothing  special.",2025-01-29,-0.3089,Negative,-0.49 to 0.0
+100,9,Emily Thomas,Austria,2,Fitness Tracker,3,Not  worth  the  money.,2025-06-20,-0.1695,Mixed Negative,-0.49 to 0.0
+101,61,Emma Rodriguez,Germany,18,Volleyball,5,The  build  quality  is  impressive.,2024-09-11,0.5106,Positive,0.5 to 1.0
+102,4,David Garcia,Sweden,2,Fitness Tracker,5,"Excellent  product,  highly  recommend!",2025-08-22,0.7773,Positive,0.5 to 1.0
+103,82,Laura Gonzalez,UK,14,Cycling Helmet,5,The  quality  is  top-notch.,2024-11-17,0.0,Positive,0.0 to 0.49
+104,96,Emily Gonzalez,Austria,5,Soccer Ball,4,"I  love    this  product,  will  buy  again!",2023-01-06,0.6696,Positive,0.5 to 1.0
+105,32,Laura Anderson,Spain,12,Ice Skates,2,The  product    arrived  late.,2024-08-27,0.0,Negative,0.0 to 0.49
+106,94,Jane Anderson,Belgium,17,Surfboard,2,"Average  experience,  nothing  special.",2024-02-25,-0.3089,Negative,-0.49 to 0.0
+107,26,Isabella Thomas,UK,10,Golf Clubs,5,Five  stars  for    the  quick  delivery.,2025-02-17,0.0,Positive,0.0 to 0.49
+108,80,Laura Jones,Netherlands,17,Surfboard,5,Five  stars  for  the    quick  delivery.,2023-12-22,0.0,Positive,0.0 to 0.49
+109,38,John Garcia,Spain,10,Golf Clubs,4,Customer  support  was  very  helpful.,2023-07-25,0.6997,Positive,0.5 to 1.0
+110,54,Michael Gonzalez,Italy,12,Ice Skates,4,Customer    support  was  very  helpful.,2024-08-02,0.6997,Positive,0.5 to 1.0
+111,43,Olivia Hernandez,Sweden,7,Basketball,4,Five  stars  for  the  quick  delivery.,2023-11-05,0.0,Positive,0.0 to 0.49
+112,87,Emma Hernandez,Spain,3,Yoga Mat,5,"Excellent  product,  highly  recommend!",2023-05-26,0.7773,Positive,0.5 to 1.0
+113,27,John Rodriguez,UK,9,Baseball Glove,2,Disappointed  with  the  performance.,2024-03-31,-0.4767,Negative,-0.49 to 0.0
+114,52,Robert Williams,Switzerland,19,Hockey Stick,2,"Average  experience,  nothing  special.",2025-05-04,-0.3089,Negative,-0.49 to 0.0
+115,82,Laura Gonzalez,UK,9,Baseball Glove,4,Five  stars  for  the  quick  delivery.,2023-09-28,0.0,Positive,0.0 to 0.49
+116,70,James Garcia,Belgium,18,Volleyball,4,The  quality  is  top-notch.,2023-07-23,0.0,Positive,0.0 to 0.49
+117,20,David Johnson,UK,14,Cycling Helmet,4,Customer  support  was  very  helpful.,2025-04-19,0.6997,Positive,0.5 to 1.0
+118,59,James Smith,Netherlands,6,Tennis Racket,1,The  product  arrived  late.,2024-05-01,0.0,Negative,0.0 to 0.49
+119,34,Daniel Miller,France,5,Soccer Ball,4,"Great  purchase,  very    satisfied.",2025-09-06,0.8016,Positive,0.5 to 1.0
+120,3,Robert Hernandez,Netherlands,20,Boxing Gloves,4,The  quality  is  top-notch.,2024-08-18,0.0,Positive,0.0 to 0.49
+121,91,John Brown,Spain,1,Running Shoes,2,"Good  quality,  but  could  be  cheaper.",2025-11-02,0.2382,Mixed Negative,0.0 to 0.49
+122,83,Emily Jones,Switzerland,14,Cycling Helmet,2,Not  worth  the  money.,2024-09-27,-0.1695,Negative,-0.49 to 0.0
+123,93,Jane Rodriguez,Spain,1,Running Shoes,4,"Good  quality,  but  could  be  cheaper.",2025-09-22,0.2382,Positive,0.0 to 0.49
+124,36,Emma Johnson,France,16,Kayak,5,Customer  support  was  very  helpful.,2023-07-17,0.6997,Positive,0.5 to 1.0
+125,55,Emily Lopez,UK,11,Ski Boots,5,"I  love  this  product,  will  buy  again!",2025-12-20,0.6696,Positive,0.5 to 1.0
+126,32,Laura Anderson,Spain,10,Golf Clubs,5,Exceeded  my  expectations!,2024-08-12,0.0,Positive,0.0 to 0.49
+127,47,Sophia Thomas,Netherlands,8,Football Helmet,4,"Great  purchase,  very  satisfied.",2025-03-25,0.8016,Positive,0.5 to 1.0
+128,71,Isabella Miller,Italy,20,Boxing Gloves,2,"Average  experience,  nothing  special.",2023-12-13,-0.3089,Negative,-0.49 to 0.0
+129,46,Chris Johnson,Spain,13,Swim Goggles,4,"Good  quality,  but  could  be  cheaper.",2025-02-14,0.2382,Positive,0.0 to 0.49
+130,88,James Brown,France,3,Yoga Mat,5,"Great    purchase,  very  satisfied.",2025-09-22,0.8016,Positive,0.5 to 1.0
+131,42,John Gonzalez,UK,5,Soccer Ball,5,Amazing  value  for  the  price.,2023-06-16,0.7351,Positive,0.5 to 1.0
+132,21,Olivia Gonzalez,Spain,7,Basketball,2,Product  did  not  meet  my  expectations.,2025-11-13,0.0,Negative,0.0 to 0.49
+133,40,Olivia Thomas,Germany,4,Dumbbells,4,The  quality  is  top-notch.,2025-05-24,0.0,Positive,0.0 to 0.49
+134,74,Jane Smith,UK,4,Dumbbells,3,"Good  quality,  but  could    be  cheaper.",2024-03-27,0.2382,Mixed Positive,0.0 to 0.49
+135,48,Alex Gonzalez,Belgium,14,Cycling Helmet,4,"I  love  this  product,  will  buy  again!",2023-06-08,0.6696,Positive,0.5 to 1.0
+136,17,Daniel Thomas,Germany,3,Yoga Mat,5,Amazing  value  for    the  price.,2025-03-27,0.7351,Positive,0.5 to 1.0
+137,88,James Brown,France,6,Tennis Racket,4,"Good  quality,  but  could    be  cheaper.",2023-03-02,0.2382,Positive,0.0 to 0.49
+138,28,Emily Davis,Switzerland,15,Climbing Rope,5,Five  stars  for  the  quick  delivery.,2023-01-18,0.0,Positive,0.0 to 0.49
+139,36,Emma Johnson,France,16,Kayak,4,Customer  support  was  very  helpful.,2023-04-20,0.6997,Positive,0.5 to 1.0
+140,53,Emma Thomas,Germany,18,Volleyball,3,"Good  quality,  but  could  be  cheaper.",2023-12-03,0.2382,Mixed Positive,0.0 to 0.49
+141,98,Chris Lopez,Austria,9,Baseball Glove,5,Amazing  value  for  the    price.,2024-10-15,0.7351,Positive,0.5 to 1.0
+142,15,Emma Martinez,Switzerland,7,Basketball,5,"Excellent  product,  highly  recommend!",2023-08-04,0.7773,Positive,0.5 to 1.0
+143,3,Robert Hernandez,Netherlands,12,Ice Skates,3,"Average  experience,  nothing  special.",2023-04-12,-0.3089,Mixed Negative,-0.49 to 0.0
+144,27,John Rodriguez,UK,15,Climbing Rope,4,The  build  quality  is  impressive.,2025-08-16,0.5106,Positive,0.5 to 1.0
+145,27,John Rodriguez,UK,10,Golf Clubs,3,"The    product  is  okay,  but  the  instructions  were  unclear.",2024-03-05,-0.2617,Mixed Negative,-0.49 to 0.0
+146,5,Emma Miller,Spain,13,Swim Goggles,4,"I  love  this  product,  will  buy  again!",2025-01-09,0.6696,Positive,0.5 to 1.0
+147,100,Jane Brown,Austria,20,Boxing Gloves,2,"Average  experience,  nothing  special.",2025-01-25,-0.3089,Negative,-0.49 to 0.0
+148,17,Daniel Thomas,Germany,18,Volleyball,1,"Average  experience,  nothing  special.",2024-11-05,-0.3089,Negative,-0.49 to 0.0
+149,50,Olivia Miller,France,3,Yoga Mat,4,The  quality  is  top-notch.,2023-12-20,0.0,Positive,0.0 to 0.49
+150,4,David Garcia,Sweden,15,Climbing Rope,5,"I  love  this  product,  will  buy    again!",2024-06-18,0.6696,Positive,0.5 to 1.0
+151,21,Olivia Gonzalez,Spain,19,Hockey Stick,3,"Good  quality,  but  could  be  cheaper.",2023-10-30,0.2382,Mixed Positive,0.0 to 0.49
+152,32,Laura Anderson,Spain,16,Kayak,3,"Good  quality,  but    could  be  cheaper.",2025-12-15,0.2382,Mixed Positive,0.0 to 0.49
+153,95,James Jones,Germany,11,Ski Boots,5,Amazing  value  for  the  price.,2023-11-06,0.7351,Positive,0.5 to 1.0
+154,3,Robert Hernandez,Netherlands,12,Ice Skates,4,The  quality  is  top-notch.,2023-12-19,0.0,Positive,0.0 to 0.49
+155,89,Alex Rodriguez,Sweden,3,Yoga Mat,4,Customer  support  was  very  helpful.,2025-12-10,0.6997,Positive,0.5 to 1.0
+156,5,Emma Miller,Spain,7,Basketball,5,The  build  quality  is  impressive.,2025-01-26,0.5106,Positive,0.5 to 1.0
+157,10,Chris Davis,Germany,17,Surfboard,2,The  product  arrived  late.,2025-10-14,0.0,Negative,0.0 to 0.49
+158,37,Olivia Lopez,Germany,2,Fitness Tracker,5,"Great  purchase,  very  satisfied.",2024-04-16,0.8016,Positive,0.5 to 1.0
+159,23,Isabella Garcia,Italy,12,Ice Skates,5,"I  love  this  product,    will  buy  again!",2023-09-01,0.6696,Positive,0.5 to 1.0
+160,71,Isabella Miller,Italy,9,Baseball Glove,2,Not  worth  the  money.,2024-01-02,-0.1695,Negative,-0.49 to 0.0
+161,9,Emily Thomas,Austria,18,Volleyball,2,The  product  arrived    late.,2025-08-05,0.0,Negative,0.0 to 0.49
+162,64,Sarah Martinez,Belgium,20,Boxing Gloves,3,"Average  experience,  nothing  special.",2023-07-25,-0.3089,Mixed Negative,-0.49 to 0.0
+163,89,Alex Rodriguez,Sweden,7,Basketball,5,The  quality  is  top-notch.,2023-05-27,0.0,Positive,0.0 to 0.49
+164,25,David Anderson,Italy,19,Hockey Stick,2,Product  did  not    meet  my  expectations.,2024-03-16,0.0,Negative,0.0 to 0.49
+165,97,Emily Rodriguez,France,3,Yoga Mat,4,The  quality  is  top-notch.,2025-06-03,0.0,Positive,0.0 to 0.49
+166,87,Emma Hernandez,Spain,3,Yoga Mat,3,"Good    quality,  but  could  be  cheaper.",2023-11-01,0.2382,Mixed Positive,0.0 to 0.49
+167,28,Emily Davis,Switzerland,16,Kayak,2,Product  did  not  meet    my  expectations.,2023-08-02,0.0,Negative,0.0 to 0.49
+168,72,Sophia Miller,Sweden,2,Fitness Tracker,3,Customer  support  was  very  helpful.,2025-12-13,0.6997,Mixed Positive,0.5 to 1.0
+169,26,Isabella Thomas,UK,8,Football Helmet,5,Five  stars  for  the  quick    delivery.,2025-09-28,0.0,Positive,0.0 to 0.49
+170,53,Emma Thomas,Germany,13,Swim Goggles,5,The  build  quality  is  impressive.,2024-06-23,0.5106,Positive,0.5 to 1.0
+171,2,Sarah Brown,Spain,16,Kayak,3,Not  worth  the  money.,2024-02-16,-0.1695,Mixed Negative,-0.49 to 0.0
+172,79,John Jones,Netherlands,2,Fitness Tracker,3,Not  worth  the  money.,2024-11-23,-0.1695,Mixed Negative,-0.49 to 0.0
+173,15,Emma Martinez,Switzerland,16,Kayak,5,Customer  support  was  very  helpful.,2025-05-30,0.6997,Positive,0.5 to 1.0
+174,91,John Brown,Spain,8,Football Helmet,4,"I  love  this  product,  will  buy  again!",2024-06-23,0.6696,Positive,0.5 to 1.0
+175,3,Robert Hernandez,Netherlands,6,Tennis Racket,3,"Good  quality,  but  could  be  cheaper.",2024-11-02,0.2382,Mixed Positive,0.0 to 0.49
+176,21,Olivia Gonzalez,Spain,11,Ski Boots,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-11-23,-0.2617,Mixed Negative,-0.49 to 0.0
+177,93,Jane Rodriguez,Spain,19,Hockey Stick,4,"I  love  this  product,  will  buy  again!",2025-07-03,0.6696,Positive,0.5 to 1.0
+178,17,Daniel Thomas,Germany,20,Boxing Gloves,4,The  quality  is    top-notch.,2025-05-25,0.0,Positive,0.0 to 0.49
+179,46,Chris Johnson,Spain,20,Boxing Gloves,4,"Great  purchase,  very  satisfied.",2025-11-26,0.8016,Positive,0.5 to 1.0
+180,77,David Lopez,Spain,5,Soccer Ball,4,"Great  purchase,    very  satisfied.",2023-03-08,0.8016,Positive,0.5 to 1.0
+181,4,David Garcia,Sweden,3,Yoga Mat,4,The  build  quality  is  impressive.,2024-08-09,0.5106,Positive,0.5 to 1.0
+182,21,Olivia Gonzalez,Spain,11,Ski Boots,5,"Excellent  product,  highly  recommend!",2024-03-08,0.7773,Positive,0.5 to 1.0
+183,13,David Wilson,UK,5,Soccer Ball,4,"Great  purchase,  very  satisfied.",2025-06-08,0.8016,Positive,0.5 to 1.0
+184,59,James Smith,Netherlands,5,Soccer Ball,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-12-29,0.0,Positive,0.0 to 0.49
+185,8,James Gonzalez,Sweden,6,Tennis Racket,2,Product  did  not  meet  my  expectations.,2023-11-13,0.0,Negative,0.0 to 0.49
+186,22,Alex Wilson,Germany,13,Swim Goggles,4,The  quality  is  top-notch.,2023-02-17,0.0,Positive,0.0 to 0.49
+187,58,Jane Williams,Austria,18,Volleyball,4,The  quality  is  top-notch.,2025-05-01,0.0,Positive,0.0 to 0.49
+188,70,James Garcia,Belgium,5,Soccer Ball,5,Exceeded  my  expectations!,2025-09-19,0.0,Positive,0.0 to 0.49
+189,83,Emily Jones,Switzerland,7,Basketball,2,The  product    arrived  late.,2025-03-13,0.0,Negative,0.0 to 0.49
+190,83,Emily Jones,Switzerland,3,Yoga Mat,3,"Good  quality,  but  could  be  cheaper.",2023-08-10,0.2382,Mixed Positive,0.0 to 0.49
+191,68,David Gonzalez,Netherlands,3,Yoga Mat,4,"Great  purchase,    very  satisfied.",2024-09-05,0.8016,Positive,0.5 to 1.0
+192,42,John Gonzalez,UK,17,Surfboard,5,"Excellent  product,  highly  recommend!",2023-08-04,0.7773,Positive,0.5 to 1.0
+193,84,Michael Williams,Spain,20,Boxing Gloves,3,"The  product  is  okay,  but  the  instructions  were    unclear.",2024-06-21,-0.2617,Mixed Negative,-0.49 to 0.0
+194,7,Laura Miller,Belgium,7,Basketball,1,The  product  arrived  late.,2025-05-19,0.0,Negative,0.0 to 0.49
+195,75,David Smith,Netherlands,5,Soccer Ball,5,Amazing  value  for  the  price.,2023-10-25,0.7351,Positive,0.5 to 1.0
+196,91,John Brown,Spain,2,Fitness Tracker,3,"Average  experience,  nothing  special.",2023-10-29,-0.3089,Mixed Negative,-0.49 to 0.0
+197,51,Michael Davis,Austria,15,Climbing Rope,4,"I  love  this  product,    will  buy  again!",2024-11-27,0.6696,Positive,0.5 to 1.0
+198,57,James Rodriguez,Spain,8,Football Helmet,5,Five  stars  for  the  quick  delivery.,2023-08-27,0.0,Positive,0.0 to 0.49
+199,6,Daniel Rodriguez,Belgium,13,Swim Goggles,5,The    quality  is  top-notch.,2024-08-20,0.0,Positive,0.0 to 0.49
+200,30,Alex Garcia,Belgium,17,Surfboard,3,"Good  quality,  but  could  be  cheaper.",2025-01-09,0.2382,Mixed Positive,0.0 to 0.49
+201,59,James Smith,Netherlands,6,Tennis Racket,2,Not  worth  the  money.,2023-05-23,-0.1695,Negative,-0.49 to 0.0
+202,33,David Thomas,Spain,9,Baseball Glove,5,Amazing  value  for  the  price.,2023-09-06,0.7351,Positive,0.5 to 1.0
+203,66,Isabella Martinez,Sweden,18,Volleyball,3,"Average  experience,  nothing  special.",2023-11-22,-0.3089,Mixed Negative,-0.49 to 0.0
+204,95,James Jones,Germany,14,Cycling Helmet,4,"Great  purchase,  very    satisfied.",2024-11-29,0.8016,Positive,0.5 to 1.0
+205,88,James Brown,France,12,Ice Skates,5,Amazing  value  for  the  price.,2023-04-06,0.7351,Positive,0.5 to 1.0
+206,72,Sophia Miller,Sweden,14,Cycling Helmet,4,Shipping  was  fast  and  the  item  was  well-packaged.,2023-08-22,0.0,Positive,0.0 to 0.49
+207,95,James Jones,Germany,18,Volleyball,4,"I  love  this  product,  will  buy  again!",2025-06-07,0.6696,Positive,0.5 to 1.0
+208,94,Jane Anderson,Belgium,8,Football Helmet,4,"Great  purchase,  very  satisfied.",2023-03-25,0.8016,Positive,0.5 to 1.0
+209,70,James Garcia,Belgium,8,Football Helmet,3,"Average  experience,  nothing  special.",2025-11-05,-0.3089,Mixed Negative,-0.49 to 0.0
+210,28,Emily Davis,Switzerland,1,Running Shoes,2,The  product  arrived  late.,2023-12-10,0.0,Negative,0.0 to 0.49
+211,84,Michael Williams,Spain,12,Ice Skates,4,Five  stars  for  the  quick  delivery.,2025-03-07,0.0,Positive,0.0 to 0.49
+212,87,Emma Hernandez,Spain,10,Golf Clubs,1,"Terrible  customer  service,  would  not  buy  again.",2023-01-03,-0.4767,Negative,-0.49 to 0.0
+213,7,Laura Miller,Belgium,13,Swim Goggles,5,Shipping  was  fast  and    the  item  was  well-packaged.,2024-04-09,0.0,Positive,0.0 to 0.49
+214,53,Emma Thomas,Germany,18,Volleyball,3,Five  stars  for  the  quick  delivery.,2025-04-13,0.0,Neutral,0.0 to 0.49
+215,55,Emily Lopez,UK,10,Golf Clubs,2,Product  did  not  meet  my  expectations.,2024-01-07,0.0,Negative,0.0 to 0.49
+216,49,Michael Smith,Spain,7,Basketball,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-11-14,-0.2617,Mixed Negative,-0.49 to 0.0
+217,62,Michael Hernandez,Sweden,11,Ski Boots,5,Amazing  value    for  the  price.,2023-08-19,0.7351,Positive,0.5 to 1.0
+218,35,Robert Rodriguez,Germany,8,Football Helmet,4,The  quality  is  top-notch.,2024-09-14,0.0,Positive,0.0 to 0.49
+219,90,John Wilson,UK,9,Baseball Glove,4,Five  stars  for  the  quick  delivery.,2023-02-18,0.0,Positive,0.0 to 0.49
+220,78,Olivia Smith,Sweden,9,Baseball Glove,2,Disappointed  with  the  performance.,2025-08-12,-0.4767,Negative,-0.49 to 0.0
+221,26,Isabella Thomas,UK,2,Fitness Tracker,4,The  build  quality  is  impressive.,2024-10-21,0.5106,Positive,0.5 to 1.0
+222,54,Michael Gonzalez,Italy,14,Cycling Helmet,5,Customer  support  was  very  helpful.,2024-02-28,0.6997,Positive,0.5 to 1.0
+223,37,Olivia Lopez,Germany,16,Kayak,5,Exceeded  my  expectations!,2023-07-31,0.0,Positive,0.0 to 0.49
+224,68,David Gonzalez,Netherlands,15,Climbing Rope,4,"Great  purchase,    very  satisfied.",2023-03-27,0.8016,Positive,0.5 to 1.0
+225,80,Laura Jones,Netherlands,1,Running Shoes,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-09-08,-0.2617,Mixed Negative,-0.49 to 0.0
+226,60,John Thomas,Netherlands,9,Baseball Glove,2,The  product  arrived  late.,2023-08-23,0.0,Negative,0.0 to 0.49
+227,74,Jane Smith,UK,11,Ski Boots,4,"Good    quality,  but  could  be  cheaper.",2024-08-10,0.2382,Positive,0.0 to 0.49
+228,20,David Johnson,UK,19,Hockey Stick,2,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-10-23,-0.2617,Negative,-0.49 to 0.0
+229,69,Emma Gonzalez,Spain,12,Ice Skates,4,The    quality  is  top-notch.,2023-02-07,0.0,Positive,0.0 to 0.49
+230,54,Michael Gonzalez,Italy,11,Ski Boots,2,The  product  arrived  late.,2023-10-19,0.0,Negative,0.0 to 0.49
+231,15,Emma Martinez,Switzerland,16,Kayak,5,Five  stars  for  the  quick  delivery.,2025-04-15,0.0,Positive,0.0 to 0.49
+232,17,Daniel Thomas,Germany,3,Yoga Mat,5,Five  stars  for  the  quick  delivery.,2025-10-11,0.0,Positive,0.0 to 0.49
+233,81,Emily Wilson,Switzerland,4,Dumbbells,2,The  product  arrived  late.,2024-11-14,0.0,Negative,0.0 to 0.49
+234,80,Laura Jones,Netherlands,9,Baseball Glove,5,The  build  quality  is  impressive.,2023-03-06,0.5106,Positive,0.5 to 1.0
+235,54,Michael Gonzalez,Italy,3,Yoga Mat,4,Customer  support  was  very  helpful.,2024-03-18,0.6997,Positive,0.5 to 1.0
+236,55,Emily Lopez,UK,16,Kayak,5,"Great  purchase,  very  satisfied.",2025-03-03,0.8016,Positive,0.5 to 1.0
+237,44,Olivia Brown,Switzerland,2,Fitness Tracker,4,The  quality  is  top-notch.,2025-09-29,0.0,Positive,0.0 to 0.49
+238,47,Sophia Thomas,Netherlands,9,Baseball Glove,4,"Great  purchase,  very  satisfied.",2023-04-18,0.8016,Positive,0.5 to 1.0
+239,45,Sarah Hernandez,Italy,9,Baseball Glove,5,Exceeded  my  expectations!,2024-01-28,0.0,Positive,0.0 to 0.49
+240,20,David Johnson,UK,16,Kayak,5,Five  stars  for  the  quick  delivery.,2024-11-09,0.0,Positive,0.0 to 0.49
+241,61,Emma Rodriguez,Germany,15,Climbing Rope,4,Five  stars  for  the  quick  delivery.,2024-04-22,0.0,Positive,0.0 to 0.49
+242,20,David Johnson,UK,20,Boxing Gloves,4,The  quality  is  top-notch.,2025-06-07,0.0,Positive,0.0 to 0.49
+243,24,Chris Hernandez,Italy,11,Ski Boots,1,I  had  a  bad  experience  with  this  product.,2023-02-17,-0.5423,Negative,-1.0 to -0.5
+244,36,Emma Johnson,France,4,Dumbbells,4,"Great  purchase,  very  satisfied.",2023-08-25,0.8016,Positive,0.5 to 1.0
+245,50,Olivia Miller,France,3,Yoga Mat,3,"Good  quality,  but  could  be  cheaper.",2023-03-23,0.2382,Mixed Positive,0.0 to 0.49
+246,71,Isabella Miller,Italy,12,Ice Skates,4,The    quality  is  top-notch.,2023-07-23,0.0,Positive,0.0 to 0.49
+247,28,Emily Davis,Switzerland,6,Tennis Racket,5,"Excellent  product,  highly    recommend!",2025-11-24,0.7773,Positive,0.5 to 1.0
+248,81,Emily Wilson,Switzerland,6,Tennis Racket,3,"Good  quality,  but  could  be  cheaper.",2023-07-15,0.2382,Mixed Positive,0.0 to 0.49
+249,75,David Smith,Netherlands,2,Fitness Tracker,1,"Not    satisfied,  the  product  broke  after  a  week.",2023-01-04,-0.6288,Negative,-1.0 to -0.5
+250,22,Alex Wilson,Germany,11,Ski Boots,1,The  product  stopped  working  after  a  month.,2023-09-21,-0.2263,Negative,-0.49 to 0.0
+251,16,Michael Martinez,Italy,2,Fitness Tracker,4,"Good  quality,  but  could  be  cheaper.",2024-02-01,0.2382,Positive,0.0 to 0.49
+252,6,Daniel Rodriguez,Belgium,6,Tennis Racket,5,The  build  quality  is    impressive.,2025-03-18,0.5106,Positive,0.5 to 1.0
+253,75,David Smith,Netherlands,15,Climbing Rope,3,"Great  purchase,  very  satisfied.",2024-08-03,0.8016,Mixed Positive,0.5 to 1.0
+254,30,Alex Garcia,Belgium,19,Hockey Stick,3,"Average  experience,  nothing  special.",2025-12-31,-0.3089,Mixed Negative,-0.49 to 0.0
+255,13,David Wilson,UK,16,Kayak,5,"I  love  this  product,  will  buy  again!",2024-01-23,0.6696,Positive,0.5 to 1.0
+256,91,John Brown,Spain,3,Yoga Mat,4,"Good  quality,  but  could  be  cheaper.",2024-02-11,0.2382,Positive,0.0 to 0.49
+257,84,Michael Williams,Spain,13,Swim Goggles,3,"Average  experience,  nothing    special.",2023-10-03,-0.3089,Mixed Negative,-0.49 to 0.0
+258,34,Daniel Miller,France,7,Basketball,4,"Great    purchase,  very  satisfied.",2025-05-13,0.8016,Positive,0.5 to 1.0
+259,75,David Smith,Netherlands,2,Fitness Tracker,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-08-24,-0.2617,Mixed Negative,-0.49 to 0.0
+260,44,Olivia Brown,Switzerland,18,Volleyball,3,"Average  experience,  nothing  special.",2024-03-07,-0.3089,Mixed Negative,-0.49 to 0.0
+261,29,Sophia Anderson,Italy,12,Ice Skates,4,Customer  support  was  very  helpful.,2024-10-15,0.6997,Positive,0.5 to 1.0
+262,45,Sarah Hernandez,Italy,7,Basketball,5,Five  stars  for    the  quick  delivery.,2024-07-07,0.0,Positive,0.0 to 0.49
+263,47,Sophia Thomas,Netherlands,8,Football Helmet,4,Customer  support  was  very  helpful.,2024-10-21,0.6997,Positive,0.5 to 1.0
+264,96,Emily Gonzalez,Austria,18,Volleyball,4,Shipping  was  fast  and  the    item  was  well-packaged.,2025-08-19,0.0,Positive,0.0 to 0.49
+265,22,Alex Wilson,Germany,19,Hockey Stick,4,"I  love  this  product,  will  buy  again!",2024-05-14,0.6696,Positive,0.5 to 1.0
+266,62,Michael Hernandez,Sweden,5,Soccer Ball,5,"Excellent  product,    highly  recommend!",2025-02-22,0.7773,Positive,0.5 to 1.0
+267,55,Emily Lopez,UK,19,Hockey Stick,3,"The  product  is    okay,  but  the  instructions  were  unclear.",2023-12-01,-0.2617,Mixed Negative,-0.49 to 0.0
+268,98,Chris Lopez,Austria,17,Surfboard,5,The  build  quality    is  impressive.,2023-10-28,0.5106,Positive,0.5 to 1.0
+269,75,David Smith,Netherlands,4,Dumbbells,4,The  quality  is  top-notch.,2023-11-18,0.0,Positive,0.0 to 0.49
+270,46,Chris Johnson,Spain,6,Tennis Racket,1,The  color  was  different  from  what  was  shown.,2023-09-25,0.0,Negative,0.0 to 0.49
+271,21,Olivia Gonzalez,Spain,17,Surfboard,5,The    build  quality  is  impressive.,2025-08-08,0.5106,Positive,0.5 to 1.0
+272,39,Jane Miller,Italy,17,Surfboard,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-03-26,0.0,Positive,0.0 to 0.49
+273,10,Chris Davis,Germany,2,Fitness Tracker,5,Shipping  was  fast  and  the  item  was  well-packaged.,2024-10-09,0.0,Positive,0.0 to 0.49
+274,93,Jane Rodriguez,Spain,11,Ski Boots,5,"I  love  this  product,  will  buy  again!",2023-04-07,0.6696,Positive,0.5 to 1.0
+275,45,Sarah Hernandez,Italy,12,Ice Skates,4,Five  stars  for  the  quick  delivery.,2023-04-03,0.0,Positive,0.0 to 0.49
+276,86,James Hernandez,Austria,1,Running Shoes,5,The  quality  is  top-notch.,2025-01-29,0.0,Positive,0.0 to 0.49
+277,22,Alex Wilson,Germany,6,Tennis Racket,4,The  quality  is  top-notch.,2025-03-21,0.0,Positive,0.0 to 0.49
+278,80,Laura Jones,Netherlands,20,Boxing Gloves,5,Amazing  value  for  the  price.,2023-03-01,0.7351,Positive,0.5 to 1.0
+279,86,James Hernandez,Austria,5,Soccer Ball,5,Customer  support  was  very  helpful.,2023-07-21,0.6997,Positive,0.5 to 1.0
+280,68,David Gonzalez,Netherlands,19,Hockey Stick,4,"Good  quality,  but  could  be  cheaper.",2023-11-09,0.2382,Positive,0.0 to 0.49
+281,71,Isabella Miller,Italy,5,Soccer Ball,4,"I  love  this  product,  will  buy  again!",2025-11-19,0.6696,Positive,0.5 to 1.0
+282,59,James Smith,Netherlands,5,Soccer Ball,3,"Average  experience,  nothing  special.",2023-02-17,-0.3089,Mixed Negative,-0.49 to 0.0
+283,87,Emma Hernandez,Spain,13,Swim Goggles,5,"I  love  this  product,  will  buy  again!",2023-02-14,0.6696,Positive,0.5 to 1.0
+284,89,Alex Rodriguez,Sweden,13,Swim Goggles,4,"Great  purchase,  very  satisfied.",2023-09-01,0.8016,Positive,0.5 to 1.0
+285,29,Sophia Anderson,Italy,3,Yoga Mat,4,"Good  quality,  but  could    be  cheaper.",2023-08-25,0.2382,Positive,0.0 to 0.49
+286,53,Emma Thomas,Germany,16,Kayak,5,"I  love  this  product,  will  buy  again!",2023-05-04,0.6696,Positive,0.5 to 1.0
+287,75,David Smith,Netherlands,6,Tennis Racket,5,"I  love  this  product,  will    buy  again!",2025-02-14,0.6696,Positive,0.5 to 1.0
+288,68,David Gonzalez,Netherlands,17,Surfboard,5,"Excellent  product,  highly  recommend!",2024-06-21,0.7773,Positive,0.5 to 1.0
+289,87,Emma Hernandez,Spain,15,Climbing Rope,5,Customer  support  was    very  helpful.,2023-10-04,0.6997,Positive,0.5 to 1.0
+290,20,David Johnson,UK,14,Cycling Helmet,2,"Average  experience,  nothing  special.",2024-09-23,-0.3089,Negative,-0.49 to 0.0
+291,17,Daniel Thomas,Germany,7,Basketball,5,"I  love  this  product,  will  buy  again!",2025-12-06,0.6696,Positive,0.5 to 1.0
+292,15,Emma Martinez,Switzerland,7,Basketball,5,Customer  support  was  very  helpful.,2025-10-19,0.6997,Positive,0.5 to 1.0
+293,25,David Anderson,Italy,13,Swim Goggles,3,Not  worth    the  money.,2023-02-14,-0.1695,Mixed Negative,-0.49 to 0.0
+294,63,John Davis,Switzerland,13,Swim Goggles,3,Not  worth  the  money.,2023-11-09,-0.1695,Mixed Negative,-0.49 to 0.0
+295,61,Emma Rodriguez,Germany,6,Tennis Racket,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-10-13,-0.2617,Mixed Negative,-0.49 to 0.0
+296,85,Jane Hernandez,Belgium,18,Volleyball,4,The    quality  is  top-notch.,2023-12-13,0.0,Positive,0.0 to 0.49
+297,92,David Hernandez,UK,16,Kayak,3,"Average  experience,  nothing  special.",2023-08-06,-0.3089,Mixed Negative,-0.49 to 0.0
+298,41,Laura Wilson,Germany,15,Climbing Rope,4,Five  stars  for  the  quick  delivery.,2025-06-13,0.0,Positive,0.0 to 0.49
+299,93,Jane Rodriguez,Spain,13,Swim Goggles,1,Product  did  not  meet  my  expectations.,2024-02-01,0.0,Negative,0.0 to 0.49
+300,22,Alex Wilson,Germany,18,Volleyball,2,Disappointed  with  the  performance.,2023-05-09,-0.4767,Negative,-0.49 to 0.0
+301,6,Daniel Rodriguez,Belgium,7,Basketball,4,"I  love  this  product,  will  buy  again!",2023-05-30,0.6696,Positive,0.5 to 1.0
+302,64,Sarah Martinez,Belgium,19,Hockey Stick,5,The  quality  is  top-notch.,2024-10-08,0.0,Positive,0.0 to 0.49
+303,20,David Johnson,UK,10,Golf Clubs,4,"Great  purchase,  very  satisfied.",2024-04-25,0.8016,Positive,0.5 to 1.0
+304,66,Isabella Martinez,Sweden,14,Cycling Helmet,3,"Average    experience,  nothing  special.",2023-02-01,-0.3089,Mixed Negative,-0.49 to 0.0
+305,87,Emma Hernandez,Spain,7,Basketball,4,Customer  support  was  very  helpful.,2023-08-25,0.6997,Positive,0.5 to 1.0
+306,52,Robert Williams,Switzerland,8,Football Helmet,3,"Average  experience,  nothing  special.",2025-07-19,-0.3089,Mixed Negative,-0.49 to 0.0
+307,63,John Davis,Switzerland,16,Kayak,5,Exceeded  my  expectations!,2025-01-08,0.0,Positive,0.0 to 0.49
+308,90,John Wilson,UK,14,Cycling Helmet,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-04-02,0.0,Positive,0.0 to 0.49
+309,70,James Garcia,Belgium,11,Ski Boots,3,"Good  quality,  but  could  be  cheaper.",2023-02-02,0.2382,Mixed Positive,0.0 to 0.49
+310,40,Olivia Thomas,Germany,1,Running Shoes,5,Exceeded  my  expectations!,2024-11-30,0.0,Positive,0.0 to 0.49
+311,52,Robert Williams,Switzerland,11,Ski Boots,4,Shipping  was  fast  and  the  item  was  well-packaged.,2023-11-14,0.0,Positive,0.0 to 0.49
+312,90,John Wilson,UK,3,Yoga Mat,2,The  product  arrived  late.,2023-11-05,0.0,Negative,0.0 to 0.49
+313,13,David Wilson,UK,3,Yoga Mat,4,"I    love  this  product,  will  buy  again!",2024-01-14,0.6696,Positive,0.5 to 1.0
+314,22,Alex Wilson,Germany,17,Surfboard,2,Product  did  not  meet  my  expectations.,2025-10-06,0.0,Negative,0.0 to 0.49
+315,32,Laura Anderson,Spain,7,Basketball,4,The  quality  is  top-notch.,2025-06-13,0.0,Positive,0.0 to 0.49
+316,48,Alex Gonzalez,Belgium,4,Dumbbells,5,Five  stars  for  the  quick    delivery.,2025-08-15,0.0,Positive,0.0 to 0.49
+317,15,Emma Martinez,Switzerland,6,Tennis Racket,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-08-04,-0.2617,Mixed Negative,-0.49 to 0.0
+318,97,Emily Rodriguez,France,4,Dumbbells,4,"Good  quality,  but  could  be  cheaper.",2023-12-15,0.2382,Positive,0.0 to 0.49
+319,86,James Hernandez,Austria,6,Tennis Racket,5,Shipping  was  fast  and  the  item  was  well-packaged.,2024-12-11,0.0,Positive,0.0 to 0.49
+320,79,John Jones,Netherlands,17,Surfboard,4,The  quality  is  top-notch.,2023-02-24,0.0,Positive,0.0 to 0.49
+321,58,Jane Williams,Austria,12,Ice Skates,4,"Good  quality,  but  could  be  cheaper.",2024-04-17,0.2382,Positive,0.0 to 0.49
+322,76,Michael Lopez,Austria,13,Swim Goggles,4,"Great    purchase,  very  satisfied.",2024-12-01,0.8016,Positive,0.5 to 1.0
+323,47,Sophia Thomas,Netherlands,4,Dumbbells,4,Shipping  was    fast  and  the  item  was  well-packaged.,2023-04-24,0.0,Positive,0.0 to 0.49
+324,89,Alex Rodriguez,Sweden,5,Soccer Ball,4,Shipping  was  fast  and  the  item    was  well-packaged.,2024-07-08,0.0,Positive,0.0 to 0.49
+325,78,Olivia Smith,Sweden,6,Tennis Racket,4,"Good  quality,  but  could  be  cheaper.",2023-04-17,0.2382,Positive,0.0 to 0.49
+326,17,Daniel Thomas,Germany,14,Cycling Helmet,4,The  quality  is  top-notch.,2024-06-15,0.0,Positive,0.0 to 0.49
+327,95,James Jones,Germany,8,Football Helmet,4,The  quality  is  top-notch.,2023-08-25,0.0,Positive,0.0 to 0.49
+328,100,Jane Brown,Austria,13,Swim Goggles,2,Not  worth  the  money.,2024-02-20,-0.1695,Negative,-0.49 to 0.0
+329,6,Daniel Rodriguez,Belgium,9,Baseball Glove,3,The  quality  is  top-notch.,2024-12-07,0.0,Neutral,0.0 to 0.49
+330,22,Alex Wilson,Germany,14,Cycling Helmet,4,The  quality  is  top-notch.,2023-03-18,0.0,Positive,0.0 to 0.49
+331,68,David Gonzalez,Netherlands,4,Dumbbells,5,"I  love  this  product,  will  buy  again!",2023-08-17,0.6696,Positive,0.5 to 1.0
+332,2,Sarah Brown,Spain,10,Golf Clubs,5,The  build  quality  is  impressive.,2024-11-06,0.5106,Positive,0.5 to 1.0
+333,87,Emma Hernandez,Spain,5,Soccer Ball,4,"I  love  this  product,  will  buy  again!",2024-06-02,0.6696,Positive,0.5 to 1.0
+334,70,James Garcia,Belgium,9,Baseball Glove,5,Five  stars  for  the  quick    delivery.,2025-04-14,0.0,Positive,0.0 to 0.49
+335,75,David Smith,Netherlands,14,Cycling Helmet,5,"Great  purchase,  very  satisfied.",2024-03-12,0.8016,Positive,0.5 to 1.0
+336,8,James Gonzalez,Sweden,8,Football Helmet,2,The  product  arrived  late.,2024-02-07,0.0,Negative,0.0 to 0.49
+337,32,Laura Anderson,Spain,19,Hockey Stick,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-05-22,-0.2617,Mixed Negative,-0.49 to 0.0
+338,98,Chris Lopez,Austria,4,Dumbbells,2,The  product  arrived  late.,2023-01-22,0.0,Negative,0.0 to 0.49
+339,38,John Garcia,Spain,2,Fitness Tracker,5,Exceeded  my    expectations!,2025-01-11,0.0,Positive,0.0 to 0.49
+340,95,James Jones,Germany,17,Surfboard,5,"I  love  this  product,  will  buy  again!",2025-09-16,0.6696,Positive,0.5 to 1.0
+341,62,Michael Hernandez,Sweden,3,Yoga Mat,2,Not  worth  the  money.,2024-11-04,-0.1695,Negative,-0.49 to 0.0
+342,19,Emma Wilson,Netherlands,4,Dumbbells,4,The  build  quality  is  impressive.,2025-06-15,0.5106,Positive,0.5 to 1.0
+343,84,Michael Williams,Spain,4,Dumbbells,3,"Average  experience,  nothing  special.",2025-04-13,-0.3089,Mixed Negative,-0.49 to 0.0
+344,21,Olivia Gonzalez,Spain,10,Golf Clubs,3,Not  worth  the  money.,2025-11-02,-0.1695,Mixed Negative,-0.49 to 0.0
+345,48,Alex Gonzalez,Belgium,4,Dumbbells,4,"I  love  this  product,  will  buy  again!",2024-07-24,0.6696,Positive,0.5 to 1.0
+346,84,Michael Williams,Spain,15,Climbing Rope,5,The  build  quality  is  impressive.,2025-06-27,0.5106,Positive,0.5 to 1.0
+347,75,David Smith,Netherlands,16,Kayak,1,Disappointed    with  the  performance.,2025-08-19,-0.4767,Negative,-0.49 to 0.0
+348,52,Robert Williams,Switzerland,13,Swim Goggles,2,Not  worth  the  money.,2024-03-05,-0.1695,Negative,-0.49 to 0.0
+349,26,Isabella Thomas,UK,11,Ski Boots,3,"I  love  this  product,  will  buy  again!",2024-11-19,0.6696,Mixed Positive,0.5 to 1.0
+350,57,James Rodriguez,Spain,6,Tennis Racket,3,Not    worth  the  money.,2025-08-22,-0.1695,Mixed Negative,-0.49 to 0.0
+351,55,Emily Lopez,UK,5,Soccer Ball,3,"The  product  is  okay,  but    the  instructions  were  unclear.",2023-05-02,-0.2617,Mixed Negative,-0.49 to 0.0
+352,43,Olivia Hernandez,Sweden,11,Ski Boots,3,"Average  experience,  nothing  special.",2025-12-22,-0.3089,Mixed Negative,-0.49 to 0.0
+353,36,Emma Johnson,France,15,Climbing Rope,5,"Great    purchase,  very  satisfied.",2025-09-08,0.8016,Positive,0.5 to 1.0
+354,50,Olivia Miller,France,18,Volleyball,2,"Average  experience,  nothing  special.",2024-01-03,-0.3089,Negative,-0.49 to 0.0
+355,59,James Smith,Netherlands,9,Baseball Glove,2,"Average  experience,  nothing  special.",2024-03-04,-0.3089,Negative,-0.49 to 0.0
+356,86,James Hernandez,Austria,14,Cycling Helmet,1,The  product  arrived  late.,2023-11-23,0.0,Negative,0.0 to 0.49
+357,1,Emma Anderson,Germany,3,Yoga Mat,4,Five  stars  for  the  quick  delivery.,2024-04-01,0.0,Positive,0.0 to 0.49
+358,13,David Wilson,UK,15,Climbing Rope,3,"Average  experience,  nothing  special.",2023-11-20,-0.3089,Mixed Negative,-0.49 to 0.0
+359,79,John Jones,Netherlands,15,Climbing Rope,5,Amazing  value  for  the  price.,2024-05-04,0.7351,Positive,0.5 to 1.0
+360,33,David Thomas,Spain,15,Climbing Rope,5,"Excellent  product,  highly  recommend!",2025-09-09,0.7773,Positive,0.5 to 1.0
+361,71,Isabella Miller,Italy,7,Basketball,5,"Excellent  product,  highly  recommend!",2024-02-12,0.7773,Positive,0.5 to 1.0
+362,33,David Thomas,Spain,11,Ski Boots,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-02-11,-0.2617,Mixed Negative,-0.49 to 0.0
+363,17,Daniel Thomas,Germany,15,Climbing Rope,4,"Good  quality,  but  could  be  cheaper.",2025-04-15,0.2382,Positive,0.0 to 0.49
+364,46,Chris Johnson,Spain,8,Football Helmet,5,The  build  quality  is  impressive.,2024-04-26,0.5106,Positive,0.5 to 1.0
+365,90,John Wilson,UK,20,Boxing Gloves,3,"Good  quality,  but  could  be    cheaper.",2025-10-24,0.2382,Mixed Positive,0.0 to 0.49
+366,46,Chris Johnson,Spain,7,Basketball,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-11-14,0.0,Positive,0.0 to 0.49
+367,96,Emily Gonzalez,Austria,1,Running Shoes,3,Not  worth  the    money.,2024-07-02,-0.1695,Mixed Negative,-0.49 to 0.0
+368,34,Daniel Miller,France,8,Football Helmet,1,"Not  satisfied,  the  product  broke  after  a  week.",2025-05-11,-0.6288,Negative,-1.0 to -0.5
+369,48,Alex Gonzalez,Belgium,4,Dumbbells,4,Customer  support  was  very  helpful.,2024-12-19,0.6997,Positive,0.5 to 1.0
+370,73,Sarah Gonzalez,Spain,6,Tennis Racket,4,The  quality  is  top-notch.,2023-04-13,0.0,Positive,0.0 to 0.49
+371,29,Sophia Anderson,Italy,1,Running Shoes,2,Product  did  not  meet  my  expectations.,2024-01-20,0.0,Negative,0.0 to 0.49
+372,91,John Brown,Spain,6,Tennis Racket,4,"I  love  this  product,  will    buy  again!",2023-05-10,0.6696,Positive,0.5 to 1.0
+373,92,David Hernandez,UK,14,Cycling Helmet,1,"Average  experience,  nothing  special.",2025-07-12,-0.3089,Negative,-0.49 to 0.0
+374,89,Alex Rodriguez,Sweden,12,Ice Skates,1,The  product    stopped  working  after  a  month.,2023-02-08,-0.2263,Negative,-0.49 to 0.0
+375,73,Sarah Gonzalez,Spain,4,Dumbbells,5,The  build  quality  is  impressive.,2024-12-16,0.5106,Positive,0.5 to 1.0
+376,38,John Garcia,Spain,6,Tennis Racket,3,"Good  quality,    but  could  be  cheaper.",2023-07-03,0.2382,Mixed Positive,0.0 to 0.49
+377,77,David Lopez,Spain,4,Dumbbells,5,"Excellent  product,  highly  recommend!",2023-11-29,0.7773,Positive,0.5 to 1.0
+378,64,Sarah Martinez,Belgium,9,Baseball Glove,2,The  product  arrived    late.,2024-03-20,0.0,Negative,0.0 to 0.49
+379,62,Michael Hernandez,Sweden,4,Dumbbells,5,The    quality  is  top-notch.,2023-01-27,0.0,Positive,0.0 to 0.49
+380,52,Robert Williams,Switzerland,4,Dumbbells,4,"I  love    this  product,  will  buy  again!",2024-02-23,0.6696,Positive,0.5 to 1.0
+381,45,Sarah Hernandez,Italy,4,Dumbbells,3,"Good  quality,  but    could  be  cheaper.",2024-01-24,0.2382,Mixed Positive,0.0 to 0.49
+382,38,John Garcia,Spain,7,Basketball,4,"Good  quality,    but  could  be  cheaper.",2023-09-03,0.2382,Positive,0.0 to 0.49
+383,54,Michael Gonzalez,Italy,13,Swim Goggles,5,Amazing  value  for  the  price.,2024-09-05,0.7351,Positive,0.5 to 1.0
+384,20,David Johnson,UK,3,Yoga Mat,3,Not  worth  the  money.,2025-06-04,-0.1695,Mixed Negative,-0.49 to 0.0
+385,81,Emily Wilson,Switzerland,5,Soccer Ball,4,Five  stars  for  the  quick  delivery.,2023-06-09,0.0,Positive,0.0 to 0.49
+386,86,James Hernandez,Austria,5,Soccer Ball,3,"Good  quality,  but  could  be  cheaper.",2024-04-09,0.2382,Mixed Positive,0.0 to 0.49
+387,42,John Gonzalez,UK,14,Cycling Helmet,5,Shipping  was  fast  and  the    item  was  well-packaged.,2025-03-29,0.0,Positive,0.0 to 0.49
+388,99,Laura Hernandez,Italy,1,Running Shoes,1,Disappointed  with  the  performance.,2025-12-10,-0.4767,Negative,-0.49 to 0.0
+389,14,Olivia Wilson,Spain,2,Fitness Tracker,5,"Excellent  product,  highly  recommend!",2024-09-14,0.7773,Positive,0.5 to 1.0
+390,30,Alex Garcia,Belgium,10,Golf Clubs,3,"Good  quality,  but  could  be  cheaper.",2023-05-22,0.2382,Mixed Positive,0.0 to 0.49
+391,98,Chris Lopez,Austria,20,Boxing Gloves,3,"Average  experience,  nothing  special.",2024-01-05,-0.3089,Mixed Negative,-0.49 to 0.0
+392,93,Jane Rodriguez,Spain,11,Ski Boots,5,Amazing  value  for  the  price.,2023-06-29,0.7351,Positive,0.5 to 1.0
+393,6,Daniel Rodriguez,Belgium,20,Boxing Gloves,2,Product  did  not  meet  my  expectations.,2024-04-18,0.0,Negative,0.0 to 0.49
+394,7,Laura Miller,Belgium,4,Dumbbells,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-10-19,-0.2617,Mixed Negative,-0.49 to 0.0
+395,35,Robert Rodriguez,Germany,9,Baseball Glove,4,The  quality  is  top-notch.,2025-04-12,0.0,Positive,0.0 to 0.49
+396,75,David Smith,Netherlands,6,Tennis Racket,3,"Good    quality,  but  could  be  cheaper.",2025-09-12,0.2382,Mixed Positive,0.0 to 0.49
+397,11,Emma Garcia,Austria,14,Cycling Helmet,4,The  quality  is  top-notch.,2024-04-23,0.0,Positive,0.0 to 0.49
+398,17,Daniel Thomas,Germany,7,Basketball,5,"I  love  this  product,  will  buy  again!",2023-09-02,0.6696,Positive,0.5 to 1.0
+399,68,David Gonzalez,Netherlands,1,Running Shoes,3,"Average  experience,  nothing  special.",2024-07-21,-0.3089,Mixed Negative,-0.49 to 0.0
+400,42,John Gonzalez,UK,10,Golf Clubs,3,Not  worth  the  money.,2023-06-30,-0.1695,Mixed Negative,-0.49 to 0.0
+401,93,Jane Rodriguez,Spain,18,Volleyball,4,"Good  quality,  but  could  be  cheaper.",2024-04-13,0.2382,Positive,0.0 to 0.49
+402,68,David Gonzalez,Netherlands,12,Ice Skates,4,The  build  quality  is  impressive.,2025-12-16,0.5106,Positive,0.5 to 1.0
+403,53,Emma Thomas,Germany,14,Cycling Helmet,3,"Good  quality,  but    could  be  cheaper.",2023-06-18,0.2382,Mixed Positive,0.0 to 0.49
+404,90,John Wilson,UK,7,Basketball,4,The  quality  is  top-notch.,2025-06-04,0.0,Positive,0.0 to 0.49
+405,43,Olivia Hernandez,Sweden,4,Dumbbells,5,Exceeded  my    expectations!,2025-09-10,0.0,Positive,0.0 to 0.49
+406,11,Emma Garcia,Austria,9,Baseball Glove,5,Exceeded  my  expectations!,2025-12-15,0.0,Positive,0.0 to 0.49
+407,79,John Jones,Netherlands,11,Ski Boots,2,Disappointed  with  the    performance.,2023-01-12,-0.4767,Negative,-0.49 to 0.0
+408,17,Daniel Thomas,Germany,4,Dumbbells,5,The  build  quality  is  impressive.,2023-12-12,0.5106,Positive,0.5 to 1.0
+409,59,James Smith,Netherlands,19,Hockey Stick,5,"I  love  this  product,  will  buy    again!",2023-02-22,0.6696,Positive,0.5 to 1.0
+410,83,Emily Jones,Switzerland,1,Running Shoes,1,Product  did  not  meet  my  expectations.,2023-01-11,0.0,Negative,0.0 to 0.49
+411,32,Laura Anderson,Spain,15,Climbing Rope,3,"The  product  is  okay,  but  the    instructions  were  unclear.",2023-03-05,-0.2617,Mixed Negative,-0.49 to 0.0
+412,83,Emily Jones,Switzerland,7,Basketball,4,Customer  support  was  very  helpful.,2024-05-10,0.6997,Positive,0.5 to 1.0
+413,60,John Thomas,Netherlands,12,Ice Skates,5,The  build  quality  is  impressive.,2023-08-24,0.5106,Positive,0.5 to 1.0
+414,59,James Smith,Netherlands,14,Cycling Helmet,4,"I  love  this  product,  will  buy  again!",2025-07-31,0.6696,Positive,0.5 to 1.0
+415,97,Emily Rodriguez,France,8,Football Helmet,2,Disappointed  with  the    performance.,2025-06-04,-0.4767,Negative,-0.49 to 0.0
+416,15,Emma Martinez,Switzerland,17,Surfboard,5,The  quality  is  top-notch.,2023-04-19,0.0,Positive,0.0 to 0.49
+417,9,Emily Thomas,Austria,16,Kayak,3,Not  worth  the  money.,2024-11-28,-0.1695,Mixed Negative,-0.49 to 0.0
+418,94,Jane Anderson,Belgium,2,Fitness Tracker,1,"Not  satisfied,  the  product  broke  after  a    week.",2025-03-02,-0.6288,Negative,-1.0 to -0.5
+419,68,David Gonzalez,Netherlands,6,Tennis Racket,1,The  color  was  different  from  what  was  shown.,2025-09-01,0.0,Negative,0.0 to 0.49
+420,18,Robert Lopez,Italy,11,Ski Boots,5,"I  love  this    product,  will  buy  again!",2023-06-10,0.6696,Positive,0.5 to 1.0
+421,75,David Smith,Netherlands,13,Swim Goggles,5,The  quality  is  top-notch.,2025-08-18,0.0,Positive,0.0 to 0.49
+422,81,Emily Wilson,Switzerland,17,Surfboard,4,The  quality  is  top-notch.,2025-09-30,0.0,Positive,0.0 to 0.49
+423,76,Michael Lopez,Austria,18,Volleyball,2,Product  did  not  meet  my  expectations.,2023-08-01,0.0,Negative,0.0 to 0.49
+424,53,Emma Thomas,Germany,11,Ski Boots,4,Customer  support  was  very  helpful.,2024-03-21,0.6997,Positive,0.5 to 1.0
+425,89,Alex Rodriguez,Sweden,6,Tennis Racket,2,Not  worth  the  money.,2025-03-04,-0.1695,Negative,-0.49 to 0.0
+426,74,Jane Smith,UK,17,Surfboard,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-04-07,0.0,Positive,0.0 to 0.49
+427,81,Emily Wilson,Switzerland,11,Ski Boots,4,Five  stars  for  the  quick  delivery.,2025-08-20,0.0,Positive,0.0 to 0.49
+428,58,Jane Williams,Austria,9,Baseball Glove,5,The  build    quality  is  impressive.,2025-01-17,0.5106,Positive,0.5 to 1.0
+429,71,Isabella Miller,Italy,2,Fitness Tracker,4,Customer    support  was  very  helpful.,2023-06-08,0.6997,Positive,0.5 to 1.0
+430,99,Laura Hernandez,Italy,9,Baseball Glove,2,"Average  experience,  nothing  special.",2025-08-03,-0.3089,Negative,-0.49 to 0.0
+431,94,Jane Anderson,Belgium,11,Ski Boots,3,Not  worth  the  money.,2023-02-10,-0.1695,Mixed Negative,-0.49 to 0.0
+432,31,Daniel Jones,Austria,18,Volleyball,4,"I  love  this  product,  will  buy  again!",2025-02-14,0.6696,Positive,0.5 to 1.0
+433,72,Sophia Miller,Sweden,2,Fitness Tracker,5,The  quality  is  top-notch.,2025-06-11,0.0,Positive,0.0 to 0.49
+434,7,Laura Miller,Belgium,18,Volleyball,5,"Great  purchase,  very  satisfied.",2023-02-25,0.8016,Positive,0.5 to 1.0
+435,65,Olivia Rodriguez,Italy,1,Running Shoes,5,Amazing  value  for  the  price.,2023-02-28,0.7351,Positive,0.5 to 1.0
+436,11,Emma Garcia,Austria,1,Running Shoes,4,Shipping  was  fast    and  the  item  was  well-packaged.,2024-01-03,0.0,Positive,0.0 to 0.49
+437,73,Sarah Gonzalez,Spain,4,Dumbbells,5,"Excellent  product,  highly  recommend!",2023-06-24,0.7773,Positive,0.5 to 1.0
+438,72,Sophia Miller,Sweden,20,Boxing Gloves,5,Five  stars  for  the  quick  delivery.,2023-09-13,0.0,Positive,0.0 to 0.49
+439,67,Alex Johnson,Spain,11,Ski Boots,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-11-11,-0.2617,Mixed Negative,-0.49 to 0.0
+440,93,Jane Rodriguez,Spain,7,Basketball,3,Not  worth  the  money.,2023-07-22,-0.1695,Mixed Negative,-0.49 to 0.0
+441,12,James Lopez,Belgium,6,Tennis Racket,1,Product  did    not  meet  my  expectations.,2023-09-03,0.0,Negative,0.0 to 0.49
+442,28,Emily Davis,Switzerland,8,Football Helmet,1,The  product  stopped  working  after  a  month.,2025-04-06,-0.2263,Negative,-0.49 to 0.0
+443,37,Olivia Lopez,Germany,13,Swim Goggles,3,"Good  quality,  but  could  be  cheaper.",2024-01-19,0.2382,Mixed Positive,0.0 to 0.49
+444,22,Alex Wilson,Germany,16,Kayak,5,The  build  quality  is  impressive.,2023-10-20,0.5106,Positive,0.5 to 1.0
+445,25,David Anderson,Italy,14,Cycling Helmet,3,"Good  quality,  but  could  be  cheaper.",2023-05-27,0.2382,Mixed Positive,0.0 to 0.49
+446,84,Michael Williams,Spain,14,Cycling Helmet,5,The  quality  is  top-notch.,2025-06-10,0.0,Positive,0.0 to 0.49
+447,38,John Garcia,Spain,2,Fitness Tracker,4,Shipping    was  fast  and  the  item  was  well-packaged.,2024-08-19,0.0,Positive,0.0 to 0.49
+448,75,David Smith,Netherlands,12,Ice Skates,4,"Excellent  product,  highly  recommend!",2025-12-25,0.7773,Positive,0.5 to 1.0
+449,43,Olivia Hernandez,Sweden,14,Cycling Helmet,5,Shipping  was  fast  and  the  item  was  well-packaged.,2024-03-10,0.0,Positive,0.0 to 0.49
+450,92,David Hernandez,UK,4,Dumbbells,5,Amazing  value  for  the  price.,2024-08-04,0.7351,Positive,0.5 to 1.0
+451,68,David Gonzalez,Netherlands,11,Ski Boots,5,"Excellent  product,  highly  recommend!",2023-04-18,0.7773,Positive,0.5 to 1.0
+452,42,John Gonzalez,UK,19,Hockey Stick,4,"Good  quality,  but  could  be  cheaper.",2024-08-28,0.2382,Positive,0.0 to 0.49
+453,100,Jane Brown,Austria,2,Fitness Tracker,4,Customer  support  was  very  helpful.,2023-04-23,0.6997,Positive,0.5 to 1.0
+454,27,John Rodriguez,UK,9,Baseball Glove,4,Customer  support    was  very  helpful.,2025-09-17,0.6997,Positive,0.5 to 1.0
+455,79,John Jones,Netherlands,20,Boxing Gloves,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-07-30,-0.2617,Mixed Negative,-0.49 to 0.0
+456,2,Sarah Brown,Spain,1,Running Shoes,2,Product  did  not  meet  my  expectations.,2024-01-09,0.0,Negative,0.0 to 0.49
+457,29,Sophia Anderson,Italy,1,Running Shoes,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-12-12,-0.2617,Mixed Negative,-0.49 to 0.0
+458,42,John Gonzalez,UK,20,Boxing Gloves,4,"Good  quality,  but  could  be  cheaper.",2025-07-05,0.2382,Positive,0.0 to 0.49
+459,90,John Wilson,UK,17,Surfboard,4,Five  stars  for  the  quick  delivery.,2023-06-16,0.0,Positive,0.0 to 0.49
+460,92,David Hernandez,UK,16,Kayak,4,"Good  quality,  but  could  be  cheaper.",2025-08-09,0.2382,Positive,0.0 to 0.49
+461,66,Isabella Martinez,Sweden,5,Soccer Ball,4,The  quality  is  top-notch.,2025-10-11,0.0,Positive,0.0 to 0.49
+462,85,Jane Hernandez,Belgium,14,Cycling Helmet,5,The    build  quality  is  impressive.,2023-02-02,0.5106,Positive,0.5 to 1.0
+463,5,Emma Miller,Spain,2,Fitness Tracker,3,"Great  purchase,  very    satisfied.",2025-11-02,0.8016,Mixed Positive,0.5 to 1.0
+464,73,Sarah Gonzalez,Spain,11,Ski Boots,4,"Great  purchase,  very    satisfied.",2024-05-28,0.8016,Positive,0.5 to 1.0
+465,43,Olivia Hernandez,Sweden,12,Ice Skates,1,Disappointed    with  the  performance.,2025-12-14,-0.4767,Negative,-0.49 to 0.0
+466,49,Michael Smith,Spain,16,Kayak,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-02-16,0.0,Positive,0.0 to 0.49
+467,29,Sophia Anderson,Italy,16,Kayak,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-07-16,-0.2617,Mixed Negative,-0.49 to 0.0
+468,12,James Lopez,Belgium,12,Ice Skates,5,"Excellent  product,  highly  recommend!",2024-01-09,0.7773,Positive,0.5 to 1.0
+469,54,Michael Gonzalez,Italy,13,Swim Goggles,4,Customer  support  was  very  helpful.,2023-10-06,0.6997,Positive,0.5 to 1.0
+470,46,Chris Johnson,Spain,1,Running Shoes,4,Customer  support  was  very  helpful.,2025-10-24,0.6997,Positive,0.5 to 1.0
+471,88,James Brown,France,4,Dumbbells,5,The  quality  is  top-notch.,2024-04-26,0.0,Positive,0.0 to 0.49
+472,69,Emma Gonzalez,Spain,8,Football Helmet,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-12-05,0.0,Positive,0.0 to 0.49
+473,7,Laura Miller,Belgium,19,Hockey Stick,1,The  product  arrived  late.,2024-08-03,0.0,Negative,0.0 to 0.49
+474,47,Sophia Thomas,Netherlands,20,Boxing Gloves,3,"Good  quality,  but  could  be  cheaper.",2025-05-31,0.2382,Mixed Positive,0.0 to 0.49
+475,74,Jane Smith,UK,20,Boxing Gloves,4,The  quality  is  top-notch.,2023-04-18,0.0,Positive,0.0 to 0.49
+476,54,Michael Gonzalez,Italy,10,Golf Clubs,4,Customer  support    was  very  helpful.,2023-12-12,0.6997,Positive,0.5 to 1.0
+477,91,John Brown,Spain,10,Golf Clubs,4,The    quality  is  top-notch.,2025-04-25,0.0,Positive,0.0 to 0.49
+478,79,John Jones,Netherlands,6,Tennis Racket,5,The  build  quality  is  impressive.,2023-07-23,0.5106,Positive,0.5 to 1.0
+479,7,Laura Miller,Belgium,13,Swim Goggles,4,Customer  support  was  very  helpful.,2024-12-28,0.6997,Positive,0.5 to 1.0
+480,90,John Wilson,UK,9,Baseball Glove,5,"Great  purchase,  very  satisfied.",2023-07-22,0.8016,Positive,0.5 to 1.0
+481,21,Olivia Gonzalez,Spain,2,Fitness Tracker,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-12-02,0.0,Positive,0.0 to 0.49
+482,49,Michael Smith,Spain,10,Golf Clubs,5,Amazing  value  for  the  price.,2025-07-11,0.7351,Positive,0.5 to 1.0
+483,28,Emily Davis,Switzerland,20,Boxing Gloves,2,The  product  arrived  late.,2024-06-29,0.0,Negative,0.0 to 0.49
+484,36,Emma Johnson,France,10,Golf Clubs,1,The  product  arrived  late.,2023-08-22,0.0,Negative,0.0 to 0.49
+485,66,Isabella Martinez,Sweden,18,Volleyball,5,"I  love  this  product,  will  buy  again!",2025-06-10,0.6696,Positive,0.5 to 1.0
+486,44,Olivia Brown,Switzerland,3,Yoga Mat,3,Not  worth  the  money.,2024-01-20,-0.1695,Mixed Negative,-0.49 to 0.0
+487,78,Olivia Smith,Sweden,3,Yoga Mat,1,I  had  a  bad  experience  with  this  product.,2025-05-01,-0.5423,Negative,-1.0 to -0.5
+488,89,Alex Rodriguez,Sweden,12,Ice Skates,5,Exceeded  my  expectations!,2025-02-24,0.0,Positive,0.0 to 0.49
+489,15,Emma Martinez,Switzerland,8,Football Helmet,4,Five  stars    for  the  quick  delivery.,2023-11-09,0.0,Positive,0.0 to 0.49
+490,46,Chris Johnson,Spain,11,Ski Boots,4,Five  stars  for  the  quick  delivery.,2025-07-05,0.0,Positive,0.0 to 0.49
+491,59,James Smith,Netherlands,6,Tennis Racket,4,"Great  purchase,  very  satisfied.",2023-06-22,0.8016,Positive,0.5 to 1.0
+492,94,Jane Anderson,Belgium,20,Boxing Gloves,2,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-03-19,-0.2617,Negative,-0.49 to 0.0
+493,26,Isabella Thomas,UK,2,Fitness Tracker,5,"I  love  this  product,  will  buy  again!",2024-07-16,0.6696,Positive,0.5 to 1.0
+494,2,Sarah Brown,Spain,13,Swim Goggles,5,Five  stars  for  the  quick  delivery.,2025-05-25,0.0,Positive,0.0 to 0.49
+495,56,Sophia Davis,Switzerland,7,Basketball,4,Customer  support  was  very  helpful.,2023-04-26,0.6997,Positive,0.5 to 1.0
+496,87,Emma Hernandez,Spain,1,Running Shoes,5,Exceeded  my  expectations!,2024-01-29,0.0,Positive,0.0 to 0.49
+497,90,John Wilson,UK,6,Tennis Racket,4,Customer  support  was  very  helpful.,2024-02-21,0.6997,Positive,0.5 to 1.0
+498,81,Emily Wilson,Switzerland,17,Surfboard,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-01-17,-0.2617,Mixed Negative,-0.49 to 0.0
+499,72,Sophia Miller,Sweden,6,Tennis Racket,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-08-26,0.0,Positive,0.0 to 0.49
+500,57,James Rodriguez,Spain,9,Baseball Glove,2,Not  worth  the  money.,2025-12-20,-0.1695,Negative,-0.49 to 0.0
+501,39,Jane Miller,Italy,12,Ice Skates,4,Customer  support  was    very  helpful.,2023-12-01,0.6997,Positive,0.5 to 1.0
+502,5,Emma Miller,Spain,1,Running Shoes,2,Product    did  not  meet  my  expectations.,2025-11-10,0.0,Negative,0.0 to 0.49
+503,5,Emma Miller,Spain,16,Kayak,2,Product  did  not  meet    my  expectations.,2024-07-03,0.0,Negative,0.0 to 0.49
+504,35,Robert Rodriguez,Germany,8,Football Helmet,4,Five  stars  for  the  quick  delivery.,2024-01-18,0.0,Positive,0.0 to 0.49
+505,82,Laura Gonzalez,UK,2,Fitness Tracker,5,"Great  purchase,  very  satisfied.",2024-07-11,0.8016,Positive,0.5 to 1.0
+506,80,Laura Jones,Netherlands,8,Football Helmet,2,"Average  experience,    nothing  special.",2025-10-19,-0.3089,Negative,-0.49 to 0.0
+507,66,Isabella Martinez,Sweden,3,Yoga Mat,3,Customer  support    was  very  helpful.,2024-12-10,0.6997,Mixed Positive,0.5 to 1.0
+508,64,Sarah Martinez,Belgium,14,Cycling Helmet,3,"Good  quality,  but  could  be    cheaper.",2025-01-19,0.2382,Mixed Positive,0.0 to 0.49
+509,5,Emma Miller,Spain,11,Ski Boots,5,The  quality  is  top-notch.,2024-05-25,0.0,Positive,0.0 to 0.49
+510,20,David Johnson,UK,6,Tennis Racket,4,"Great  purchase,  very  satisfied.",2024-11-05,0.8016,Positive,0.5 to 1.0
+511,55,Emily Lopez,UK,15,Climbing Rope,1,Not    worth  the  money.,2025-04-01,-0.1695,Negative,-0.49 to 0.0
+512,11,Emma Garcia,Austria,1,Running Shoes,3,Shipping  was  fast  and  the  item  was  well-packaged.,2025-01-15,0.0,Neutral,0.0 to 0.49
+513,21,Olivia Gonzalez,Spain,3,Yoga Mat,5,Amazing  value    for  the  price.,2025-11-09,0.7351,Positive,0.5 to 1.0
+514,72,Sophia Miller,Sweden,15,Climbing Rope,2,"Average  experience,  nothing  special.",2023-06-18,-0.3089,Negative,-0.49 to 0.0
+515,89,Alex Rodriguez,Sweden,3,Yoga Mat,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-12-06,-0.2617,Mixed Negative,-0.49 to 0.0
+516,46,Chris Johnson,Spain,18,Volleyball,4,The  quality    is  top-notch.,2025-01-03,0.0,Positive,0.0 to 0.49
+517,29,Sophia Anderson,Italy,4,Dumbbells,5,"Great  purchase,  very    satisfied.",2024-03-30,0.8016,Positive,0.5 to 1.0
+518,17,Daniel Thomas,Germany,12,Ice Skates,4,"Good  quality,  but  could  be  cheaper.",2024-04-27,0.2382,Positive,0.0 to 0.49
+519,58,Jane Williams,Austria,4,Dumbbells,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-03-06,-0.2617,Mixed Negative,-0.49 to 0.0
+520,63,John Davis,Switzerland,1,Running Shoes,3,"Good  quality,  but  could  be  cheaper.",2024-08-24,0.2382,Mixed Positive,0.0 to 0.49
+521,47,Sophia Thomas,Netherlands,5,Soccer Ball,2,Product  did  not  meet  my  expectations.,2024-03-31,0.0,Negative,0.0 to 0.49
+522,8,James Gonzalez,Sweden,10,Golf Clubs,1,Product    did  not  meet  my  expectations.,2023-08-04,0.0,Negative,0.0 to 0.49
+523,8,James Gonzalez,Sweden,12,Ice Skates,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-12-07,0.0,Positive,0.0 to 0.49
+524,27,John Rodriguez,UK,4,Dumbbells,4,The  quality  is  top-notch.,2025-09-01,0.0,Positive,0.0 to 0.49
+525,1,Emma Anderson,Germany,1,Running Shoes,4,"I  love  this  product,  will  buy  again!",2023-11-23,0.6696,Positive,0.5 to 1.0
+526,74,Jane Smith,UK,3,Yoga Mat,3,"Good    quality,  but  could  be  cheaper.",2025-05-20,0.2382,Mixed Positive,0.0 to 0.49
+527,27,John Rodriguez,UK,14,Cycling Helmet,3,Not  worth    the  money.,2024-07-03,-0.1695,Mixed Negative,-0.49 to 0.0
+528,81,Emily Wilson,Switzerland,16,Kayak,5,Five  stars  for  the  quick  delivery.,2024-11-09,0.0,Positive,0.0 to 0.49
+529,19,Emma Wilson,Netherlands,11,Ski Boots,4,Five  stars    for  the  quick  delivery.,2025-05-05,0.0,Positive,0.0 to 0.49
+530,48,Alex Gonzalez,Belgium,10,Golf Clubs,5,"Great  purchase,  very  satisfied.",2025-11-24,0.8016,Positive,0.5 to 1.0
+531,65,Olivia Rodriguez,Italy,3,Yoga Mat,5,Exceeded  my  expectations!,2024-07-21,0.0,Positive,0.0 to 0.49
+532,6,Daniel Rodriguez,Belgium,6,Tennis Racket,5,The  quality  is  top-notch.,2023-05-30,0.0,Positive,0.0 to 0.49
+533,92,David Hernandez,UK,6,Tennis Racket,4,The  quality  is  top-notch.,2024-04-06,0.0,Positive,0.0 to 0.49
+534,41,Laura Wilson,Germany,2,Fitness Tracker,4,"Great  purchase,  very  satisfied.",2025-07-02,0.8016,Positive,0.5 to 1.0
+535,85,Jane Hernandez,Belgium,13,Swim Goggles,4,"I  love  this  product,  will  buy  again!",2023-03-25,0.6696,Positive,0.5 to 1.0
+536,33,David Thomas,Spain,19,Hockey Stick,2,Not  worth  the  money.,2024-12-29,-0.1695,Negative,-0.49 to 0.0
+537,8,James Gonzalez,Sweden,9,Baseball Glove,4,Shipping  was  fast  and  the  item    was  well-packaged.,2023-03-11,0.0,Positive,0.0 to 0.49
+538,29,Sophia Anderson,Italy,16,Kayak,4,"Good  quality,  but  could  be  cheaper.",2025-11-12,0.2382,Positive,0.0 to 0.49
+539,74,Jane Smith,UK,17,Surfboard,4,The  quality  is  top-notch.,2024-12-02,0.0,Positive,0.0 to 0.49
+540,28,Emily Davis,Switzerland,18,Volleyball,3,"Good  quality,  but  could  be  cheaper.",2025-12-09,0.2382,Mixed Positive,0.0 to 0.49
+541,73,Sarah Gonzalez,Spain,20,Boxing Gloves,5,"I  love  this  product,  will  buy  again!",2025-08-08,0.6696,Positive,0.5 to 1.0
+542,49,Michael Smith,Spain,5,Soccer Ball,1,"Not    satisfied,  the  product  broke  after  a  week.",2023-07-11,-0.6288,Negative,-1.0 to -0.5
+543,64,Sarah Martinez,Belgium,17,Surfboard,5,The  build  quality  is  impressive.,2023-10-31,0.5106,Positive,0.5 to 1.0
+544,65,Olivia Rodriguez,Italy,6,Tennis Racket,5,The  quality  is  top-notch.,2023-10-29,0.0,Positive,0.0 to 0.49
+545,45,Sarah Hernandez,Italy,13,Swim Goggles,4,Customer  support  was  very  helpful.,2024-06-11,0.6997,Positive,0.5 to 1.0
+546,33,David Thomas,Spain,1,Running Shoes,5,Exceeded  my  expectations!,2024-11-14,0.0,Positive,0.0 to 0.49
+547,28,Emily Davis,Switzerland,11,Ski Boots,1,The  product  arrived  late.,2024-05-28,0.0,Negative,0.0 to 0.49
+548,40,Olivia Thomas,Germany,12,Ice Skates,5,Amazing  value  for  the  price.,2023-01-11,0.7351,Positive,0.5 to 1.0
+549,73,Sarah Gonzalez,Spain,15,Climbing Rope,4,Five  stars  for  the  quick    delivery.,2025-04-06,0.0,Positive,0.0 to 0.49
+550,51,Michael Davis,Austria,12,Ice Skates,3,Shipping  was  fast  and  the  item  was  well-packaged.,2024-10-07,0.0,Neutral,0.0 to 0.49
+551,45,Sarah Hernandez,Italy,2,Fitness Tracker,3,"Good  quality,  but  could  be  cheaper.",2025-04-17,0.2382,Mixed Positive,0.0 to 0.49
+552,68,David Gonzalez,Netherlands,1,Running Shoes,4,"Great  purchase,  very  satisfied.",2023-07-28,0.8016,Positive,0.5 to 1.0
+553,60,John Thomas,Netherlands,20,Boxing Gloves,5,Customer  support  was  very  helpful.,2025-04-26,0.6997,Positive,0.5 to 1.0
+554,18,Robert Lopez,Italy,1,Running Shoes,2,The  product  arrived  late.,2024-08-16,0.0,Negative,0.0 to 0.49
+555,69,Emma Gonzalez,Spain,18,Volleyball,5,Customer  support  was  very  helpful.,2025-11-24,0.6997,Positive,0.5 to 1.0
+556,91,John Brown,Spain,6,Tennis Racket,4,"Great  purchase,  very  satisfied.",2025-01-04,0.8016,Positive,0.5 to 1.0
+557,55,Emily Lopez,UK,10,Golf Clubs,3,"Great  purchase,    very  satisfied.",2024-07-28,0.8016,Mixed Positive,0.5 to 1.0
+558,83,Emily Jones,Switzerland,13,Swim Goggles,4,"I  love  this  product,  will  buy  again!",2025-02-11,0.6696,Positive,0.5 to 1.0
+559,46,Chris Johnson,Spain,12,Ice Skates,4,"I  love  this  product,  will  buy  again!",2024-05-16,0.6696,Positive,0.5 to 1.0
+560,24,Chris Hernandez,Italy,6,Tennis Racket,5,Exceeded  my  expectations!,2024-11-08,0.0,Positive,0.0 to 0.49
+561,6,Daniel Rodriguez,Belgium,5,Soccer Ball,1,The  product  stopped  working  after  a  month.,2025-02-27,-0.2263,Negative,-0.49 to 0.0
+562,41,Laura Wilson,Germany,5,Soccer Ball,3,Not  worth  the  money.,2024-02-25,-0.1695,Mixed Negative,-0.49 to 0.0
+563,86,James Hernandez,Austria,13,Swim Goggles,4,"Good  quality,  but  could  be  cheaper.",2025-02-27,0.2382,Positive,0.0 to 0.49
+564,9,Emily Thomas,Austria,12,Ice Skates,5,Customer  support  was  very  helpful.,2025-10-13,0.6997,Positive,0.5 to 1.0
+565,60,John Thomas,Netherlands,20,Boxing Gloves,1,"Terrible  customer  service,  would  not    buy  again.",2024-06-30,-0.4767,Negative,-0.49 to 0.0
+566,89,Alex Rodriguez,Sweden,10,Golf Clubs,4,Five    stars  for  the  quick  delivery.,2025-08-15,0.0,Positive,0.0 to 0.49
+567,78,Olivia Smith,Sweden,16,Kayak,5,Shipping  was  fast  and  the  item  was  well-packaged.,2024-02-21,0.0,Positive,0.0 to 0.49
+568,17,Daniel Thomas,Germany,13,Swim Goggles,4,"I  love  this  product,  will  buy  again!",2024-08-04,0.6696,Positive,0.5 to 1.0
+569,58,Jane Williams,Austria,9,Baseball Glove,5,Exceeded  my    expectations!,2024-07-17,0.0,Positive,0.0 to 0.49
+570,50,Olivia Miller,France,15,Climbing Rope,4,Customer  support  was  very  helpful.,2025-04-29,0.6997,Positive,0.5 to 1.0
+571,2,Sarah Brown,Spain,8,Football Helmet,3,"Average  experience,  nothing  special.",2024-10-15,-0.3089,Mixed Negative,-0.49 to 0.0
+572,37,Olivia Lopez,Germany,16,Kayak,4,"Great  purchase,  very    satisfied.",2025-04-23,0.8016,Positive,0.5 to 1.0
+573,57,James Rodriguez,Spain,8,Football Helmet,4,Customer  support  was  very  helpful.,2024-04-27,0.6997,Positive,0.5 to 1.0
+574,72,Sophia Miller,Sweden,9,Baseball Glove,5,Shipping  was  fast  and  the  item  was  well-packaged.,2025-10-13,0.0,Positive,0.0 to 0.49
+575,93,Jane Rodriguez,Spain,14,Cycling Helmet,5,"Great  purchase,  very  satisfied.",2025-09-19,0.8016,Positive,0.5 to 1.0
+576,71,Isabella Miller,Italy,9,Baseball Glove,5,Amazing  value  for  the  price.,2025-10-04,0.7351,Positive,0.5 to 1.0
+577,65,Olivia Rodriguez,Italy,9,Baseball Glove,4,"I  love  this  product,  will  buy  again!",2024-04-18,0.6696,Positive,0.5 to 1.0
+578,32,Laura Anderson,Spain,15,Climbing Rope,5,The  quality  is  top-notch.,2023-08-01,0.0,Positive,0.0 to 0.49
+579,24,Chris Hernandez,Italy,8,Football Helmet,4,"Good  quality,  but  could  be  cheaper.",2024-01-16,0.2382,Positive,0.0 to 0.49
+580,48,Alex Gonzalez,Belgium,1,Running Shoes,3,"Average    experience,  nothing  special.",2025-04-15,-0.3089,Mixed Negative,-0.49 to 0.0
+581,69,Emma Gonzalez,Spain,18,Volleyball,4,The  quality  is  top-notch.,2024-03-19,0.0,Positive,0.0 to 0.49
+582,65,Olivia Rodriguez,Italy,9,Baseball Glove,5,Exceeded  my    expectations!,2023-01-29,0.0,Positive,0.0 to 0.49
+583,88,James Brown,France,8,Football Helmet,5,Five  stars  for  the  quick  delivery.,2025-07-03,0.0,Positive,0.0 to 0.49
+584,70,James Garcia,Belgium,20,Boxing Gloves,4,Exceeded  my  expectations!,2024-12-04,0.0,Positive,0.0 to 0.49
+585,87,Emma Hernandez,Spain,12,Ice Skates,4,"I  love  this  product,  will  buy  again!",2025-10-23,0.6696,Positive,0.5 to 1.0
+586,7,Laura Miller,Belgium,17,Surfboard,2,Not  worth  the  money.,2023-04-11,-0.1695,Negative,-0.49 to 0.0
+587,31,Daniel Jones,Austria,17,Surfboard,3,Not  worth    the  money.,2025-08-31,-0.1695,Mixed Negative,-0.49 to 0.0
+588,39,Jane Miller,Italy,18,Volleyball,3,Shipping  was  fast  and  the  item  was  well-packaged.,2025-09-03,0.0,Neutral,0.0 to 0.49
+589,64,Sarah Martinez,Belgium,4,Dumbbells,3,Not    worth  the  money.,2024-03-21,-0.1695,Mixed Negative,-0.49 to 0.0
+590,27,John Rodriguez,UK,4,Dumbbells,3,Not  worth  the  money.,2024-09-13,-0.1695,Mixed Negative,-0.49 to 0.0
+591,65,Olivia Rodriguez,Italy,12,Ice Skates,5,Five  stars    for  the  quick  delivery.,2024-10-29,0.0,Positive,0.0 to 0.49
+592,100,Jane Brown,Austria,1,Running Shoes,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-01-18,-0.2617,Mixed Negative,-0.49 to 0.0
+593,62,Michael Hernandez,Sweden,8,Football Helmet,5,The  build  quality  is  impressive.,2025-06-12,0.5106,Positive,0.5 to 1.0
+594,14,Olivia Wilson,Spain,4,Dumbbells,2,Not  worth  the  money.,2025-10-01,-0.1695,Negative,-0.49 to 0.0
+595,46,Chris Johnson,Spain,5,Soccer Ball,4,Exceeded    my  expectations!,2025-09-18,0.0,Positive,0.0 to 0.49
+596,48,Alex Gonzalez,Belgium,15,Climbing Rope,3,"Good  quality,  but  could    be  cheaper.",2025-06-27,0.2382,Mixed Positive,0.0 to 0.49
+597,11,Emma Garcia,Austria,1,Running Shoes,5,The  quality  is  top-notch.,2025-09-07,0.0,Positive,0.0 to 0.49
+598,3,Robert Hernandez,Netherlands,2,Fitness Tracker,5,Amazing  value  for  the  price.,2023-08-04,0.7351,Positive,0.5 to 1.0
+599,94,Jane Anderson,Belgium,19,Hockey Stick,5,Customer  support  was  very  helpful.,2025-08-01,0.6997,Positive,0.5 to 1.0
+600,65,Olivia Rodriguez,Italy,3,Yoga Mat,2,Not  worth    the  money.,2025-01-11,-0.1695,Negative,-0.49 to 0.0
+601,25,David Anderson,Italy,11,Ski Boots,5,Amazing    value  for  the  price.,2025-07-31,0.7351,Positive,0.5 to 1.0
+602,56,Sophia Davis,Switzerland,8,Football Helmet,3,Not  worth  the  money.,2023-02-08,-0.1695,Mixed Negative,-0.49 to 0.0
+603,88,James Brown,France,4,Dumbbells,5,Exceeded  my  expectations!,2024-07-02,0.0,Positive,0.0 to 0.49
+604,87,Emma Hernandez,Spain,2,Fitness Tracker,3,"Average  experience,  nothing    special.",2023-06-10,-0.3089,Mixed Negative,-0.49 to 0.0
+605,1,Emma Anderson,Germany,3,Yoga Mat,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-06-17,-0.2617,Mixed Negative,-0.49 to 0.0
+606,48,Alex Gonzalez,Belgium,8,Football Helmet,5,The  build  quality  is  impressive.,2023-10-14,0.5106,Positive,0.5 to 1.0
+607,25,David Anderson,Italy,14,Cycling Helmet,3,"Great  purchase,  very  satisfied.",2025-07-07,0.8016,Mixed Positive,0.5 to 1.0
+608,7,Laura Miller,Belgium,9,Baseball Glove,4,"Great  purchase,  very  satisfied.",2023-03-21,0.8016,Positive,0.5 to 1.0
+609,40,Olivia Thomas,Germany,10,Golf Clubs,3,"Average  experience,  nothing  special.",2025-10-23,-0.3089,Mixed Negative,-0.49 to 0.0
+610,69,Emma Gonzalez,Spain,3,Yoga Mat,5,"Great  purchase,  very  satisfied.",2025-01-29,0.8016,Positive,0.5 to 1.0
+611,6,Daniel Rodriguez,Belgium,4,Dumbbells,2,"Average  experience,  nothing  special.",2023-12-06,-0.3089,Negative,-0.49 to 0.0
+612,38,John Garcia,Spain,2,Fitness Tracker,4,"I  love  this  product,  will  buy  again!",2025-06-17,0.6696,Positive,0.5 to 1.0
+613,48,Alex Gonzalez,Belgium,12,Ice Skates,3,"The  product  is  okay,  but  the  instructions    were  unclear.",2025-02-10,-0.2617,Mixed Negative,-0.49 to 0.0
+614,23,Isabella Garcia,Italy,2,Fitness Tracker,3,"I  love  this  product,  will  buy  again!",2025-01-20,0.6696,Mixed Positive,0.5 to 1.0
+615,98,Chris Lopez,Austria,1,Running Shoes,5,"Excellent    product,  highly  recommend!",2025-01-08,0.7773,Positive,0.5 to 1.0
+616,38,John Garcia,Spain,20,Boxing Gloves,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-11-14,0.0,Positive,0.0 to 0.49
+617,29,Sophia Anderson,Italy,15,Climbing Rope,4,Customer  support  was  very  helpful.,2025-12-22,0.6997,Positive,0.5 to 1.0
+618,45,Sarah Hernandez,Italy,7,Basketball,4,Shipping  was  fast  and  the  item    was  well-packaged.,2024-08-21,0.0,Positive,0.0 to 0.49
+619,68,David Gonzalez,Netherlands,14,Cycling Helmet,5,Customer  support  was  very  helpful.,2023-12-06,0.6997,Positive,0.5 to 1.0
+620,100,Jane Brown,Austria,1,Running Shoes,5,Five  stars  for  the  quick  delivery.,2024-10-22,0.0,Positive,0.0 to 0.49
+621,70,James Garcia,Belgium,14,Cycling Helmet,2,The  product  arrived  late.,2025-05-13,0.0,Negative,0.0 to 0.49
+622,30,Alex Garcia,Belgium,4,Dumbbells,4,The  quality    is  top-notch.,2025-12-22,0.0,Positive,0.0 to 0.49
+623,5,Emma Miller,Spain,1,Running Shoes,3,"Good  quality,  but  could  be  cheaper.",2025-06-15,0.2382,Mixed Positive,0.0 to 0.49
+624,82,Laura Gonzalez,UK,14,Cycling Helmet,5,Customer  support  was  very  helpful.,2023-11-28,0.6997,Positive,0.5 to 1.0
+625,32,Laura Anderson,Spain,10,Golf Clubs,5,"Great  purchase,  very    satisfied.",2023-02-20,0.8016,Positive,0.5 to 1.0
+626,38,John Garcia,Spain,11,Ski Boots,5,Exceeded  my  expectations!,2025-12-18,0.0,Positive,0.0 to 0.49
+627,18,Robert Lopez,Italy,6,Tennis Racket,5,Amazing  value  for    the  price.,2023-06-26,0.7351,Positive,0.5 to 1.0
+628,22,Alex Wilson,Germany,4,Dumbbells,3,"Average  experience,  nothing  special.",2025-08-30,-0.3089,Mixed Negative,-0.49 to 0.0
+629,16,Michael Martinez,Italy,20,Boxing Gloves,5,Exceeded  my    expectations!,2024-07-28,0.0,Positive,0.0 to 0.49
+630,31,Daniel Jones,Austria,10,Golf Clubs,4,The  quality  is    top-notch.,2024-08-14,0.0,Positive,0.0 to 0.49
+631,73,Sarah Gonzalez,Spain,12,Ice Skates,4,"Good  quality,  but  could  be    cheaper.",2024-10-30,0.2382,Positive,0.0 to 0.49
+632,40,Olivia Thomas,Germany,20,Boxing Gloves,3,"Average  experience,    nothing  special.",2023-02-24,-0.3089,Mixed Negative,-0.49 to 0.0
+633,52,Robert Williams,Switzerland,3,Yoga Mat,2,The    product  arrived  late.,2023-12-26,0.0,Negative,0.0 to 0.49
+634,27,John Rodriguez,UK,13,Swim Goggles,4,"Good  quality,  but  could  be    cheaper.",2024-02-25,0.2382,Positive,0.0 to 0.49
+635,85,Jane Hernandez,Belgium,16,Kayak,3,"The  product  is  okay,  but  the  instructions  were    unclear.",2023-02-22,-0.2617,Mixed Negative,-0.49 to 0.0
+636,37,Olivia Lopez,Germany,13,Swim Goggles,4,Shipping  was  fast  and  the  item  was  well-packaged.,2023-12-18,0.0,Positive,0.0 to 0.49
+637,17,Daniel Thomas,Germany,7,Basketball,3,"Good  quality,  but  could  be  cheaper.",2024-08-21,0.2382,Mixed Positive,0.0 to 0.49
+638,63,John Davis,Switzerland,16,Kayak,2,"Good  quality,  but  could  be  cheaper.",2025-08-23,0.2382,Mixed Negative,0.0 to 0.49
+639,14,Olivia Wilson,Spain,12,Ice Skates,5,Amazing  value  for  the  price.,2024-07-07,0.7351,Positive,0.5 to 1.0
+640,23,Isabella Garcia,Italy,14,Cycling Helmet,3,"The  product  is  okay,    but  the  instructions  were  unclear.",2024-08-09,-0.2617,Mixed Negative,-0.49 to 0.0
+641,58,Jane Williams,Austria,9,Baseball Glove,1,I  had  a  bad  experience  with  this  product.,2024-01-05,-0.5423,Negative,-1.0 to -0.5
+642,53,Emma Thomas,Germany,17,Surfboard,2,Disappointed  with  the  performance.,2025-04-28,-0.4767,Negative,-0.49 to 0.0
+643,89,Alex Rodriguez,Sweden,16,Kayak,5,"Excellent  product,  highly  recommend!",2024-01-07,0.7773,Positive,0.5 to 1.0
+644,97,Emily Rodriguez,France,10,Golf Clubs,5,Customer  support  was  very  helpful.,2023-11-25,0.6997,Positive,0.5 to 1.0
+645,23,Isabella Garcia,Italy,20,Boxing Gloves,5,Customer  support    was  very  helpful.,2023-11-02,0.6997,Positive,0.5 to 1.0
+646,75,David Smith,Netherlands,2,Fitness Tracker,5,"I    love  this  product,  will  buy  again!",2023-10-09,0.6696,Positive,0.5 to 1.0
+647,68,David Gonzalez,Netherlands,2,Fitness Tracker,4,Customer  support  was    very  helpful.,2023-01-03,0.6997,Positive,0.5 to 1.0
+648,76,Michael Lopez,Austria,5,Soccer Ball,4,"I  love  this  product,  will  buy  again!",2023-03-19,0.6696,Positive,0.5 to 1.0
+649,8,James Gonzalez,Sweden,17,Surfboard,2,Not  worth  the  money.,2025-02-05,-0.1695,Negative,-0.49 to 0.0
+650,28,Emily Davis,Switzerland,3,Yoga Mat,4,Five  stars  for  the  quick  delivery.,2024-11-08,0.0,Positive,0.0 to 0.49
+651,38,John Garcia,Spain,9,Baseball Glove,4,"Good  quality,  but  could  be  cheaper.",2024-09-10,0.2382,Positive,0.0 to 0.49
+652,39,Jane Miller,Italy,19,Hockey Stick,5,The  quality  is  top-notch.,2025-05-06,0.0,Positive,0.0 to 0.49
+653,66,Isabella Martinez,Sweden,16,Kayak,5,Amazing  value  for  the  price.,2025-01-14,0.7351,Positive,0.5 to 1.0
+654,46,Chris Johnson,Spain,8,Football Helmet,1,The  color  was  different  from  what  was  shown.,2023-01-01,0.0,Negative,0.0 to 0.49
+655,63,John Davis,Switzerland,16,Kayak,4,The  quality  is  top-notch.,2023-04-06,0.0,Positive,0.0 to 0.49
+656,17,Daniel Thomas,Germany,11,Ski Boots,3,"Good  quality,    but  could  be  cheaper.",2024-07-22,0.2382,Mixed Positive,0.0 to 0.49
+657,35,Robert Rodriguez,Germany,11,Ski Boots,5,"Excellent  product,  highly  recommend!",2025-10-18,0.7773,Positive,0.5 to 1.0
+658,3,Robert Hernandez,Netherlands,18,Volleyball,1,Not  worth  the    money.,2025-06-16,-0.1695,Negative,-0.49 to 0.0
+659,29,Sophia Anderson,Italy,20,Boxing Gloves,5,The  build  quality  is  impressive.,2023-03-16,0.5106,Positive,0.5 to 1.0
+660,62,Michael Hernandez,Sweden,5,Soccer Ball,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-10-06,0.0,Positive,0.0 to 0.49
+661,40,Olivia Thomas,Germany,18,Volleyball,2,"Average  experience,  nothing  special.",2025-09-20,-0.3089,Negative,-0.49 to 0.0
+662,15,Emma Martinez,Switzerland,5,Soccer Ball,4,Shipping  was  fast  and  the  item  was  well-packaged.,2025-03-24,0.0,Positive,0.0 to 0.49
+663,23,Isabella Garcia,Italy,10,Golf Clubs,5,"Excellent  product,  highly    recommend!",2025-05-26,0.7773,Positive,0.5 to 1.0
+664,31,Daniel Jones,Austria,16,Kayak,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-08-11,-0.2617,Mixed Negative,-0.49 to 0.0
+665,99,Laura Hernandez,Italy,12,Ice Skates,2,Product  did  not  meet  my  expectations.,2024-01-03,0.0,Negative,0.0 to 0.49
+666,53,Emma Thomas,Germany,19,Hockey Stick,3,Not    worth  the  money.,2024-05-25,-0.1695,Mixed Negative,-0.49 to 0.0
+667,80,Laura Jones,Netherlands,14,Cycling Helmet,4,The  quality    is  top-notch.,2024-01-08,0.0,Positive,0.0 to 0.49
+668,55,Emily Lopez,UK,4,Dumbbells,5,"Excellent  product,    highly  recommend!",2024-04-25,0.7773,Positive,0.5 to 1.0
+669,19,Emma Wilson,Netherlands,19,Hockey Stick,4,Five  stars  for  the  quick  delivery.,2025-12-31,0.0,Positive,0.0 to 0.49
+670,53,Emma Thomas,Germany,13,Swim Goggles,5,The  build  quality  is    impressive.,2024-03-31,0.5106,Positive,0.5 to 1.0
+671,24,Chris Hernandez,Italy,5,Soccer Ball,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-03-28,-0.2617,Mixed Negative,-0.49 to 0.0
+672,95,James Jones,Germany,14,Cycling Helmet,5,"Great    purchase,  very  satisfied.",2025-02-15,0.8016,Positive,0.5 to 1.0
+673,74,Jane Smith,UK,12,Ice Skates,4,Customer  support  was  very  helpful.,2025-10-16,0.6997,Positive,0.5 to 1.0
+674,29,Sophia Anderson,Italy,1,Running Shoes,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-08-30,-0.2617,Mixed Negative,-0.49 to 0.0
+675,24,Chris Hernandez,Italy,9,Baseball Glove,2,Not  worth  the  money.,2025-02-07,-0.1695,Negative,-0.49 to 0.0
+676,6,Daniel Rodriguez,Belgium,12,Ice Skates,5,The  build  quality  is    impressive.,2024-03-14,0.5106,Positive,0.5 to 1.0
+677,6,Daniel Rodriguez,Belgium,17,Surfboard,4,Five    stars  for  the  quick  delivery.,2024-03-29,0.0,Positive,0.0 to 0.49
+678,49,Michael Smith,Spain,9,Baseball Glove,3,"Average  experience,  nothing  special.",2025-05-19,-0.3089,Mixed Negative,-0.49 to 0.0
+679,10,Chris Davis,Germany,8,Football Helmet,2,Not  worth  the  money.,2025-09-29,-0.1695,Negative,-0.49 to 0.0
+680,60,John Thomas,Netherlands,20,Boxing Gloves,4,Exceeded  my    expectations!,2025-06-12,0.0,Positive,0.0 to 0.49
+681,48,Alex Gonzalez,Belgium,16,Kayak,5,The  quality  is  top-notch.,2024-03-21,0.0,Positive,0.0 to 0.49
+682,80,Laura Jones,Netherlands,11,Ski Boots,1,"Not  satisfied,  the  product  broke  after  a  week.",2023-01-05,-0.6288,Negative,-1.0 to -0.5
+683,22,Alex Wilson,Germany,10,Golf Clubs,3,"Good  quality,  but  could  be  cheaper.",2025-04-06,0.2382,Mixed Positive,0.0 to 0.49
+684,92,David Hernandez,UK,12,Ice Skates,2,Product  did  not  meet  my  expectations.,2025-01-12,0.0,Negative,0.0 to 0.49
+685,86,James Hernandez,Austria,14,Cycling Helmet,1,The  color  was  different  from  what  was  shown.,2024-03-22,0.0,Negative,0.0 to 0.49
+686,31,Daniel Jones,Austria,17,Surfboard,5,"I    love  this  product,  will  buy  again!",2023-05-09,0.6696,Positive,0.5 to 1.0
+687,86,James Hernandez,Austria,17,Surfboard,2,Not  worth  the  money.,2023-07-16,-0.1695,Negative,-0.49 to 0.0
+688,32,Laura Anderson,Spain,12,Ice Skates,4,Customer  support  was  very  helpful.,2025-07-07,0.6997,Positive,0.5 to 1.0
+689,34,Daniel Miller,France,16,Kayak,4,Customer  support  was  very  helpful.,2025-04-23,0.6997,Positive,0.5 to 1.0
+690,61,Emma Rodriguez,Germany,19,Hockey Stick,4,Five  stars  for  the  quick  delivery.,2023-10-11,0.0,Positive,0.0 to 0.49
+691,40,Olivia Thomas,Germany,7,Basketball,3,Five  stars  for  the  quick  delivery.,2024-07-27,0.0,Neutral,0.0 to 0.49
+692,64,Sarah Martinez,Belgium,10,Golf Clubs,3,Not  worth  the    money.,2023-12-22,-0.1695,Mixed Negative,-0.49 to 0.0
+693,58,Jane Williams,Austria,10,Golf Clubs,5,The  build  quality  is    impressive.,2023-08-31,0.5106,Positive,0.5 to 1.0
+694,27,John Rodriguez,UK,13,Swim Goggles,3,"Average  experience,  nothing  special.",2024-07-05,-0.3089,Mixed Negative,-0.49 to 0.0
+695,13,David Wilson,UK,14,Cycling Helmet,4,Customer  support    was  very  helpful.,2023-09-15,0.6997,Positive,0.5 to 1.0
+696,48,Alex Gonzalez,Belgium,11,Ski Boots,4,Five  stars  for  the  quick  delivery.,2023-10-07,0.0,Positive,0.0 to 0.49
+697,13,David Wilson,UK,7,Basketball,4,"Great  purchase,  very  satisfied.",2024-09-21,0.8016,Positive,0.5 to 1.0
+698,4,David Garcia,Sweden,18,Volleyball,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-06-28,-0.2617,Mixed Negative,-0.49 to 0.0
+699,42,John Gonzalez,UK,19,Hockey Stick,3,Not  worth  the  money.,2023-01-30,-0.1695,Mixed Negative,-0.49 to 0.0
+700,14,Olivia Wilson,Spain,2,Fitness Tracker,4,"I    love  this  product,  will  buy  again!",2023-11-23,0.6696,Positive,0.5 to 1.0
+701,68,David Gonzalez,Netherlands,4,Dumbbells,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-01-02,0.0,Positive,0.0 to 0.49
+702,92,David Hernandez,UK,3,Yoga Mat,3,Not  worth  the  money.,2025-02-06,-0.1695,Mixed Negative,-0.49 to 0.0
+703,3,Robert Hernandez,Netherlands,16,Kayak,5,Five  stars  for  the  quick  delivery.,2024-04-17,0.0,Positive,0.0 to 0.49
+704,8,James Gonzalez,Sweden,20,Boxing Gloves,5,Exceeded  my  expectations!,2024-09-26,0.0,Positive,0.0 to 0.49
+705,88,James Brown,France,11,Ski Boots,5,Exceeded    my  expectations!,2025-05-25,0.0,Positive,0.0 to 0.49
+706,75,David Smith,Netherlands,5,Soccer Ball,5,Exceeded  my    expectations!,2024-01-03,0.0,Positive,0.0 to 0.49
+707,96,Emily Gonzalez,Austria,16,Kayak,2,Not  worth  the  money.,2024-08-08,-0.1695,Negative,-0.49 to 0.0
+708,70,James Garcia,Belgium,17,Surfboard,5,The  build  quality  is  impressive.,2024-01-20,0.5106,Positive,0.5 to 1.0
+709,1,Emma Anderson,Germany,16,Kayak,5,Customer  support  was  very  helpful.,2023-02-25,0.6997,Positive,0.5 to 1.0
+710,88,James Brown,France,7,Basketball,5,Customer  support  was  very  helpful.,2025-09-26,0.6997,Positive,0.5 to 1.0
+711,39,Jane Miller,Italy,12,Ice Skates,5,"Excellent    product,  highly  recommend!",2023-12-07,0.7773,Positive,0.5 to 1.0
+712,53,Emma Thomas,Germany,17,Surfboard,3,Not  worth  the  money.,2024-09-17,-0.1695,Mixed Negative,-0.49 to 0.0
+713,55,Emily Lopez,UK,12,Ice Skates,4,"I  love  this  product,  will  buy  again!",2024-12-12,0.6696,Positive,0.5 to 1.0
+714,76,Michael Lopez,Austria,2,Fitness Tracker,4,"Good  quality,  but  could  be  cheaper.",2023-01-11,0.2382,Positive,0.0 to 0.49
+715,13,David Wilson,UK,2,Fitness Tracker,4,"Great  purchase,  very  satisfied.",2024-03-26,0.8016,Positive,0.5 to 1.0
+716,64,Sarah Martinez,Belgium,2,Fitness Tracker,3,"Good  quality,  but  could  be  cheaper.",2023-08-12,0.2382,Mixed Positive,0.0 to 0.49
+717,82,Laura Gonzalez,UK,1,Running Shoes,5,Exceeded  my  expectations!,2025-03-07,0.0,Positive,0.0 to 0.49
+718,30,Alex Garcia,Belgium,20,Boxing Gloves,1,"Terrible  customer  service,  would  not  buy  again.",2023-05-19,-0.4767,Negative,-0.49 to 0.0
+719,24,Chris Hernandez,Italy,4,Dumbbells,2,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-12-03,-0.2617,Negative,-0.49 to 0.0
+720,41,Laura Wilson,Germany,4,Dumbbells,5,Shipping  was  fast  and  the  item  was    well-packaged.,2025-08-05,0.0,Positive,0.0 to 0.49
+721,4,David Garcia,Sweden,15,Climbing Rope,2,Not    worth  the  money.,2024-09-25,-0.1695,Negative,-0.49 to 0.0
+722,68,David Gonzalez,Netherlands,16,Kayak,4,The  quality  is  top-notch.,2025-10-14,0.0,Positive,0.0 to 0.49
+723,84,Michael Williams,Spain,7,Basketball,2,The  product  arrived  late.,2023-11-22,0.0,Negative,0.0 to 0.49
+724,31,Daniel Jones,Austria,3,Yoga Mat,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-01-21,0.0,Positive,0.0 to 0.49
+725,13,David Wilson,UK,6,Tennis Racket,4,The  quality  is  top-notch.,2025-09-30,0.0,Positive,0.0 to 0.49
+726,33,David Thomas,Spain,20,Boxing Gloves,5,Customer  support  was    very  helpful.,2024-10-16,0.6997,Positive,0.5 to 1.0
+727,39,Jane Miller,Italy,1,Running Shoes,3,"Average  experience,  nothing  special.",2025-09-24,-0.3089,Mixed Negative,-0.49 to 0.0
+728,30,Alex Garcia,Belgium,1,Running Shoes,5,Customer  support  was  very  helpful.,2024-08-23,0.6997,Positive,0.5 to 1.0
+729,99,Laura Hernandez,Italy,9,Baseball Glove,1,Not  worth  the  money.,2023-03-17,-0.1695,Negative,-0.49 to 0.0
+730,67,Alex Johnson,Spain,6,Tennis Racket,4,The  quality  is    top-notch.,2025-01-15,0.0,Positive,0.0 to 0.49
+731,4,David Garcia,Sweden,7,Basketball,5,The  build    quality  is  impressive.,2023-07-13,0.5106,Positive,0.5 to 1.0
+732,56,Sophia Davis,Switzerland,20,Boxing Gloves,4,"Excellent  product,  highly  recommend!",2025-03-02,0.7773,Positive,0.5 to 1.0
+733,75,David Smith,Netherlands,13,Swim Goggles,4,Customer  support  was  very  helpful.,2024-11-07,0.6997,Positive,0.5 to 1.0
+734,63,John Davis,Switzerland,2,Fitness Tracker,5,Five  stars  for  the  quick  delivery.,2024-03-10,0.0,Positive,0.0 to 0.49
+735,22,Alex Wilson,Germany,15,Climbing Rope,4,Customer  support  was  very  helpful.,2024-03-02,0.6997,Positive,0.5 to 1.0
+736,72,Sophia Miller,Sweden,6,Tennis Racket,5,"Excellent  product,  highly  recommend!",2023-10-17,0.7773,Positive,0.5 to 1.0
+737,45,Sarah Hernandez,Italy,15,Climbing Rope,3,Not  worth  the  money.,2023-10-11,-0.1695,Mixed Negative,-0.49 to 0.0
+738,3,Robert Hernandez,Netherlands,12,Ice Skates,4,"Good  quality,  but  could  be  cheaper.",2025-08-22,0.2382,Positive,0.0 to 0.49
+739,70,James Garcia,Belgium,18,Volleyball,3,"Average  experience,  nothing  special.",2023-07-05,-0.3089,Mixed Negative,-0.49 to 0.0
+740,33,David Thomas,Spain,5,Soccer Ball,2,"Good  quality,  but  could  be  cheaper.",2025-02-05,0.2382,Mixed Negative,0.0 to 0.49
+741,3,Robert Hernandez,Netherlands,9,Baseball Glove,3,Not    worth  the  money.,2025-05-24,-0.1695,Mixed Negative,-0.49 to 0.0
+742,84,Michael Williams,Spain,7,Basketball,3,"Good  quality,  but  could  be  cheaper.",2025-03-03,0.2382,Mixed Positive,0.0 to 0.49
+743,89,Alex Rodriguez,Sweden,3,Yoga Mat,3,Not  worth  the  money.,2023-05-15,-0.1695,Mixed Negative,-0.49 to 0.0
+744,63,John Davis,Switzerland,19,Hockey Stick,3,Not  worth  the  money.,2023-03-31,-0.1695,Mixed Negative,-0.49 to 0.0
+745,85,Jane Hernandez,Belgium,12,Ice Skates,5,Exceeded  my  expectations!,2024-05-17,0.0,Positive,0.0 to 0.49
+746,24,Chris Hernandez,Italy,13,Swim Goggles,5,"I  love    this  product,  will  buy  again!",2024-03-28,0.6696,Positive,0.5 to 1.0
+747,84,Michael Williams,Spain,1,Running Shoes,5,"I  love  this  product,  will  buy  again!",2023-04-27,0.6696,Positive,0.5 to 1.0
+748,100,Jane Brown,Austria,13,Swim Goggles,3,"Great  purchase,    very  satisfied.",2025-09-15,0.8016,Mixed Positive,0.5 to 1.0
+749,64,Sarah Martinez,Belgium,13,Swim Goggles,2,Not  worth  the  money.,2025-06-28,-0.1695,Negative,-0.49 to 0.0
+750,3,Robert Hernandez,Netherlands,5,Soccer Ball,4,The    quality  is  top-notch.,2024-06-20,0.0,Positive,0.0 to 0.49
+751,58,Jane Williams,Austria,17,Surfboard,5,"I  love  this  product,  will  buy  again!",2025-07-11,0.6696,Positive,0.5 to 1.0
+752,7,Laura Miller,Belgium,12,Ice Skates,1,Not  worth  the  money.,2024-10-11,-0.1695,Negative,-0.49 to 0.0
+753,94,Jane Anderson,Belgium,4,Dumbbells,5,The  build  quality  is  impressive.,2023-01-29,0.5106,Positive,0.5 to 1.0
+754,55,Emily Lopez,UK,11,Ski Boots,4,The  quality  is  top-notch.,2025-07-11,0.0,Positive,0.0 to 0.49
+755,27,John Rodriguez,UK,15,Climbing Rope,4,"Great  purchase,  very  satisfied.",2024-03-31,0.8016,Positive,0.5 to 1.0
+756,94,Jane Anderson,Belgium,8,Football Helmet,4,"Good  quality,  but  could  be  cheaper.",2025-03-25,0.2382,Positive,0.0 to 0.49
+757,8,James Gonzalez,Sweden,13,Swim Goggles,4,Shipping  was  fast  and  the  item  was  well-packaged.,2023-09-27,0.0,Positive,0.0 to 0.49
+758,53,Emma Thomas,Germany,1,Running Shoes,2,"Average  experience,  nothing    special.",2024-05-23,-0.3089,Negative,-0.49 to 0.0
+759,21,Olivia Gonzalez,Spain,16,Kayak,2,Product  did  not  meet  my  expectations.,2024-12-13,0.0,Negative,0.0 to 0.49
+760,100,Jane Brown,Austria,5,Soccer Ball,3,Not    worth  the  money.,2025-12-18,-0.1695,Mixed Negative,-0.49 to 0.0
+761,49,Michael Smith,Spain,16,Kayak,3,Customer  support  was  very  helpful.,2025-03-17,0.6997,Mixed Positive,0.5 to 1.0
+762,39,Jane Miller,Italy,13,Swim Goggles,4,Shipping  was  fast  and  the  item  was  well-packaged.,2025-05-31,0.0,Positive,0.0 to 0.49
+763,54,Michael Gonzalez,Italy,16,Kayak,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-08-16,-0.2617,Mixed Negative,-0.49 to 0.0
+764,84,Michael Williams,Spain,11,Ski Boots,1,"Terrible  customer  service,  would  not  buy  again.",2024-07-08,-0.4767,Negative,-0.49 to 0.0
+765,74,Jane Smith,UK,18,Volleyball,1,Disappointed  with  the  performance.,2024-12-11,-0.4767,Negative,-0.49 to 0.0
+766,83,Emily Jones,Switzerland,7,Basketball,4,Five  stars  for  the  quick  delivery.,2025-07-31,0.0,Positive,0.0 to 0.49
+767,48,Alex Gonzalez,Belgium,11,Ski Boots,5,Exceeded    my  expectations!,2023-10-09,0.0,Positive,0.0 to 0.49
+768,24,Chris Hernandez,Italy,16,Kayak,4,Shipping  was  fast  and  the  item  was  well-packaged.,2023-02-18,0.0,Positive,0.0 to 0.49
+769,77,David Lopez,Spain,7,Basketball,5,"Excellent  product,    highly  recommend!",2024-09-02,0.7773,Positive,0.5 to 1.0
+770,52,Robert Williams,Switzerland,1,Running Shoes,4,Customer  support  was  very  helpful.,2025-02-02,0.6997,Positive,0.5 to 1.0
+771,32,Laura Anderson,Spain,12,Ice Skates,4,"Good  quality,  but  could  be  cheaper.",2025-03-21,0.2382,Positive,0.0 to 0.49
+772,62,Michael Hernandez,Sweden,4,Dumbbells,4,Five    stars  for  the  quick  delivery.,2023-09-13,0.0,Positive,0.0 to 0.49
+773,17,Daniel Thomas,Germany,14,Cycling Helmet,2,Disappointed  with  the  performance.,2024-06-21,-0.4767,Negative,-0.49 to 0.0
+774,46,Chris Johnson,Spain,6,Tennis Racket,5,"Great  purchase,    very  satisfied.",2025-12-10,0.8016,Positive,0.5 to 1.0
+775,13,David Wilson,UK,16,Kayak,4,"Great  purchase,  very    satisfied.",2025-08-31,0.8016,Positive,0.5 to 1.0
+776,17,Daniel Thomas,Germany,13,Swim Goggles,5,Customer  support  was  very  helpful.,2023-01-12,0.6997,Positive,0.5 to 1.0
+777,81,Emily Wilson,Switzerland,6,Tennis Racket,5,Five  stars  for  the  quick  delivery.,2024-02-14,0.0,Positive,0.0 to 0.49
+778,97,Emily Rodriguez,France,7,Basketball,5,The  quality  is    top-notch.,2025-06-11,0.0,Positive,0.0 to 0.49
+779,66,Isabella Martinez,Sweden,17,Surfboard,5,Five  stars  for  the  quick  delivery.,2025-05-25,0.0,Positive,0.0 to 0.49
+780,83,Emily Jones,Switzerland,1,Running Shoes,5,The  build  quality  is  impressive.,2025-10-23,0.5106,Positive,0.5 to 1.0
+781,68,David Gonzalez,Netherlands,13,Swim Goggles,5,Exceeded  my  expectations!,2024-06-06,0.0,Positive,0.0 to 0.49
+782,25,David Anderson,Italy,3,Yoga Mat,5,Customer  support  was  very  helpful.,2024-08-19,0.6997,Positive,0.5 to 1.0
+783,21,Olivia Gonzalez,Spain,18,Volleyball,5,The  build  quality  is  impressive.,2024-11-30,0.5106,Positive,0.5 to 1.0
+784,22,Alex Wilson,Germany,16,Kayak,2,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-12-09,-0.2617,Negative,-0.49 to 0.0
+785,9,Emily Thomas,Austria,10,Golf Clubs,4,"I  love  this  product,  will  buy  again!",2025-10-11,0.6696,Positive,0.5 to 1.0
+786,37,Olivia Lopez,Germany,13,Swim Goggles,5,Five  stars  for  the  quick  delivery.,2025-07-29,0.0,Positive,0.0 to 0.49
+787,59,James Smith,Netherlands,5,Soccer Ball,3,"Average  experience,  nothing  special.",2024-08-08,-0.3089,Mixed Negative,-0.49 to 0.0
+788,83,Emily Jones,Switzerland,15,Climbing Rope,3,Customer  support  was    very  helpful.,2025-05-16,0.6997,Mixed Positive,0.5 to 1.0
+789,7,Laura Miller,Belgium,17,Surfboard,5,Amazing  value  for  the  price.,2023-04-08,0.7351,Positive,0.5 to 1.0
+790,73,Sarah Gonzalez,Spain,9,Baseball Glove,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-06-08,0.0,Positive,0.0 to 0.49
+791,11,Emma Garcia,Austria,18,Volleyball,3,"Average  experience,  nothing    special.",2023-06-27,-0.3089,Mixed Negative,-0.49 to 0.0
+792,88,James Brown,France,14,Cycling Helmet,3,"The  product  is    okay,  but  the  instructions  were  unclear.",2023-07-29,-0.2617,Mixed Negative,-0.49 to 0.0
+793,53,Emma Thomas,Germany,7,Basketball,5,"I  love  this  product,  will  buy  again!",2025-05-21,0.6696,Positive,0.5 to 1.0
+794,24,Chris Hernandez,Italy,17,Surfboard,5,"Excellent  product,  highly  recommend!",2024-12-03,0.7773,Positive,0.5 to 1.0
+795,4,David Garcia,Sweden,14,Cycling Helmet,5,Customer  support  was  very  helpful.,2024-12-16,0.6997,Positive,0.5 to 1.0
+796,27,John Rodriguez,UK,17,Surfboard,5,The  build  quality  is  impressive.,2025-02-27,0.5106,Positive,0.5 to 1.0
+797,68,David Gonzalez,Netherlands,19,Hockey Stick,5,The  quality  is    top-notch.,2025-02-22,0.0,Positive,0.0 to 0.49
+798,95,James Jones,Germany,13,Swim Goggles,2,"Average  experience,  nothing  special.",2023-08-22,-0.3089,Negative,-0.49 to 0.0
+799,96,Emily Gonzalez,Austria,9,Baseball Glove,3,"Average  experience,  nothing  special.",2025-07-17,-0.3089,Mixed Negative,-0.49 to 0.0
+800,74,Jane Smith,UK,8,Football Helmet,5,Five  stars  for  the  quick  delivery.,2024-05-23,0.0,Positive,0.0 to 0.49
+801,36,Emma Johnson,France,10,Golf Clubs,2,Not  worth  the  money.,2023-01-09,-0.1695,Negative,-0.49 to 0.0
+802,12,James Lopez,Belgium,16,Kayak,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-03-04,0.0,Positive,0.0 to 0.49
+803,6,Daniel Rodriguez,Belgium,11,Ski Boots,4,"I  love  this  product,  will  buy  again!",2023-09-22,0.6696,Positive,0.5 to 1.0
+804,16,Michael Martinez,Italy,8,Football Helmet,3,"Good  quality,  but  could  be  cheaper.",2025-09-22,0.2382,Mixed Positive,0.0 to 0.49
+805,76,Michael Lopez,Austria,20,Boxing Gloves,2,Not  worth  the  money.,2024-10-28,-0.1695,Negative,-0.49 to 0.0
+806,18,Robert Lopez,Italy,9,Baseball Glove,5,The  quality  is  top-notch.,2023-08-28,0.0,Positive,0.0 to 0.49
+807,68,David Gonzalez,Netherlands,8,Football Helmet,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-03-06,-0.2617,Mixed Negative,-0.49 to 0.0
+808,49,Michael Smith,Spain,6,Tennis Racket,3,"Good  quality,  but  could  be    cheaper.",2025-12-12,0.2382,Mixed Positive,0.0 to 0.49
+809,37,Olivia Lopez,Germany,17,Surfboard,2,Product  did  not  meet  my    expectations.,2023-08-20,0.0,Negative,0.0 to 0.49
+810,56,Sophia Davis,Switzerland,2,Fitness Tracker,2,Disappointed  with  the  performance.,2025-06-24,-0.4767,Negative,-0.49 to 0.0
+811,10,Chris Davis,Germany,2,Fitness Tracker,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-01-28,-0.2617,Mixed Negative,-0.49 to 0.0
+812,80,Laura Jones,Netherlands,20,Boxing Gloves,4,"I  love  this  product,  will    buy  again!",2025-04-19,0.6696,Positive,0.5 to 1.0
+813,58,Jane Williams,Austria,15,Climbing Rope,5,The  quality  is  top-notch.,2024-03-28,0.0,Positive,0.0 to 0.49
+814,93,Jane Rodriguez,Spain,3,Yoga Mat,3,Not  worth  the  money.,2024-10-28,-0.1695,Mixed Negative,-0.49 to 0.0
+815,72,Sophia Miller,Sweden,6,Tennis Racket,1,I  had  a  bad  experience    with  this  product.,2025-11-19,-0.5423,Negative,-1.0 to -0.5
+816,91,John Brown,Spain,1,Running Shoes,4,"Great  purchase,    very  satisfied.",2024-01-11,0.8016,Positive,0.5 to 1.0
+817,6,Daniel Rodriguez,Belgium,15,Climbing Rope,3,Five  stars  for  the  quick  delivery.,2024-11-17,0.0,Neutral,0.0 to 0.49
+818,55,Emily Lopez,UK,20,Boxing Gloves,3,"Average  experience,  nothing    special.",2023-12-11,-0.3089,Mixed Negative,-0.49 to 0.0
+819,20,David Johnson,UK,15,Climbing Rope,4,Shipping  was  fast  and  the  item    was  well-packaged.,2024-05-12,0.0,Positive,0.0 to 0.49
+820,47,Sophia Thomas,Netherlands,19,Hockey Stick,3,Not  worth  the  money.,2023-04-10,-0.1695,Mixed Negative,-0.49 to 0.0
+821,98,Chris Lopez,Austria,12,Ice Skates,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-10-19,-0.2617,Mixed Negative,-0.49 to 0.0
+822,47,Sophia Thomas,Netherlands,15,Climbing Rope,4,"Great  purchase,  very  satisfied.",2023-01-28,0.8016,Positive,0.5 to 1.0
+823,59,James Smith,Netherlands,14,Cycling Helmet,5,Five    stars  for  the  quick  delivery.,2024-09-29,0.0,Positive,0.0 to 0.49
+824,77,David Lopez,Spain,13,Swim Goggles,3,"Good  quality,  but  could  be  cheaper.",2024-07-30,0.2382,Mixed Positive,0.0 to 0.49
+825,21,Olivia Gonzalez,Spain,18,Volleyball,1,"Not  satisfied,  the  product  broke  after  a  week.",2023-01-10,-0.6288,Negative,-1.0 to -0.5
+826,8,James Gonzalez,Sweden,11,Ski Boots,4,"Great  purchase,  very  satisfied.",2024-10-29,0.8016,Positive,0.5 to 1.0
+827,84,Michael Williams,Spain,18,Volleyball,5,Shipping  was  fast  and  the  item  was  well-packaged.,2025-04-05,0.0,Positive,0.0 to 0.49
+828,53,Emma Thomas,Germany,20,Boxing Gloves,5,"I  love  this  product,  will  buy  again!",2025-02-28,0.6696,Positive,0.5 to 1.0
+829,31,Daniel Jones,Austria,9,Baseball Glove,4,"Great  purchase,  very  satisfied.",2023-05-17,0.8016,Positive,0.5 to 1.0
+830,61,Emma Rodriguez,Germany,19,Hockey Stick,2,"Average  experience,  nothing    special.",2025-07-23,-0.3089,Negative,-0.49 to 0.0
+831,48,Alex Gonzalez,Belgium,17,Surfboard,3,Not  worth  the  money.,2025-08-30,-0.1695,Mixed Negative,-0.49 to 0.0
+832,44,Olivia Brown,Switzerland,17,Surfboard,3,"Average  experience,  nothing  special.",2024-04-23,-0.3089,Mixed Negative,-0.49 to 0.0
+833,31,Daniel Jones,Austria,18,Volleyball,5,Exceeded  my    expectations!,2023-08-29,0.0,Positive,0.0 to 0.49
+834,74,Jane Smith,UK,1,Running Shoes,2,"Average    experience,  nothing  special.",2025-09-21,-0.3089,Negative,-0.49 to 0.0
+835,12,James Lopez,Belgium,12,Ice Skates,5,Exceeded  my  expectations!,2024-05-07,0.0,Positive,0.0 to 0.49
+836,52,Robert Williams,Switzerland,9,Baseball Glove,1,Product  did    not  meet  my  expectations.,2023-10-25,0.0,Negative,0.0 to 0.49
+837,19,Emma Wilson,Netherlands,16,Kayak,5,Customer  support  was  very  helpful.,2023-12-11,0.6997,Positive,0.5 to 1.0
+838,61,Emma Rodriguez,Germany,17,Surfboard,5,Shipping  was  fast  and  the    item  was  well-packaged.,2024-04-21,0.0,Positive,0.0 to 0.49
+839,79,John Jones,Netherlands,7,Basketball,4,Shipping    was  fast  and  the  item  was  well-packaged.,2024-08-02,0.0,Positive,0.0 to 0.49
+840,44,Olivia Brown,Switzerland,10,Golf Clubs,4,The  quality  is  top-notch.,2023-01-30,0.0,Positive,0.0 to 0.49
+841,88,James Brown,France,10,Golf Clubs,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-08-25,-0.2617,Mixed Negative,-0.49 to 0.0
+842,70,James Garcia,Belgium,17,Surfboard,5,The  build  quality  is  impressive.,2024-10-03,0.5106,Positive,0.5 to 1.0
+843,51,Michael Davis,Austria,13,Swim Goggles,2,Not  worth    the  money.,2025-08-28,-0.1695,Negative,-0.49 to 0.0
+844,66,Isabella Martinez,Sweden,10,Golf Clubs,4,"I  love  this  product,  will    buy  again!",2023-07-01,0.6696,Positive,0.5 to 1.0
+845,89,Alex Rodriguez,Sweden,7,Basketball,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-07-26,-0.2617,Mixed Negative,-0.49 to 0.0
+846,17,Daniel Thomas,Germany,17,Surfboard,4,The  quality  is  top-notch.,2024-04-22,0.0,Positive,0.0 to 0.49
+847,6,Daniel Rodriguez,Belgium,5,Soccer Ball,1,"Terrible  customer  service,  would  not  buy  again.",2025-05-29,-0.4767,Negative,-0.49 to 0.0
+848,6,Daniel Rodriguez,Belgium,18,Volleyball,1,The  product  stopped  working  after  a  month.,2023-03-08,-0.2263,Negative,-0.49 to 0.0
+849,78,Olivia Smith,Sweden,10,Golf Clubs,2,"Good  quality,  but  could  be  cheaper.",2025-02-01,0.2382,Mixed Negative,0.0 to 0.49
+850,89,Alex Rodriguez,Sweden,12,Ice Skates,4,The  quality  is  top-notch.,2023-07-24,0.0,Positive,0.0 to 0.49
+851,31,Daniel Jones,Austria,12,Ice Skates,5,The  quality  is  top-notch.,2025-11-29,0.0,Positive,0.0 to 0.49
+852,37,Olivia Lopez,Germany,11,Ski Boots,4,Customer  support  was  very  helpful.,2024-12-03,0.6997,Positive,0.5 to 1.0
+853,42,John Gonzalez,UK,11,Ski Boots,3,"The  product  is  okay,  but    the  instructions  were  unclear.",2023-05-19,-0.2617,Mixed Negative,-0.49 to 0.0
+854,7,Laura Miller,Belgium,5,Soccer Ball,5,Shipping  was  fast    and  the  item  was  well-packaged.,2025-06-09,0.0,Positive,0.0 to 0.49
+855,2,Sarah Brown,Spain,7,Basketball,2,Not  worth  the  money.,2024-01-08,-0.1695,Negative,-0.49 to 0.0
+856,23,Isabella Garcia,Italy,6,Tennis Racket,5,Customer  support  was  very  helpful.,2023-01-03,0.6997,Positive,0.5 to 1.0
+857,11,Emma Garcia,Austria,15,Climbing Rope,4,"Great  purchase,  very  satisfied.",2023-10-17,0.8016,Positive,0.5 to 1.0
+858,92,David Hernandez,UK,17,Surfboard,3,"Average  experience,  nothing  special.",2025-05-05,-0.3089,Mixed Negative,-0.49 to 0.0
+859,6,Daniel Rodriguez,Belgium,19,Hockey Stick,5,Amazing  value  for  the  price.,2024-06-25,0.7351,Positive,0.5 to 1.0
+860,27,John Rodriguez,UK,5,Soccer Ball,3,Not  worth    the  money.,2025-01-26,-0.1695,Mixed Negative,-0.49 to 0.0
+861,70,James Garcia,Belgium,8,Football Helmet,5,"I  love  this  product,  will  buy  again!",2024-04-18,0.6696,Positive,0.5 to 1.0
+862,4,David Garcia,Sweden,10,Golf Clubs,2,Disappointed  with  the  performance.,2025-01-17,-0.4767,Negative,-0.49 to 0.0
+863,93,Jane Rodriguez,Spain,5,Soccer Ball,3,"The  product  is  okay,  but  the    instructions  were  unclear.",2025-07-05,-0.2617,Mixed Negative,-0.49 to 0.0
+864,85,Jane Hernandez,Belgium,1,Running Shoes,4,Customer  support  was  very    helpful.,2025-01-16,0.6997,Positive,0.5 to 1.0
+865,17,Daniel Thomas,Germany,13,Swim Goggles,4,"Good  quality,  but  could  be  cheaper.",2025-03-03,0.2382,Positive,0.0 to 0.49
+866,36,Emma Johnson,France,16,Kayak,5,Customer  support  was  very  helpful.,2025-03-03,0.6997,Positive,0.5 to 1.0
+867,7,Laura Miller,Belgium,8,Football Helmet,1,"Terrible  customer  service,  would  not  buy  again.",2023-07-20,-0.4767,Negative,-0.49 to 0.0
+868,10,Chris Davis,Germany,14,Cycling Helmet,4,Customer  support  was  very  helpful.,2024-11-01,0.6997,Positive,0.5 to 1.0
+869,18,Robert Lopez,Italy,3,Yoga Mat,4,Five  stars  for  the  quick  delivery.,2023-02-02,0.0,Positive,0.0 to 0.49
+870,19,Emma Wilson,Netherlands,2,Fitness Tracker,3,"Average  experience,  nothing  special.",2023-03-19,-0.3089,Mixed Negative,-0.49 to 0.0
+871,3,Robert Hernandez,Netherlands,5,Soccer Ball,5,The    build  quality  is  impressive.,2024-03-20,0.5106,Positive,0.5 to 1.0
+872,96,Emily Gonzalez,Austria,3,Yoga Mat,2,Product  did    not  meet  my  expectations.,2025-04-14,0.0,Negative,0.0 to 0.49
+873,82,Laura Gonzalez,UK,15,Climbing Rope,5,Shipping  was  fast  and  the  item  was  well-packaged.,2025-06-21,0.0,Positive,0.0 to 0.49
+874,78,Olivia Smith,Sweden,8,Football Helmet,4,The  build  quality  is  impressive.,2025-11-09,0.5106,Positive,0.5 to 1.0
+875,44,Olivia Brown,Switzerland,20,Boxing Gloves,4,"Good  quality,  but  could  be  cheaper.",2023-11-27,0.2382,Positive,0.0 to 0.49
+876,10,Chris Davis,Germany,19,Hockey Stick,1,The  product  stopped  working  after  a  month.,2024-06-19,-0.2263,Negative,-0.49 to 0.0
+877,78,Olivia Smith,Sweden,14,Cycling Helmet,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-08-28,-0.2617,Mixed Negative,-0.49 to 0.0
+878,24,Chris Hernandez,Italy,10,Golf Clubs,2,"Average  experience,  nothing  special.",2025-05-26,-0.3089,Negative,-0.49 to 0.0
+879,2,Sarah Brown,Spain,6,Tennis Racket,4,"Great  purchase,  very  satisfied.",2023-09-16,0.8016,Positive,0.5 to 1.0
+880,29,Sophia Anderson,Italy,13,Swim Goggles,5,"Excellent  product,  highly  recommend!",2023-07-31,0.7773,Positive,0.5 to 1.0
+881,63,John Davis,Switzerland,2,Fitness Tracker,4,"I  love  this  product,  will  buy  again!",2023-04-25,0.6696,Positive,0.5 to 1.0
+882,6,Daniel Rodriguez,Belgium,7,Basketball,4,"Great  purchase,  very  satisfied.",2024-10-08,0.8016,Positive,0.5 to 1.0
+883,4,David Garcia,Sweden,9,Baseball Glove,4,"Great  purchase,  very  satisfied.",2023-07-08,0.8016,Positive,0.5 to 1.0
+884,24,Chris Hernandez,Italy,2,Fitness Tracker,5,Amazing  value  for  the  price.,2023-11-08,0.7351,Positive,0.5 to 1.0
+885,58,Jane Williams,Austria,6,Tennis Racket,5,Customer  support  was  very  helpful.,2024-09-10,0.6997,Positive,0.5 to 1.0
+886,95,James Jones,Germany,15,Climbing Rope,5,Customer  support  was  very  helpful.,2025-02-14,0.6997,Positive,0.5 to 1.0
+887,38,John Garcia,Spain,10,Golf Clubs,2,"Average  experience,  nothing  special.",2025-03-17,-0.3089,Negative,-0.49 to 0.0
+888,83,Emily Jones,Switzerland,4,Dumbbells,1,I  had  a  bad  experience  with  this  product.,2023-01-05,-0.5423,Negative,-1.0 to -0.5
+889,45,Sarah Hernandez,Italy,15,Climbing Rope,4,"Great    purchase,  very  satisfied.",2024-10-02,0.8016,Positive,0.5 to 1.0
+890,59,James Smith,Netherlands,5,Soccer Ball,1,Product  did  not  meet  my  expectations.,2024-07-25,0.0,Negative,0.0 to 0.49
+891,48,Alex Gonzalez,Belgium,9,Baseball Glove,3,Not  worth  the  money.,2025-02-26,-0.1695,Mixed Negative,-0.49 to 0.0
+892,27,John Rodriguez,UK,4,Dumbbells,4,"Great  purchase,  very    satisfied.",2025-08-01,0.8016,Positive,0.5 to 1.0
+893,51,Michael Davis,Austria,3,Yoga Mat,4,Customer  support  was  very  helpful.,2024-02-06,0.6997,Positive,0.5 to 1.0
+894,82,Laura Gonzalez,UK,4,Dumbbells,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-06-23,-0.2617,Mixed Negative,-0.49 to 0.0
+895,38,John Garcia,Spain,4,Dumbbells,5,Exceeded  my  expectations!,2024-10-28,0.0,Positive,0.0 to 0.49
+896,40,Olivia Thomas,Germany,20,Boxing Gloves,4,Five  stars  for  the  quick  delivery.,2025-10-17,0.0,Positive,0.0 to 0.49
+897,48,Alex Gonzalez,Belgium,5,Soccer Ball,2,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-01-05,-0.2617,Negative,-0.49 to 0.0
+898,76,Michael Lopez,Austria,15,Climbing Rope,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-09-18,0.0,Positive,0.0 to 0.49
+899,89,Alex Rodriguez,Sweden,9,Baseball Glove,4,"Good  quality,  but  could  be  cheaper.",2024-01-02,0.2382,Positive,0.0 to 0.49
+900,10,Chris Davis,Germany,5,Soccer Ball,3,"The  product  is  okay,  but  the  instructions  were    unclear.",2025-04-04,-0.2617,Mixed Negative,-0.49 to 0.0
+901,16,Michael Martinez,Italy,19,Hockey Stick,4,The  quality  is  top-notch.,2023-02-15,0.0,Positive,0.0 to 0.49
+902,75,David Smith,Netherlands,13,Swim Goggles,4,"Great  purchase,  very  satisfied.",2025-07-02,0.8016,Positive,0.5 to 1.0
+903,69,Emma Gonzalez,Spain,5,Soccer Ball,4,Customer  support    was  very  helpful.,2025-10-05,0.6997,Positive,0.5 to 1.0
+904,68,David Gonzalez,Netherlands,9,Baseball Glove,4,Five  stars  for  the  quick  delivery.,2025-12-24,0.0,Positive,0.0 to 0.49
+905,82,Laura Gonzalez,UK,4,Dumbbells,2,Not    worth  the  money.,2024-05-05,-0.1695,Negative,-0.49 to 0.0
+906,92,David Hernandez,UK,17,Surfboard,4,Five  stars  for  the  quick  delivery.,2025-02-27,0.0,Positive,0.0 to 0.49
+907,67,Alex Johnson,Spain,3,Yoga Mat,5,Customer  support  was  very  helpful.,2023-10-21,0.6997,Positive,0.5 to 1.0
+908,37,Olivia Lopez,Germany,9,Baseball Glove,3,Not  worth  the  money.,2025-03-28,-0.1695,Mixed Negative,-0.49 to 0.0
+909,59,James Smith,Netherlands,7,Basketball,4,"I  love  this  product,  will  buy  again!",2023-09-08,0.6696,Positive,0.5 to 1.0
+910,92,David Hernandez,UK,5,Soccer Ball,4,The  quality  is  top-notch.,2023-06-14,0.0,Positive,0.0 to 0.49
+911,93,Jane Rodriguez,Spain,6,Tennis Racket,1,Product  did    not  meet  my  expectations.,2024-06-27,0.0,Negative,0.0 to 0.49
+912,100,Jane Brown,Austria,2,Fitness Tracker,2,Disappointed  with  the  performance.,2025-10-27,-0.4767,Negative,-0.49 to 0.0
+913,64,Sarah Martinez,Belgium,5,Soccer Ball,4,Customer  support  was  very  helpful.,2024-09-06,0.6997,Positive,0.5 to 1.0
+914,81,Emily Wilson,Switzerland,19,Hockey Stick,5,"Great    purchase,  very  satisfied.",2023-03-04,0.8016,Positive,0.5 to 1.0
+915,55,Emily Lopez,UK,5,Soccer Ball,1,I  had  a  bad  experience  with  this  product.,2024-12-21,-0.5423,Negative,-1.0 to -0.5
+916,40,Olivia Thomas,Germany,5,Soccer Ball,2,Not  worth  the  money.,2024-10-05,-0.1695,Negative,-0.49 to 0.0
+917,44,Olivia Brown,Switzerland,20,Boxing Gloves,4,The  quality  is  top-notch.,2025-05-17,0.0,Positive,0.0 to 0.49
+918,50,Olivia Miller,France,4,Dumbbells,3,"The  product    is  okay,  but  the  instructions  were  unclear.",2024-09-09,-0.2617,Mixed Negative,-0.49 to 0.0
+919,37,Olivia Lopez,Germany,18,Volleyball,1,"Terrible  customer  service,  would  not  buy  again.",2025-02-14,-0.4767,Negative,-0.49 to 0.0
+920,28,Emily Davis,Switzerland,1,Running Shoes,4,Customer  support  was  very  helpful.,2025-04-13,0.6997,Positive,0.5 to 1.0
+921,93,Jane Rodriguez,Spain,11,Ski Boots,5,"Great  purchase,  very  satisfied.",2023-06-26,0.8016,Positive,0.5 to 1.0
+922,92,David Hernandez,UK,4,Dumbbells,4,"Good  quality,  but  could  be  cheaper.",2025-07-22,0.2382,Positive,0.0 to 0.49
+923,3,Robert Hernandez,Netherlands,20,Boxing Gloves,5,"Excellent  product,  highly    recommend!",2024-02-07,0.7773,Positive,0.5 to 1.0
+924,62,Michael Hernandez,Sweden,19,Hockey Stick,3,Customer  support    was  very  helpful.,2024-12-20,0.6997,Mixed Positive,0.5 to 1.0
+925,2,Sarah Brown,Spain,20,Boxing Gloves,1,"Terrible  customer  service,  would    not  buy  again.",2025-02-10,-0.4767,Negative,-0.49 to 0.0
+926,86,James Hernandez,Austria,12,Ice Skates,4,Five  stars  for  the  quick  delivery.,2023-06-17,0.0,Positive,0.0 to 0.49
+927,21,Olivia Gonzalez,Spain,4,Dumbbells,4,"Good  quality,  but  could  be  cheaper.",2024-08-08,0.2382,Positive,0.0 to 0.49
+928,10,Chris Davis,Germany,9,Baseball Glove,4,Customer  support  was  very  helpful.,2024-05-25,0.6997,Positive,0.5 to 1.0
+929,47,Sophia Thomas,Netherlands,5,Soccer Ball,5,Amazing  value  for  the  price.,2024-10-09,0.7351,Positive,0.5 to 1.0
+930,83,Emily Jones,Switzerland,19,Hockey Stick,4,Five  stars  for  the  quick  delivery.,2024-08-05,0.0,Positive,0.0 to 0.49
+931,73,Sarah Gonzalez,Spain,8,Football Helmet,5,"Excellent  product,  highly  recommend!",2023-09-27,0.7773,Positive,0.5 to 1.0
+932,11,Emma Garcia,Austria,20,Boxing Gloves,5,The  build  quality  is  impressive.,2023-08-26,0.5106,Positive,0.5 to 1.0
+933,83,Emily Jones,Switzerland,12,Ice Skates,3,Not  worth  the  money.,2023-01-11,-0.1695,Mixed Negative,-0.49 to 0.0
+934,44,Olivia Brown,Switzerland,3,Yoga Mat,5,"I  love  this    product,  will  buy  again!",2023-04-26,0.6696,Positive,0.5 to 1.0
+935,71,Isabella Miller,Italy,12,Ice Skates,5,"I  love  this  product,  will  buy  again!",2025-08-28,0.6696,Positive,0.5 to 1.0
+936,99,Laura Hernandez,Italy,15,Climbing Rope,4,"Good  quality,  but  could  be  cheaper.",2023-09-23,0.2382,Positive,0.0 to 0.49
+937,96,Emily Gonzalez,Austria,9,Baseball Glove,4,"Great  purchase,    very  satisfied.",2023-06-08,0.8016,Positive,0.5 to 1.0
+938,29,Sophia Anderson,Italy,12,Ice Skates,5,Shipping  was  fast  and  the  item  was  well-packaged.,2024-07-08,0.0,Positive,0.0 to 0.49
+939,42,John Gonzalez,UK,6,Tennis Racket,5,Customer  support  was  very  helpful.,2024-08-09,0.6997,Positive,0.5 to 1.0
+940,15,Emma Martinez,Switzerland,12,Ice Skates,4,"Great    purchase,  very  satisfied.",2025-09-12,0.8016,Positive,0.5 to 1.0
+941,13,David Wilson,UK,9,Baseball Glove,4,Five  stars  for  the  quick  delivery.,2023-05-21,0.0,Positive,0.0 to 0.49
+942,69,Emma Gonzalez,Spain,2,Fitness Tracker,5,"Excellent  product,  highly  recommend!",2023-02-19,0.7773,Positive,0.5 to 1.0
+943,70,James Garcia,Belgium,19,Hockey Stick,5,"Great  purchase,  very  satisfied.",2023-04-15,0.8016,Positive,0.5 to 1.0
+944,72,Sophia Miller,Sweden,2,Fitness Tracker,4,The  quality  is  top-notch.,2024-08-11,0.0,Positive,0.0 to 0.49
+945,46,Chris Johnson,Spain,5,Soccer Ball,4,Shipping  was  fast  and  the  item  was  well-packaged.,2025-12-05,0.0,Positive,0.0 to 0.49
+946,96,Emily Gonzalez,Austria,7,Basketball,2,Disappointed  with  the  performance.,2023-08-28,-0.4767,Negative,-0.49 to 0.0
+947,86,James Hernandez,Austria,18,Volleyball,2,"Average  experience,  nothing  special.",2025-11-02,-0.3089,Negative,-0.49 to 0.0
+948,29,Sophia Anderson,Italy,10,Golf Clubs,5,Shipping  was  fast    and  the  item  was  well-packaged.,2025-01-22,0.0,Positive,0.0 to 0.49
+949,55,Emily Lopez,UK,15,Climbing Rope,1,Product  did    not  meet  my  expectations.,2025-08-25,0.0,Negative,0.0 to 0.49
+950,96,Emily Gonzalez,Austria,9,Baseball Glove,5,Customer  support  was  very  helpful.,2024-02-09,0.6997,Positive,0.5 to 1.0
+951,80,Laura Jones,Netherlands,15,Climbing Rope,2,Not  worth  the  money.,2024-07-11,-0.1695,Negative,-0.49 to 0.0
+952,46,Chris Johnson,Spain,15,Climbing Rope,5,Customer  support  was  very  helpful.,2025-01-14,0.6997,Positive,0.5 to 1.0
+953,29,Sophia Anderson,Italy,3,Yoga Mat,4,Five  stars  for  the  quick  delivery.,2025-11-22,0.0,Positive,0.0 to 0.49
+954,26,Isabella Thomas,UK,8,Football Helmet,5,Shipping    was  fast  and  the  item  was  well-packaged.,2025-03-13,0.0,Positive,0.0 to 0.49
+955,53,Emma Thomas,Germany,12,Ice Skates,4,"Great  purchase,  very  satisfied.",2023-03-15,0.8016,Positive,0.5 to 1.0
+956,33,David Thomas,Spain,2,Fitness Tracker,2,"Average  experience,  nothing  special.",2024-10-26,-0.3089,Negative,-0.49 to 0.0
+957,37,Olivia Lopez,Germany,15,Climbing Rope,4,"I  love  this  product,  will  buy    again!",2024-02-26,0.6696,Positive,0.5 to 1.0
+958,45,Sarah Hernandez,Italy,1,Running Shoes,1,Not  worth  the  money.,2023-08-17,-0.1695,Negative,-0.49 to 0.0
+959,85,Jane Hernandez,Belgium,9,Baseball Glove,5,Amazing  value  for  the  price.,2025-01-01,0.7351,Positive,0.5 to 1.0
+960,81,Emily Wilson,Switzerland,2,Fitness Tracker,4,Customer  support  was  very  helpful.,2024-03-23,0.6997,Positive,0.5 to 1.0
+961,74,Jane Smith,UK,20,Boxing Gloves,5,"I  love  this    product,  will  buy  again!",2024-07-10,0.6696,Positive,0.5 to 1.0
+962,95,James Jones,Germany,18,Volleyball,4,"Good  quality,  but  could  be    cheaper.",2024-10-16,0.2382,Positive,0.0 to 0.49
+963,36,Emma Johnson,France,6,Tennis Racket,2,Product  did  not  meet  my  expectations.,2023-11-17,0.0,Negative,0.0 to 0.49
+964,60,John Thomas,Netherlands,18,Volleyball,4,"Great  purchase,    very  satisfied.",2024-06-11,0.8016,Positive,0.5 to 1.0
+965,25,David Anderson,Italy,7,Basketball,5,"Excellent  product,  highly  recommend!",2024-12-15,0.7773,Positive,0.5 to 1.0
+966,21,Olivia Gonzalez,Spain,6,Tennis Racket,4,"Good  quality,  but  could  be  cheaper.",2025-09-30,0.2382,Positive,0.0 to 0.49
+967,94,Jane Anderson,Belgium,12,Ice Skates,5,The  build    quality  is  impressive.,2024-04-22,0.5106,Positive,0.5 to 1.0
+968,46,Chris Johnson,Spain,14,Cycling Helmet,5,The  quality  is  top-notch.,2024-08-07,0.0,Positive,0.0 to 0.49
+969,48,Alex Gonzalez,Belgium,4,Dumbbells,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-04-09,-0.2617,Mixed Negative,-0.49 to 0.0
+970,43,Olivia Hernandez,Sweden,2,Fitness Tracker,3,Not  worth  the  money.,2024-05-26,-0.1695,Mixed Negative,-0.49 to 0.0
+971,5,Emma Miller,Spain,5,Soccer Ball,4,The  quality  is  top-notch.,2024-12-17,0.0,Positive,0.0 to 0.49
+972,18,Robert Lopez,Italy,19,Hockey Stick,5,Exceeded    my  expectations!,2024-08-01,0.0,Positive,0.0 to 0.49
+973,4,David Garcia,Sweden,4,Dumbbells,4,"I  love  this  product,  will  buy  again!",2024-01-23,0.6696,Positive,0.5 to 1.0
+974,13,David Wilson,UK,6,Tennis Racket,4,The  quality  is  top-notch.,2024-03-01,0.0,Positive,0.0 to 0.49
+975,84,Michael Williams,Spain,15,Climbing Rope,3,Not  worth  the  money.,2023-06-12,-0.1695,Mixed Negative,-0.49 to 0.0
+976,80,Laura Jones,Netherlands,7,Basketball,4,Shipping  was  fast  and  the  item    was  well-packaged.,2023-03-30,0.0,Positive,0.0 to 0.49
+977,44,Olivia Brown,Switzerland,10,Golf Clubs,3,"Good  quality,  but  could    be  cheaper.",2023-06-28,0.2382,Mixed Positive,0.0 to 0.49
+978,46,Chris Johnson,Spain,13,Swim Goggles,5,Customer  support  was  very  helpful.,2025-07-18,0.6997,Positive,0.5 to 1.0
+979,14,Olivia Wilson,Spain,4,Dumbbells,4,"Good  quality,  but  could  be  cheaper.",2024-03-16,0.2382,Positive,0.0 to 0.49
+980,92,David Hernandez,UK,14,Cycling Helmet,2,"Average  experience,  nothing  special.",2023-07-14,-0.3089,Negative,-0.49 to 0.0
+981,48,Alex Gonzalez,Belgium,10,Golf Clubs,3,"The  product  is    okay,  but  the  instructions  were  unclear.",2023-05-13,-0.2617,Mixed Negative,-0.49 to 0.0
+982,63,John Davis,Switzerland,7,Basketball,4,"Great  purchase,  very  satisfied.",2023-11-28,0.8016,Positive,0.5 to 1.0
+983,31,Daniel Jones,Austria,19,Hockey Stick,5,Customer  support  was  very  helpful.,2024-05-28,0.6997,Positive,0.5 to 1.0
+984,88,James Brown,France,11,Ski Boots,3,"The  product  is  okay,  but  the    instructions  were  unclear.",2023-08-23,-0.2617,Mixed Negative,-0.49 to 0.0
+985,78,Olivia Smith,Sweden,11,Ski Boots,2,Not  worth  the  money.,2025-10-23,-0.1695,Negative,-0.49 to 0.0
+986,20,David Johnson,UK,7,Basketball,5,The  build  quality  is  impressive.,2025-11-30,0.5106,Positive,0.5 to 1.0
+987,37,Olivia Lopez,Germany,16,Kayak,4,"I  love  this  product,  will  buy  again!",2024-09-15,0.6696,Positive,0.5 to 1.0
+988,14,Olivia Wilson,Spain,14,Cycling Helmet,4,"I  love  this  product,  will  buy  again!",2025-04-06,0.6696,Positive,0.5 to 1.0
+989,93,Jane Rodriguez,Spain,19,Hockey Stick,4,"Great    purchase,  very  satisfied.",2023-06-11,0.8016,Positive,0.5 to 1.0
+990,7,Laura Miller,Belgium,4,Dumbbells,4,Customer  support  was  very  helpful.,2023-05-05,0.6997,Positive,0.5 to 1.0
+991,97,Emily Rodriguez,France,18,Volleyball,4,Customer  support  was  very  helpful.,2025-03-10,0.6997,Positive,0.5 to 1.0
+992,77,David Lopez,Spain,2,Fitness Tracker,3,Not  worth  the  money.,2023-08-16,-0.1695,Mixed Negative,-0.49 to 0.0
+993,27,John Rodriguez,UK,12,Ice Skates,2,"Good  quality,  but  could  be  cheaper.",2025-01-10,0.2382,Mixed Negative,0.0 to 0.49
+994,62,Michael Hernandez,Sweden,5,Soccer Ball,5,Customer  support  was  very  helpful.,2025-11-27,0.6997,Positive,0.5 to 1.0
+995,17,Daniel Thomas,Germany,8,Football Helmet,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-07-29,-0.2617,Mixed Negative,-0.49 to 0.0
+996,85,Jane Hernandez,Belgium,10,Golf Clubs,5,Exceeded  my  expectations!,2025-01-05,0.0,Positive,0.0 to 0.49
+997,82,Laura Gonzalez,UK,1,Running Shoes,4,"I  love  this  product,  will  buy  again!",2023-10-03,0.6696,Positive,0.5 to 1.0
+998,34,Daniel Miller,France,11,Ski Boots,4,Five  stars  for  the  quick  delivery.,2025-05-18,0.0,Positive,0.0 to 0.49
+999,37,Olivia Lopez,Germany,8,Football Helmet,4,"I  love  this  product,  will  buy  again!",2023-05-28,0.6696,Positive,0.5 to 1.0
+1000,86,James Hernandez,Austria,12,Ice Skates,4,"Good  quality,  but  could  be  cheaper.",2025-11-17,0.2382,Positive,0.0 to 0.49
+1001,72,Sophia Miller,Sweden,13,Swim Goggles,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-12-06,-0.2617,Mixed Negative,-0.49 to 0.0
+1002,25,David Anderson,Italy,15,Climbing Rope,4,Five  stars  for  the  quick  delivery.,2025-05-15,0.0,Positive,0.0 to 0.49
+1003,14,Olivia Wilson,Spain,16,Kayak,5,Five  stars  for  the  quick  delivery.,2025-03-31,0.0,Positive,0.0 to 0.49
+1004,53,Emma Thomas,Germany,10,Golf Clubs,4,Customer  support  was  very  helpful.,2024-01-14,0.6997,Positive,0.5 to 1.0
+1005,82,Laura Gonzalez,UK,17,Surfboard,4,"Good  quality,  but  could  be  cheaper.",2024-10-23,0.2382,Positive,0.0 to 0.49
+1006,87,Emma Hernandez,Spain,2,Fitness Tracker,5,Exceeded  my  expectations!,2023-06-14,0.0,Positive,0.0 to 0.49
+1007,49,Michael Smith,Spain,9,Baseball Glove,5,Amazing  value    for  the  price.,2024-02-15,0.7351,Positive,0.5 to 1.0
+1008,60,John Thomas,Netherlands,13,Swim Goggles,3,"Average  experience,  nothing  special.",2025-09-05,-0.3089,Mixed Negative,-0.49 to 0.0
+1009,31,Daniel Jones,Austria,3,Yoga Mat,2,"The  product  is  okay,  but  the  instructions  were    unclear.",2025-11-21,-0.2617,Negative,-0.49 to 0.0
+1010,3,Robert Hernandez,Netherlands,3,Yoga Mat,3,"Good  quality,  but  could  be  cheaper.",2025-05-17,0.2382,Mixed Positive,0.0 to 0.49
+1011,80,Laura Jones,Netherlands,19,Hockey Stick,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-10-11,0.0,Positive,0.0 to 0.49
+1012,26,Isabella Thomas,UK,3,Yoga Mat,2,Not    worth  the  money.,2025-02-25,-0.1695,Negative,-0.49 to 0.0
+1013,32,Laura Anderson,Spain,8,Football Helmet,4,"I  love  this  product,  will  buy  again!",2025-07-12,0.6696,Positive,0.5 to 1.0
+1014,81,Emily Wilson,Switzerland,20,Boxing Gloves,4,Five  stars  for  the  quick  delivery.,2023-04-16,0.0,Positive,0.0 to 0.49
+1015,25,David Anderson,Italy,2,Fitness Tracker,2,Not  worth  the  money.,2023-03-05,-0.1695,Negative,-0.49 to 0.0
+1016,30,Alex Garcia,Belgium,16,Kayak,2,Product  did  not  meet  my  expectations.,2025-08-27,0.0,Negative,0.0 to 0.49
+1017,84,Michael Williams,Spain,13,Swim Goggles,5,"Great  purchase,  very  satisfied.",2025-05-26,0.8016,Positive,0.5 to 1.0
+1018,44,Olivia Brown,Switzerland,20,Boxing Gloves,2,Not  worth    the  money.,2024-07-29,-0.1695,Negative,-0.49 to 0.0
+1019,25,David Anderson,Italy,12,Ice Skates,4,Five  stars  for  the  quick  delivery.,2023-07-12,0.0,Positive,0.0 to 0.49
+1020,100,Jane Brown,Austria,5,Soccer Ball,3,"Average  experience,  nothing  special.",2025-09-02,-0.3089,Mixed Negative,-0.49 to 0.0
+1021,49,Michael Smith,Spain,20,Boxing Gloves,4,"Great  purchase,  very  satisfied.",2024-03-16,0.8016,Positive,0.5 to 1.0
+1022,71,Isabella Miller,Italy,5,Soccer Ball,3,Not    worth  the  money.,2025-01-23,-0.1695,Mixed Negative,-0.49 to 0.0
+1023,77,David Lopez,Spain,18,Volleyball,4,Shipping  was  fast  and  the  item  was  well-packaged.,2023-10-19,0.0,Positive,0.0 to 0.49
+1024,85,Jane Hernandez,Belgium,19,Hockey Stick,3,Shipping  was  fast  and  the  item  was  well-packaged.,2025-11-05,0.0,Neutral,0.0 to 0.49
+1025,31,Daniel Jones,Austria,16,Kayak,3,"Good  quality,  but  could    be  cheaper.",2025-02-17,0.2382,Mixed Positive,0.0 to 0.49
+1026,90,John Wilson,UK,12,Ice Skates,3,"Good  quality,  but  could  be  cheaper.",2023-11-10,0.2382,Mixed Positive,0.0 to 0.49
+1027,22,Alex Wilson,Germany,14,Cycling Helmet,3,Not    worth  the  money.,2025-07-20,-0.1695,Mixed Negative,-0.49 to 0.0
+1028,66,Isabella Martinez,Sweden,3,Yoga Mat,3,"Good  quality,  but  could  be  cheaper.",2023-04-17,0.2382,Mixed Positive,0.0 to 0.49
+1029,66,Isabella Martinez,Sweden,6,Tennis Racket,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-11-14,-0.2617,Mixed Negative,-0.49 to 0.0
+1030,46,Chris Johnson,Spain,16,Kayak,5,"I  love  this  product,  will  buy  again!",2024-10-02,0.6696,Positive,0.5 to 1.0
+1031,28,Emily Davis,Switzerland,1,Running Shoes,3,"Average  experience,  nothing  special.",2024-05-22,-0.3089,Mixed Negative,-0.49 to 0.0
+1032,46,Chris Johnson,Spain,17,Surfboard,4,"Great  purchase,  very  satisfied.",2025-06-03,0.8016,Positive,0.5 to 1.0
+1033,74,Jane Smith,UK,11,Ski Boots,4,Shipping  was  fast  and  the  item  was  well-packaged.,2023-02-16,0.0,Positive,0.0 to 0.49
+1034,34,Daniel Miller,France,19,Hockey Stick,1,Not  worth  the  money.,2024-02-04,-0.1695,Negative,-0.49 to 0.0
+1035,77,David Lopez,Spain,9,Baseball Glove,5,Exceeded  my  expectations!,2023-11-25,0.0,Positive,0.0 to 0.49
+1036,24,Chris Hernandez,Italy,7,Basketball,2,Disappointed  with  the  performance.,2025-08-16,-0.4767,Negative,-0.49 to 0.0
+1037,66,Isabella Martinez,Sweden,16,Kayak,4,"Great  purchase,  very  satisfied.",2024-05-20,0.8016,Positive,0.5 to 1.0
+1038,22,Alex Wilson,Germany,13,Swim Goggles,3,Not  worth    the  money.,2024-05-28,-0.1695,Mixed Negative,-0.49 to 0.0
+1039,15,Emma Martinez,Switzerland,1,Running Shoes,3,Five  stars  for  the  quick  delivery.,2024-11-25,0.0,Neutral,0.0 to 0.49
+1040,100,Jane Brown,Austria,19,Hockey Stick,5,The  build  quality  is    impressive.,2024-03-02,0.5106,Positive,0.5 to 1.0
+1041,19,Emma Wilson,Netherlands,18,Volleyball,4,"Great    purchase,  very  satisfied.",2024-04-14,0.8016,Positive,0.5 to 1.0
+1042,68,David Gonzalez,Netherlands,1,Running Shoes,3,Not  worth  the  money.,2023-10-06,-0.1695,Mixed Negative,-0.49 to 0.0
+1043,29,Sophia Anderson,Italy,12,Ice Skates,4,Five  stars  for  the  quick  delivery.,2025-01-06,0.0,Positive,0.0 to 0.49
+1044,79,John Jones,Netherlands,1,Running Shoes,4,"I  love  this  product,  will  buy  again!",2024-03-22,0.6696,Positive,0.5 to 1.0
+1045,33,David Thomas,Spain,19,Hockey Stick,3,"The  product  is    okay,  but  the  instructions  were  unclear.",2024-12-14,-0.2617,Mixed Negative,-0.49 to 0.0
+1046,45,Sarah Hernandez,Italy,8,Football Helmet,1,The  product  arrived  late.,2025-05-17,0.0,Negative,0.0 to 0.49
+1047,6,Daniel Rodriguez,Belgium,5,Soccer Ball,5,"Great  purchase,  very  satisfied.",2025-10-09,0.8016,Positive,0.5 to 1.0
+1048,25,David Anderson,Italy,17,Surfboard,3,Customer  support  was  very  helpful.,2025-11-18,0.6997,Mixed Positive,0.5 to 1.0
+1049,50,Olivia Miller,France,2,Fitness Tracker,5,Five  stars  for    the  quick  delivery.,2023-05-26,0.0,Positive,0.0 to 0.49
+1050,83,Emily Jones,Switzerland,8,Football Helmet,5,"Excellent  product,  highly    recommend!",2024-06-14,0.7773,Positive,0.5 to 1.0
+1051,63,John Davis,Switzerland,5,Soccer Ball,2,The  product  arrived  late.,2024-03-16,0.0,Negative,0.0 to 0.49
+1052,55,Emily Lopez,UK,5,Soccer Ball,4,The  quality  is  top-notch.,2023-08-14,0.0,Positive,0.0 to 0.49
+1053,6,Daniel Rodriguez,Belgium,16,Kayak,5,Five  stars  for  the  quick  delivery.,2024-02-29,0.0,Positive,0.0 to 0.49
+1054,82,Laura Gonzalez,UK,17,Surfboard,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-03-27,-0.2617,Mixed Negative,-0.49 to 0.0
+1055,17,Daniel Thomas,Germany,7,Basketball,3,"Average  experience,    nothing  special.",2024-10-18,-0.3089,Mixed Negative,-0.49 to 0.0
+1056,68,David Gonzalez,Netherlands,17,Surfboard,2,Not  worth  the  money.,2023-09-14,-0.1695,Negative,-0.49 to 0.0
+1057,49,Michael Smith,Spain,17,Surfboard,3,Shipping  was  fast  and  the  item  was  well-packaged.,2024-09-13,0.0,Neutral,0.0 to 0.49
+1058,32,Laura Anderson,Spain,16,Kayak,3,"Great  purchase,  very  satisfied.",2024-11-16,0.8016,Mixed Positive,0.5 to 1.0
+1059,67,Alex Johnson,Spain,2,Fitness Tracker,2,Not  worth  the  money.,2023-12-23,-0.1695,Negative,-0.49 to 0.0
+1060,15,Emma Martinez,Switzerland,10,Golf Clubs,3,"Good  quality,  but  could  be    cheaper.",2023-05-05,0.2382,Mixed Positive,0.0 to 0.49
+1061,64,Sarah Martinez,Belgium,7,Basketball,4,"Great  purchase,  very  satisfied.",2023-12-17,0.8016,Positive,0.5 to 1.0
+1062,93,Jane Rodriguez,Spain,13,Swim Goggles,5,"Great  purchase,    very  satisfied.",2023-11-21,0.8016,Positive,0.5 to 1.0
+1063,5,Emma Miller,Spain,6,Tennis Racket,4,"Good  quality,    but  could  be  cheaper.",2025-09-21,0.2382,Positive,0.0 to 0.49
+1064,32,Laura Anderson,Spain,16,Kayak,3,"The    product  is  okay,  but  the  instructions  were  unclear.",2024-09-02,-0.2617,Mixed Negative,-0.49 to 0.0
+1065,33,David Thomas,Spain,9,Baseball Glove,5,Exceeded  my  expectations!,2023-03-21,0.0,Positive,0.0 to 0.49
+1066,81,Emily Wilson,Switzerland,6,Tennis Racket,4,The  quality  is    top-notch.,2025-08-29,0.0,Positive,0.0 to 0.49
+1067,50,Olivia Miller,France,7,Basketball,5,Amazing  value  for  the  price.,2024-05-09,0.7351,Positive,0.5 to 1.0
+1068,61,Emma Rodriguez,Germany,15,Climbing Rope,2,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-08-16,-0.2617,Negative,-0.49 to 0.0
+1069,84,Michael Williams,Spain,9,Baseball Glove,4,Shipping  was  fast  and  the  item  was  well-packaged.,2025-03-05,0.0,Positive,0.0 to 0.49
+1070,23,Isabella Garcia,Italy,20,Boxing Gloves,3,Not  worth  the  money.,2025-08-16,-0.1695,Mixed Negative,-0.49 to 0.0
+1071,23,Isabella Garcia,Italy,7,Basketball,4,"Great  purchase,  very  satisfied.",2024-09-16,0.8016,Positive,0.5 to 1.0
+1072,51,Michael Davis,Austria,2,Fitness Tracker,3,Not  worth  the  money.,2023-02-15,-0.1695,Mixed Negative,-0.49 to 0.0
+1073,30,Alex Garcia,Belgium,10,Golf Clubs,4,"Good  quality,  but  could  be  cheaper.",2023-09-22,0.2382,Positive,0.0 to 0.49
+1074,21,Olivia Gonzalez,Spain,13,Swim Goggles,4,"Good  quality,  but  could  be  cheaper.",2023-04-07,0.2382,Positive,0.0 to 0.49
+1075,52,Robert Williams,Switzerland,9,Baseball Glove,5,Shipping  was  fast  and  the  item  was  well-packaged.,2025-07-25,0.0,Positive,0.0 to 0.49
+1076,22,Alex Wilson,Germany,9,Baseball Glove,5,The  quality  is  top-notch.,2024-10-29,0.0,Positive,0.0 to 0.49
+1077,95,James Jones,Germany,14,Cycling Helmet,5,Amazing  value  for  the  price.,2025-04-18,0.7351,Positive,0.5 to 1.0
+1078,8,James Gonzalez,Sweden,2,Fitness Tracker,4,Customer  support  was  very  helpful.,2023-12-15,0.6997,Positive,0.5 to 1.0
+1079,73,Sarah Gonzalez,Spain,16,Kayak,3,"Good  quality,  but  could  be  cheaper.",2025-06-19,0.2382,Mixed Positive,0.0 to 0.49
+1080,86,James Hernandez,Austria,16,Kayak,4,Shipping  was  fast  and  the  item    was  well-packaged.,2025-05-27,0.0,Positive,0.0 to 0.49
+1081,91,John Brown,Spain,5,Soccer Ball,5,"I  love  this  product,  will  buy  again!",2023-07-31,0.6696,Positive,0.5 to 1.0
+1082,87,Emma Hernandez,Spain,13,Swim Goggles,5,Five  stars  for  the  quick  delivery.,2025-02-09,0.0,Positive,0.0 to 0.49
+1083,40,Olivia Thomas,Germany,6,Tennis Racket,4,The  quality  is  top-notch.,2024-04-02,0.0,Positive,0.0 to 0.49
+1084,99,Laura Hernandez,Italy,12,Ice Skates,3,"Good  quality,  but  could  be  cheaper.",2023-10-29,0.2382,Mixed Positive,0.0 to 0.49
+1085,46,Chris Johnson,Spain,6,Tennis Racket,4,Customer  support  was  very  helpful.,2025-07-02,0.6997,Positive,0.5 to 1.0
+1086,47,Sophia Thomas,Netherlands,11,Ski Boots,5,The  build  quality  is  impressive.,2024-04-07,0.5106,Positive,0.5 to 1.0
+1087,35,Robert Rodriguez,Germany,10,Golf Clubs,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-07-27,-0.2617,Mixed Negative,-0.49 to 0.0
+1088,55,Emily Lopez,UK,13,Swim Goggles,4,"I  love  this  product,  will  buy  again!",2025-05-05,0.6696,Positive,0.5 to 1.0
+1089,54,Michael Gonzalez,Italy,12,Ice Skates,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-04-12,-0.2617,Mixed Negative,-0.49 to 0.0
+1090,3,Robert Hernandez,Netherlands,14,Cycling Helmet,4,Shipping  was  fast  and  the  item  was  well-packaged.,2023-01-09,0.0,Positive,0.0 to 0.49
+1091,72,Sophia Miller,Sweden,2,Fitness Tracker,2,The  product    arrived  late.,2024-01-28,0.0,Negative,0.0 to 0.49
+1092,82,Laura Gonzalez,UK,5,Soccer Ball,4,Five  stars    for  the  quick  delivery.,2023-02-16,0.0,Positive,0.0 to 0.49
+1093,25,David Anderson,Italy,8,Football Helmet,3,"Average  experience,  nothing  special.",2025-10-24,-0.3089,Mixed Negative,-0.49 to 0.0
+1094,48,Alex Gonzalez,Belgium,11,Ski Boots,2,Not  worth  the  money.,2023-07-04,-0.1695,Negative,-0.49 to 0.0
+1095,31,Daniel Jones,Austria,15,Climbing Rope,4,The  quality  is    top-notch.,2024-09-23,0.0,Positive,0.0 to 0.49
+1096,82,Laura Gonzalez,UK,13,Swim Goggles,4,Five  stars  for  the  quick  delivery.,2023-11-17,0.0,Positive,0.0 to 0.49
+1097,47,Sophia Thomas,Netherlands,12,Ice Skates,2,"Average  experience,  nothing  special.",2023-10-15,-0.3089,Negative,-0.49 to 0.0
+1098,62,Michael Hernandez,Sweden,15,Climbing Rope,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-04-02,0.0,Positive,0.0 to 0.49
+1099,90,John Wilson,UK,12,Ice Skates,5,"Excellent  product,  highly  recommend!",2024-03-17,0.7773,Positive,0.5 to 1.0
+1100,88,James Brown,France,14,Cycling Helmet,4,Five  stars  for  the  quick  delivery.,2025-08-13,0.0,Positive,0.0 to 0.49
+1101,58,Jane Williams,Austria,13,Swim Goggles,5,Shipping  was  fast  and  the  item  was  well-packaged.,2025-01-09,0.0,Positive,0.0 to 0.49
+1102,35,Robert Rodriguez,Germany,12,Ice Skates,4,The  quality  is  top-notch.,2024-02-01,0.0,Positive,0.0 to 0.49
+1103,39,Jane Miller,Italy,5,Soccer Ball,5,The  build  quality  is  impressive.,2023-05-12,0.5106,Positive,0.5 to 1.0
+1104,39,Jane Miller,Italy,6,Tennis Racket,3,Not  worth  the  money.,2023-08-06,-0.1695,Mixed Negative,-0.49 to 0.0
+1105,20,David Johnson,UK,16,Kayak,3,"Good    quality,  but  could  be  cheaper.",2023-03-19,0.2382,Mixed Positive,0.0 to 0.49
+1106,37,Olivia Lopez,Germany,5,Soccer Ball,5,Five  stars  for  the  quick  delivery.,2025-01-29,0.0,Positive,0.0 to 0.49
+1107,51,Michael Davis,Austria,14,Cycling Helmet,4,Five  stars  for  the  quick  delivery.,2024-03-27,0.0,Positive,0.0 to 0.49
+1108,50,Olivia Miller,France,3,Yoga Mat,1,The  product  stopped  working  after  a  month.,2023-05-03,-0.2263,Negative,-0.49 to 0.0
+1109,22,Alex Wilson,Germany,18,Volleyball,5,"Excellent  product,    highly  recommend!",2023-06-09,0.7773,Positive,0.5 to 1.0
+1110,38,John Garcia,Spain,8,Football Helmet,3,Not  worth  the  money.,2024-04-26,-0.1695,Mixed Negative,-0.49 to 0.0
+1111,91,John Brown,Spain,16,Kayak,3,"Good  quality,    but  could  be  cheaper.",2024-01-25,0.2382,Mixed Positive,0.0 to 0.49
+1112,40,Olivia Thomas,Germany,1,Running Shoes,5,"Excellent  product,  highly  recommend!",2023-06-07,0.7773,Positive,0.5 to 1.0
+1113,28,Emily Davis,Switzerland,3,Yoga Mat,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-11-23,-0.2617,Mixed Negative,-0.49 to 0.0
+1114,56,Sophia Davis,Switzerland,15,Climbing Rope,4,Shipping  was  fast  and  the  item  was  well-packaged.,2025-06-14,0.0,Positive,0.0 to 0.49
+1115,82,Laura Gonzalez,UK,4,Dumbbells,3,"Good  quality,  but  could  be    cheaper.",2023-10-12,0.2382,Mixed Positive,0.0 to 0.49
+1116,52,Robert Williams,Switzerland,5,Soccer Ball,4,Five  stars  for  the  quick  delivery.,2025-05-22,0.0,Positive,0.0 to 0.49
+1117,74,Jane Smith,UK,11,Ski Boots,4,The  quality  is  top-notch.,2023-09-12,0.0,Positive,0.0 to 0.49
+1118,50,Olivia Miller,France,16,Kayak,4,Five  stars  for  the  quick  delivery.,2023-05-15,0.0,Positive,0.0 to 0.49
+1119,99,Laura Hernandez,Italy,4,Dumbbells,2,Product  did  not  meet  my  expectations.,2024-01-19,0.0,Negative,0.0 to 0.49
+1120,4,David Garcia,Sweden,17,Surfboard,2,"Average  experience,  nothing  special.",2024-09-30,-0.3089,Negative,-0.49 to 0.0
+1121,23,Isabella Garcia,Italy,20,Boxing Gloves,4,Customer  support  was  very  helpful.,2023-06-25,0.6997,Positive,0.5 to 1.0
+1122,78,Olivia Smith,Sweden,19,Hockey Stick,5,The  quality  is  top-notch.,2023-12-03,0.0,Positive,0.0 to 0.49
+1123,68,David Gonzalez,Netherlands,20,Boxing Gloves,3,"The  product  is    okay,  but  the  instructions  were  unclear.",2024-06-02,-0.2617,Mixed Negative,-0.49 to 0.0
+1124,6,Daniel Rodriguez,Belgium,9,Baseball Glove,5,"I  love  this  product,  will  buy  again!",2025-10-22,0.6696,Positive,0.5 to 1.0
+1125,100,Jane Brown,Austria,12,Ice Skates,2,"Good  quality,  but  could  be  cheaper.",2025-07-20,0.2382,Mixed Negative,0.0 to 0.49
+1126,10,Chris Davis,Germany,19,Hockey Stick,2,Not  worth  the  money.,2025-03-19,-0.1695,Negative,-0.49 to 0.0
+1127,82,Laura Gonzalez,UK,15,Climbing Rope,4,Customer  support  was  very  helpful.,2024-01-06,0.6997,Positive,0.5 to 1.0
+1128,77,David Lopez,Spain,6,Tennis Racket,5,Shipping  was  fast  and  the  item  was  well-packaged.,2023-02-11,0.0,Positive,0.0 to 0.49
+1129,80,Laura Jones,Netherlands,10,Golf Clubs,5,The  build  quality  is  impressive.,2024-11-06,0.5106,Positive,0.5 to 1.0
+1130,88,James Brown,France,13,Swim Goggles,4,The  quality  is  top-notch.,2025-12-30,0.0,Positive,0.0 to 0.49
+1131,97,Emily Rodriguez,France,2,Fitness Tracker,5,The  build    quality  is  impressive.,2025-06-02,0.5106,Positive,0.5 to 1.0
+1132,68,David Gonzalez,Netherlands,9,Baseball Glove,3,"Average  experience,  nothing  special.",2023-12-22,-0.3089,Mixed Negative,-0.49 to 0.0
+1133,46,Chris Johnson,Spain,19,Hockey Stick,4,"I  love  this  product,  will  buy  again!",2023-09-12,0.6696,Positive,0.5 to 1.0
+1134,29,Sophia Anderson,Italy,8,Football Helmet,5,The    build  quality  is  impressive.,2024-06-16,0.5106,Positive,0.5 to 1.0
+1135,77,David Lopez,Spain,12,Ice Skates,1,Product  did  not  meet  my  expectations.,2024-10-26,0.0,Negative,0.0 to 0.49
+1136,62,Michael Hernandez,Sweden,8,Football Helmet,5,Customer  support  was  very  helpful.,2025-03-02,0.6997,Positive,0.5 to 1.0
+1137,73,Sarah Gonzalez,Spain,5,Soccer Ball,3,Five  stars  for  the  quick  delivery.,2025-01-19,0.0,Neutral,0.0 to 0.49
+1138,81,Emily Wilson,Switzerland,4,Dumbbells,3,The  quality  is  top-notch.,2024-12-23,0.0,Neutral,0.0 to 0.49
+1139,18,Robert Lopez,Italy,5,Soccer Ball,3,"Average  experience,  nothing  special.",2024-02-28,-0.3089,Mixed Negative,-0.49 to 0.0
+1140,28,Emily Davis,Switzerland,12,Ice Skates,2,Disappointed  with  the  performance.,2023-03-07,-0.4767,Negative,-0.49 to 0.0
+1141,24,Chris Hernandez,Italy,17,Surfboard,5,Customer    support  was  very  helpful.,2023-04-01,0.6997,Positive,0.5 to 1.0
+1142,4,David Garcia,Sweden,2,Fitness Tracker,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-04-24,0.0,Positive,0.0 to 0.49
+1143,75,David Smith,Netherlands,18,Volleyball,4,The  quality  is  top-notch.,2025-08-09,0.0,Positive,0.0 to 0.49
+1144,24,Chris Hernandez,Italy,8,Football Helmet,5,The  build  quality    is  impressive.,2024-01-29,0.5106,Positive,0.5 to 1.0
+1145,61,Emma Rodriguez,Germany,8,Football Helmet,5,"Excellent  product,  highly  recommend!",2024-02-25,0.7773,Positive,0.5 to 1.0
+1146,88,James Brown,France,15,Climbing Rope,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-02-10,0.0,Positive,0.0 to 0.49
+1147,79,John Jones,Netherlands,5,Soccer Ball,5,"Excellent  product,  highly  recommend!",2025-05-09,0.7773,Positive,0.5 to 1.0
+1148,94,Jane Anderson,Belgium,2,Fitness Tracker,4,"Good  quality,  but    could  be  cheaper.",2024-10-11,0.2382,Positive,0.0 to 0.49
+1149,67,Alex Johnson,Spain,13,Swim Goggles,3,Not  worth  the  money.,2023-12-24,-0.1695,Mixed Negative,-0.49 to 0.0
+1150,90,John Wilson,UK,3,Yoga Mat,5,Five  stars  for  the  quick  delivery.,2024-02-19,0.0,Positive,0.0 to 0.49
+1151,46,Chris Johnson,Spain,15,Climbing Rope,5,Customer  support  was  very  helpful.,2025-01-19,0.6997,Positive,0.5 to 1.0
+1152,23,Isabella Garcia,Italy,14,Cycling Helmet,3,Customer    support  was  very  helpful.,2025-11-05,0.6997,Mixed Positive,0.5 to 1.0
+1153,53,Emma Thomas,Germany,10,Golf Clubs,5,"Excellent  product,  highly  recommend!",2023-06-17,0.7773,Positive,0.5 to 1.0
+1154,9,Emily Thomas,Austria,19,Hockey Stick,2,Disappointed  with  the  performance.,2023-07-09,-0.4767,Negative,-0.49 to 0.0
+1155,1,Emma Anderson,Germany,12,Ice Skates,5,Exceeded  my  expectations!,2025-01-09,0.0,Positive,0.0 to 0.49
+1156,79,John Jones,Netherlands,18,Volleyball,3,"Good  quality,  but  could  be  cheaper.",2024-06-16,0.2382,Mixed Positive,0.0 to 0.49
+1157,13,David Wilson,UK,12,Ice Skates,1,The  product  stopped  working  after  a  month.,2025-07-16,-0.2263,Negative,-0.49 to 0.0
+1158,99,Laura Hernandez,Italy,20,Boxing Gloves,4,The  quality  is  top-notch.,2024-07-29,0.0,Positive,0.0 to 0.49
+1159,59,James Smith,Netherlands,9,Baseball Glove,5,The  quality  is  top-notch.,2025-01-29,0.0,Positive,0.0 to 0.49
+1160,97,Emily Rodriguez,France,7,Basketball,5,Five  stars  for  the  quick  delivery.,2025-12-26,0.0,Positive,0.0 to 0.49
+1161,10,Chris Davis,Germany,19,Hockey Stick,5,Shipping  was  fast  and  the    item  was  well-packaged.,2023-01-01,0.0,Positive,0.0 to 0.49
+1162,55,Emily Lopez,UK,10,Golf Clubs,2,The  product  arrived  late.,2024-06-08,0.0,Negative,0.0 to 0.49
+1163,15,Emma Martinez,Switzerland,11,Ski Boots,3,"Good  quality,  but  could  be  cheaper.",2023-10-04,0.2382,Mixed Positive,0.0 to 0.49
+1164,69,Emma Gonzalez,Spain,3,Yoga Mat,3,"Good  quality,  but  could  be  cheaper.",2023-01-04,0.2382,Mixed Positive,0.0 to 0.49
+1165,20,David Johnson,UK,12,Ice Skates,5,The  quality  is  top-notch.,2024-02-06,0.0,Positive,0.0 to 0.49
+1166,63,John Davis,Switzerland,15,Climbing Rope,5,The  build  quality    is  impressive.,2024-11-10,0.5106,Positive,0.5 to 1.0
+1167,50,Olivia Miller,France,19,Hockey Stick,5,The  quality  is  top-notch.,2024-08-21,0.0,Positive,0.0 to 0.49
+1168,93,Jane Rodriguez,Spain,16,Kayak,5,Exceeded  my  expectations!,2025-09-21,0.0,Positive,0.0 to 0.49
+1169,97,Emily Rodriguez,France,19,Hockey Stick,4,"Great  purchase,  very  satisfied.",2025-06-24,0.8016,Positive,0.5 to 1.0
+1170,78,Olivia Smith,Sweden,4,Dumbbells,4,Customer  support  was  very  helpful.,2023-12-19,0.6997,Positive,0.5 to 1.0
+1171,49,Michael Smith,Spain,4,Dumbbells,2,"Average  experience,  nothing  special.",2024-01-12,-0.3089,Negative,-0.49 to 0.0
+1172,33,David Thomas,Spain,15,Climbing Rope,5,The    build  quality  is  impressive.,2025-04-03,0.5106,Positive,0.5 to 1.0
+1173,76,Michael Lopez,Austria,3,Yoga Mat,4,"Great  purchase,  very  satisfied.",2025-08-09,0.8016,Positive,0.5 to 1.0
+1174,69,Emma Gonzalez,Spain,3,Yoga Mat,4,Shipping  was  fast  and  the  item  was  well-packaged.,2025-08-24,0.0,Positive,0.0 to 0.49
+1175,78,Olivia Smith,Sweden,6,Tennis Racket,5,"Excellent  product,  highly  recommend!",2025-07-04,0.7773,Positive,0.5 to 1.0
+1176,74,Jane Smith,UK,15,Climbing Rope,5,"Excellent  product,  highly  recommend!",2025-05-27,0.7773,Positive,0.5 to 1.0
+1177,45,Sarah Hernandez,Italy,10,Golf Clubs,3,"Average  experience,  nothing  special.",2023-12-28,-0.3089,Mixed Negative,-0.49 to 0.0
+1178,43,Olivia Hernandez,Sweden,6,Tennis Racket,1,I  had  a  bad  experience  with  this  product.,2024-09-08,-0.5423,Negative,-1.0 to -0.5
+1179,84,Michael Williams,Spain,7,Basketball,3,Not  worth  the  money.,2025-07-31,-0.1695,Mixed Negative,-0.49 to 0.0
+1180,64,Sarah Martinez,Belgium,18,Volleyball,5,Five  stars  for  the  quick  delivery.,2025-06-19,0.0,Positive,0.0 to 0.49
+1181,28,Emily Davis,Switzerland,8,Football Helmet,3,"Good  quality,  but  could  be  cheaper.",2025-02-25,0.2382,Mixed Positive,0.0 to 0.49
+1182,70,James Garcia,Belgium,15,Climbing Rope,4,"I  love  this  product,  will  buy  again!",2023-08-21,0.6696,Positive,0.5 to 1.0
+1183,91,John Brown,Spain,4,Dumbbells,3,"Average  experience,  nothing  special.",2023-02-06,-0.3089,Mixed Negative,-0.49 to 0.0
+1184,5,Emma Miller,Spain,18,Volleyball,5,Exceeded  my  expectations!,2023-12-25,0.0,Positive,0.0 to 0.49
+1185,5,Emma Miller,Spain,12,Ice Skates,5,Shipping  was  fast  and  the  item  was  well-packaged.,2025-10-01,0.0,Positive,0.0 to 0.49
+1186,80,Laura Jones,Netherlands,11,Ski Boots,4,"I  love  this  product,  will  buy  again!",2025-10-15,0.6696,Positive,0.5 to 1.0
+1187,66,Isabella Martinez,Sweden,9,Baseball Glove,4,"Great  purchase,  very  satisfied.",2023-06-11,0.8016,Positive,0.5 to 1.0
+1188,17,Daniel Thomas,Germany,2,Fitness Tracker,5,"Great  purchase,    very  satisfied.",2023-04-05,0.8016,Positive,0.5 to 1.0
+1189,32,Laura Anderson,Spain,20,Boxing Gloves,3,Not  worth  the  money.,2023-12-28,-0.1695,Mixed Negative,-0.49 to 0.0
+1190,16,Michael Martinez,Italy,4,Dumbbells,1,The    product  arrived  late.,2024-08-19,0.0,Negative,0.0 to 0.49
+1191,60,John Thomas,Netherlands,19,Hockey Stick,5,"Excellent  product,  highly  recommend!",2023-08-27,0.7773,Positive,0.5 to 1.0
+1192,80,Laura Jones,Netherlands,19,Hockey Stick,3,"Average  experience,  nothing  special.",2024-05-21,-0.3089,Mixed Negative,-0.49 to 0.0
+1193,7,Laura Miller,Belgium,2,Fitness Tracker,5,"Excellent  product,  highly  recommend!",2025-06-13,0.7773,Positive,0.5 to 1.0
+1194,11,Emma Garcia,Austria,13,Swim Goggles,3,Not  worth  the  money.,2023-03-01,-0.1695,Mixed Negative,-0.49 to 0.0
+1195,89,Alex Rodriguez,Sweden,2,Fitness Tracker,5,Exceeded    my  expectations!,2023-11-19,0.0,Positive,0.0 to 0.49
+1196,57,James Rodriguez,Spain,16,Kayak,5,"Excellent  product,  highly  recommend!",2024-06-07,0.7773,Positive,0.5 to 1.0
+1197,70,James Garcia,Belgium,15,Climbing Rope,1,The  product  arrived  late.,2024-10-30,0.0,Negative,0.0 to 0.49
+1198,92,David Hernandez,UK,1,Running Shoes,4,Customer  support  was  very  helpful.,2024-06-25,0.6997,Positive,0.5 to 1.0
+1199,71,Isabella Miller,Italy,7,Basketball,4,The  quality  is  top-notch.,2024-09-16,0.0,Positive,0.0 to 0.49
+1200,89,Alex Rodriguez,Sweden,17,Surfboard,4,Shipping  was  fast  and  the  item  was  well-packaged.,2024-04-04,0.0,Positive,0.0 to 0.49
+1201,14,Olivia Wilson,Spain,11,Ski Boots,4,"Great  purchase,  very  satisfied.",2023-08-04,0.8016,Positive,0.5 to 1.0
+1202,28,Emily Davis,Switzerland,17,Surfboard,3,Not  worth  the    money.,2023-04-28,-0.1695,Mixed Negative,-0.49 to 0.0
+1203,2,Sarah Brown,Spain,19,Hockey Stick,4,"Great  purchase,  very  satisfied.",2025-07-20,0.8016,Positive,0.5 to 1.0
+1204,19,Emma Wilson,Netherlands,18,Volleyball,4,The  quality  is  top-notch.,2024-11-06,0.0,Positive,0.0 to 0.49
+1205,73,Sarah Gonzalez,Spain,17,Surfboard,5,The  quality    is  top-notch.,2025-12-04,0.0,Positive,0.0 to 0.49
+1206,50,Olivia Miller,France,12,Ice Skates,4,The  quality  is  top-notch.,2023-07-06,0.0,Positive,0.0 to 0.49
+1207,90,John Wilson,UK,18,Volleyball,5,The  build  quality  is  impressive.,2025-06-27,0.5106,Positive,0.5 to 1.0
+1208,16,Michael Martinez,Italy,15,Climbing Rope,5,"Great  purchase,  very  satisfied.",2024-07-11,0.8016,Positive,0.5 to 1.0
+1209,53,Emma Thomas,Germany,10,Golf Clubs,5,Five  stars  for    the  quick  delivery.,2024-04-03,0.0,Positive,0.0 to 0.49
+1210,67,Alex Johnson,Spain,8,Football Helmet,4,"Good  quality,  but  could  be  cheaper.",2024-10-24,0.2382,Positive,0.0 to 0.49
+1211,30,Alex Garcia,Belgium,18,Volleyball,5,Customer  support    was  very  helpful.,2023-10-04,0.6997,Positive,0.5 to 1.0
+1212,82,Laura Gonzalez,UK,19,Hockey Stick,2,Not  worth  the  money.,2024-10-11,-0.1695,Negative,-0.49 to 0.0
+1213,14,Olivia Wilson,Spain,9,Baseball Glove,5,Customer  support  was  very  helpful.,2023-12-23,0.6997,Positive,0.5 to 1.0
+1214,100,Jane Brown,Austria,10,Golf Clubs,4,"Great  purchase,  very  satisfied.",2025-08-27,0.8016,Positive,0.5 to 1.0
+1215,68,David Gonzalez,Netherlands,7,Basketball,2,Product  did  not  meet  my  expectations.,2025-03-28,0.0,Negative,0.0 to 0.49
+1216,53,Emma Thomas,Germany,11,Ski Boots,5,Amazing  value  for  the  price.,2023-04-14,0.7351,Positive,0.5 to 1.0
+1217,81,Emily Wilson,Switzerland,18,Volleyball,5,Customer  support  was  very  helpful.,2024-01-14,0.6997,Positive,0.5 to 1.0
+1218,8,James Gonzalez,Sweden,9,Baseball Glove,5,Shipping  was    fast  and  the  item  was  well-packaged.,2025-11-09,0.0,Positive,0.0 to 0.49
+1219,49,Michael Smith,Spain,7,Basketball,5,"Great  purchase,  very  satisfied.",2025-05-28,0.8016,Positive,0.5 to 1.0
+1220,25,David Anderson,Italy,8,Football Helmet,2,The  product  arrived  late.,2023-01-26,0.0,Negative,0.0 to 0.49
+1221,42,John Gonzalez,UK,17,Surfboard,4,"Good  quality,  but  could    be  cheaper.",2023-08-31,0.2382,Positive,0.0 to 0.49
+1222,57,James Rodriguez,Spain,6,Tennis Racket,3,"I  love  this  product,  will  buy    again!",2025-05-23,0.6696,Mixed Positive,0.5 to 1.0
+1223,18,Robert Lopez,Italy,16,Kayak,3,"Great  purchase,  very  satisfied.",2025-11-12,0.8016,Mixed Positive,0.5 to 1.0
+1224,82,Laura Gonzalez,UK,14,Cycling Helmet,5,"Great  purchase,  very  satisfied.",2025-11-30,0.8016,Positive,0.5 to 1.0
+1225,93,Jane Rodriguez,Spain,8,Football Helmet,2,The  product  arrived  late.,2024-08-08,0.0,Negative,0.0 to 0.49
+1226,75,David Smith,Netherlands,5,Soccer Ball,5,"I  love  this  product,    will  buy  again!",2024-08-17,0.6696,Positive,0.5 to 1.0
+1227,30,Alex Garcia,Belgium,14,Cycling Helmet,5,"Great  purchase,  very    satisfied.",2025-01-20,0.8016,Positive,0.5 to 1.0
+1228,57,James Rodriguez,Spain,1,Running Shoes,4,"I  love  this  product,  will  buy  again!",2023-11-30,0.6696,Positive,0.5 to 1.0
+1229,31,Daniel Jones,Austria,17,Surfboard,4,"I  love  this  product,  will  buy  again!",2025-06-01,0.6696,Positive,0.5 to 1.0
+1230,55,Emily Lopez,UK,18,Volleyball,5,Exceeded  my  expectations!,2025-04-27,0.0,Positive,0.0 to 0.49
+1231,81,Emily Wilson,Switzerland,7,Basketball,2,Product  did  not  meet  my  expectations.,2024-09-02,0.0,Negative,0.0 to 0.49
+1232,7,Laura Miller,Belgium,17,Surfboard,5,Shipping  was  fast  and  the  item  was  well-packaged.,2024-09-18,0.0,Positive,0.0 to 0.49
+1233,73,Sarah Gonzalez,Spain,5,Soccer Ball,3,"The  product  is    okay,  but  the  instructions  were  unclear.",2024-03-13,-0.2617,Mixed Negative,-0.49 to 0.0
+1234,37,Olivia Lopez,Germany,8,Football Helmet,3,"Good  quality,  but  could  be  cheaper.",2024-02-21,0.2382,Mixed Positive,0.0 to 0.49
+1235,87,Emma Hernandez,Spain,1,Running Shoes,5,Five  stars  for  the  quick  delivery.,2023-05-24,0.0,Positive,0.0 to 0.49
+1236,60,John Thomas,Netherlands,3,Yoga Mat,4,Five  stars  for  the  quick  delivery.,2023-02-07,0.0,Positive,0.0 to 0.49
+1237,94,Jane Anderson,Belgium,17,Surfboard,1,"Not  satisfied,  the  product  broke  after  a  week.",2024-10-20,-0.6288,Negative,-1.0 to -0.5
+1238,15,Emma Martinez,Switzerland,9,Baseball Glove,4,Customer    support  was  very  helpful.,2025-06-13,0.6997,Positive,0.5 to 1.0
+1239,49,Michael Smith,Spain,15,Climbing Rope,5,"Excellent  product,  highly  recommend!",2024-02-07,0.7773,Positive,0.5 to 1.0
+1240,66,Isabella Martinez,Sweden,5,Soccer Ball,3,"Good  quality,  but  could  be  cheaper.",2025-02-28,0.2382,Mixed Positive,0.0 to 0.49
+1241,62,Michael Hernandez,Sweden,17,Surfboard,3,"Good  quality,  but  could  be  cheaper.",2024-03-11,0.2382,Mixed Positive,0.0 to 0.49
+1242,22,Alex Wilson,Germany,19,Hockey Stick,4,"Great  purchase,  very  satisfied.",2025-02-08,0.8016,Positive,0.5 to 1.0
+1243,92,David Hernandez,UK,10,Golf Clubs,5,"Great    purchase,  very  satisfied.",2023-11-08,0.8016,Positive,0.5 to 1.0
+1244,8,James Gonzalez,Sweden,7,Basketball,5,"I  love  this  product,  will    buy  again!",2024-01-20,0.6696,Positive,0.5 to 1.0
+1245,60,John Thomas,Netherlands,5,Soccer Ball,3,Not  worth  the  money.,2025-12-19,-0.1695,Mixed Negative,-0.49 to 0.0
+1246,53,Emma Thomas,Germany,1,Running Shoes,4,The  quality  is  top-notch.,2024-08-04,0.0,Positive,0.0 to 0.49
+1247,79,John Jones,Netherlands,6,Tennis Racket,2,"Average  experience,  nothing  special.",2024-08-08,-0.3089,Negative,-0.49 to 0.0
+1248,72,Sophia Miller,Sweden,2,Fitness Tracker,4,Shipping  was  fast  and  the  item  was    well-packaged.,2025-12-19,0.0,Positive,0.0 to 0.49
+1249,72,Sophia Miller,Sweden,5,Soccer Ball,3,"Average    experience,  nothing  special.",2025-01-23,-0.3089,Mixed Negative,-0.49 to 0.0
+1250,11,Emma Garcia,Austria,10,Golf Clubs,1,Not  worth  the  money.,2025-10-23,-0.1695,Negative,-0.49 to 0.0
+1251,20,David Johnson,UK,2,Fitness Tracker,3,"Good  quality,  but  could  be  cheaper.",2024-06-10,0.2382,Mixed Positive,0.0 to 0.49
+1252,87,Emma Hernandez,Spain,8,Football Helmet,5,Exceeded    my  expectations!,2024-12-10,0.0,Positive,0.0 to 0.49
+1253,68,David Gonzalez,Netherlands,3,Yoga Mat,3,Not  worth    the  money.,2024-06-30,-0.1695,Mixed Negative,-0.49 to 0.0
+1254,45,Sarah Hernandez,Italy,4,Dumbbells,5,The  quality  is  top-notch.,2024-02-16,0.0,Positive,0.0 to 0.49
+1255,42,John Gonzalez,UK,8,Football Helmet,5,Five  stars  for  the  quick  delivery.,2025-12-15,0.0,Positive,0.0 to 0.49
+1256,80,Laura Jones,Netherlands,4,Dumbbells,2,Disappointed  with  the  performance.,2025-08-12,-0.4767,Negative,-0.49 to 0.0
+1257,93,Jane Rodriguez,Spain,10,Golf Clubs,4,Customer  support  was  very  helpful.,2023-02-05,0.6997,Positive,0.5 to 1.0
+1258,80,Laura Jones,Netherlands,1,Running Shoes,5,Amazing  value  for  the  price.,2023-11-13,0.7351,Positive,0.5 to 1.0
+1259,66,Isabella Martinez,Sweden,15,Climbing Rope,3,"Average  experience,  nothing  special.",2023-06-13,-0.3089,Mixed Negative,-0.49 to 0.0
+1260,47,Sophia Thomas,Netherlands,6,Tennis Racket,5,Exceeded  my  expectations!,2025-09-02,0.0,Positive,0.0 to 0.49
+1261,12,James Lopez,Belgium,18,Volleyball,4,Five  stars  for  the  quick  delivery.,2023-08-08,0.0,Positive,0.0 to 0.49
+1262,46,Chris Johnson,Spain,17,Surfboard,2,Disappointed  with    the  performance.,2024-08-26,-0.4767,Negative,-0.49 to 0.0
+1263,48,Alex Gonzalez,Belgium,9,Baseball Glove,3,"Average    experience,  nothing  special.",2023-09-20,-0.3089,Mixed Negative,-0.49 to 0.0
+1264,72,Sophia Miller,Sweden,7,Basketball,5,"Great  purchase,  very  satisfied.",2023-05-07,0.8016,Positive,0.5 to 1.0
+1265,81,Emily Wilson,Switzerland,20,Boxing Gloves,4,Customer  support    was  very  helpful.,2023-04-29,0.6997,Positive,0.5 to 1.0
+1266,65,Olivia Rodriguez,Italy,14,Cycling Helmet,4,Shipping  was  fast  and  the  item  was  well-packaged.,2025-07-01,0.0,Positive,0.0 to 0.49
+1267,85,Jane Hernandez,Belgium,4,Dumbbells,5,The  quality  is  top-notch.,2024-07-11,0.0,Positive,0.0 to 0.49
+1268,60,John Thomas,Netherlands,6,Tennis Racket,3,Not  worth    the  money.,2023-10-06,-0.1695,Mixed Negative,-0.49 to 0.0
+1269,39,Jane Miller,Italy,13,Swim Goggles,4,The  quality  is    top-notch.,2024-02-09,0.0,Positive,0.0 to 0.49
+1270,72,Sophia Miller,Sweden,16,Kayak,4,"I  love  this  product,  will  buy  again!",2025-07-11,0.6696,Positive,0.5 to 1.0
+1271,64,Sarah Martinez,Belgium,10,Golf Clubs,4,The  quality    is  top-notch.,2024-04-28,0.0,Positive,0.0 to 0.49
+1272,82,Laura Gonzalez,UK,14,Cycling Helmet,4,Exceeded  my  expectations!,2025-12-24,0.0,Positive,0.0 to 0.49
+1273,74,Jane Smith,UK,10,Golf Clubs,4,Five  stars  for  the  quick  delivery.,2024-02-19,0.0,Positive,0.0 to 0.49
+1274,24,Chris Hernandez,Italy,1,Running Shoes,1,Not  worth  the  money.,2025-08-14,-0.1695,Negative,-0.49 to 0.0
+1275,52,Robert Williams,Switzerland,2,Fitness Tracker,5,Customer  support  was  very  helpful.,2023-06-06,0.6997,Positive,0.5 to 1.0
+1276,52,Robert Williams,Switzerland,10,Golf Clubs,2,"Good  quality,  but    could  be  cheaper.",2024-11-05,0.2382,Mixed Negative,0.0 to 0.49
+1277,20,David Johnson,UK,11,Ski Boots,4,"I  love  this  product,  will  buy  again!",2023-09-28,0.6696,Positive,0.5 to 1.0
+1278,25,David Anderson,Italy,17,Surfboard,5,The  quality  is  top-notch.,2023-06-22,0.0,Positive,0.0 to 0.49
+1279,54,Michael Gonzalez,Italy,8,Football Helmet,3,"Good  quality,  but  could  be  cheaper.",2025-09-13,0.2382,Mixed Positive,0.0 to 0.49
+1280,88,James Brown,France,19,Hockey Stick,3,Not  worth  the  money.,2023-01-18,-0.1695,Mixed Negative,-0.49 to 0.0
+1281,58,Jane Williams,Austria,12,Ice Skates,5,The  quality  is  top-notch.,2023-09-24,0.0,Positive,0.0 to 0.49
+1282,7,Laura Miller,Belgium,19,Hockey Stick,2,The  product  arrived  late.,2023-04-24,0.0,Negative,0.0 to 0.49
+1283,67,Alex Johnson,Spain,2,Fitness Tracker,3,"The    product  is  okay,  but  the  instructions  were  unclear.",2024-09-24,-0.2617,Mixed Negative,-0.49 to 0.0
+1284,2,Sarah Brown,Spain,12,Ice Skates,1,Not  worth  the  money.,2025-10-04,-0.1695,Negative,-0.49 to 0.0
+1285,81,Emily Wilson,Switzerland,12,Ice Skates,4,"Good  quality,  but  could  be    cheaper.",2024-07-15,0.2382,Positive,0.0 to 0.49
+1286,89,Alex Rodriguez,Sweden,19,Hockey Stick,5,"Excellent  product,  highly  recommend!",2025-03-12,0.7773,Positive,0.5 to 1.0
+1287,69,Emma Gonzalez,Spain,17,Surfboard,2,Product  did  not  meet  my  expectations.,2024-10-04,0.0,Negative,0.0 to 0.49
+1288,77,David Lopez,Spain,8,Football Helmet,5,"I  love  this  product,  will  buy  again!",2025-06-09,0.6696,Positive,0.5 to 1.0
+1289,52,Robert Williams,Switzerland,7,Basketball,3,"Good  quality,  but  could  be  cheaper.",2023-09-30,0.2382,Mixed Positive,0.0 to 0.49
+1290,30,Alex Garcia,Belgium,6,Tennis Racket,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-04-01,-0.2617,Mixed Negative,-0.49 to 0.0
+1291,90,John Wilson,UK,2,Fitness Tracker,4,Shipping  was  fast  and  the  item    was  well-packaged.,2024-05-20,0.0,Positive,0.0 to 0.49
+1292,16,Michael Martinez,Italy,5,Soccer Ball,5,The  quality  is  top-notch.,2024-03-15,0.0,Positive,0.0 to 0.49
+1293,23,Isabella Garcia,Italy,2,Fitness Tracker,5,Exceeded  my  expectations!,2024-11-07,0.0,Positive,0.0 to 0.49
+1294,86,James Hernandez,Austria,11,Ski Boots,4,Shipping  was  fast  and  the  item  was  well-packaged.,2023-06-11,0.0,Positive,0.0 to 0.49
+1295,61,Emma Rodriguez,Germany,8,Football Helmet,5,The  build  quality  is  impressive.,2025-09-16,0.5106,Positive,0.5 to 1.0
+1296,60,John Thomas,Netherlands,9,Baseball Glove,4,"Good  quality,    but  could  be  cheaper.",2025-10-26,0.2382,Positive,0.0 to 0.49
+1297,87,Emma Hernandez,Spain,5,Soccer Ball,3,"Average  experience,  nothing  special.",2024-08-14,-0.3089,Mixed Negative,-0.49 to 0.0
+1298,82,Laura Gonzalez,UK,1,Running Shoes,4,"Excellent  product,  highly  recommend!",2024-08-13,0.7773,Positive,0.5 to 1.0
+1299,44,Olivia Brown,Switzerland,18,Volleyball,4,"I  love  this  product,  will  buy  again!",2025-07-02,0.6696,Positive,0.5 to 1.0
+1300,6,Daniel Rodriguez,Belgium,11,Ski Boots,4,Customer  support  was  very  helpful.,2024-04-14,0.6997,Positive,0.5 to 1.0
+1301,79,John Jones,Netherlands,13,Swim Goggles,4,"Great  purchase,  very  satisfied.",2025-05-28,0.8016,Positive,0.5 to 1.0
+1302,20,David Johnson,UK,11,Ski Boots,3,"Good  quality,  but  could  be  cheaper.",2023-11-29,0.2382,Mixed Positive,0.0 to 0.49
+1303,99,Laura Hernandez,Italy,3,Yoga Mat,4,Customer  support  was  very  helpful.,2024-03-22,0.6997,Positive,0.5 to 1.0
+1304,77,David Lopez,Spain,15,Climbing Rope,3,"Average  experience,  nothing  special.",2024-05-09,-0.3089,Mixed Negative,-0.49 to 0.0
+1305,24,Chris Hernandez,Italy,4,Dumbbells,1,The    product  arrived  late.,2025-01-26,0.0,Negative,0.0 to 0.49
+1306,89,Alex Rodriguez,Sweden,1,Running Shoes,4,Customer  support  was  very  helpful.,2023-09-03,0.6997,Positive,0.5 to 1.0
+1307,36,Emma Johnson,France,13,Swim Goggles,3,"Average    experience,  nothing  special.",2024-05-16,-0.3089,Mixed Negative,-0.49 to 0.0
+1308,46,Chris Johnson,Spain,5,Soccer Ball,4,"Great  purchase,    very  satisfied.",2025-02-03,0.8016,Positive,0.5 to 1.0
+1309,53,Emma Thomas,Germany,8,Football Helmet,4,"I  love  this  product,    will  buy  again!",2024-10-12,0.6696,Positive,0.5 to 1.0
+1310,96,Emily Gonzalez,Austria,17,Surfboard,3,"Good    quality,  but  could  be  cheaper.",2025-11-19,0.2382,Mixed Positive,0.0 to 0.49
+1311,71,Isabella Miller,Italy,13,Swim Goggles,5,"Great  purchase,  very  satisfied.",2023-01-29,0.8016,Positive,0.5 to 1.0
+1312,11,Emma Garcia,Austria,18,Volleyball,4,"Good  quality,  but  could  be  cheaper.",2023-05-16,0.2382,Positive,0.0 to 0.49
+1313,2,Sarah Brown,Spain,2,Fitness Tracker,5,The  build  quality    is  impressive.,2025-06-30,0.5106,Positive,0.5 to 1.0
+1314,63,John Davis,Switzerland,2,Fitness Tracker,5,Amazing  value  for  the  price.,2025-03-17,0.7351,Positive,0.5 to 1.0
+1315,85,Jane Hernandez,Belgium,14,Cycling Helmet,4,"I    love  this  product,  will  buy  again!",2023-05-28,0.6696,Positive,0.5 to 1.0
+1316,40,Olivia Thomas,Germany,20,Boxing Gloves,2,"The  product  is  okay,  but  the  instructions  were  unclear.",2025-05-24,-0.2617,Negative,-0.49 to 0.0
+1317,24,Chris Hernandez,Italy,8,Football Helmet,1,The  product  arrived  late.,2025-11-08,0.0,Negative,0.0 to 0.49
+1318,28,Emily Davis,Switzerland,1,Running Shoes,3,"Average  experience,  nothing  special.",2024-02-13,-0.3089,Mixed Negative,-0.49 to 0.0
+1319,84,Michael Williams,Spain,6,Tennis Racket,1,Product  did  not  meet  my    expectations.,2024-07-20,0.0,Negative,0.0 to 0.49
+1320,74,Jane Smith,UK,10,Golf Clubs,1,I  had  a  bad  experience  with  this  product.,2024-11-26,-0.5423,Negative,-1.0 to -0.5
+1321,32,Laura Anderson,Spain,3,Yoga Mat,2,The  product  arrived  late.,2025-02-25,0.0,Negative,0.0 to 0.49
+1322,70,James Garcia,Belgium,16,Kayak,1,Product  did  not  meet  my  expectations.,2024-04-15,0.0,Negative,0.0 to 0.49
+1323,61,Emma Rodriguez,Germany,17,Surfboard,1,Product  did    not  meet  my  expectations.,2025-10-27,0.0,Negative,0.0 to 0.49
+1324,36,Emma Johnson,France,10,Golf Clubs,4,Customer  support  was  very  helpful.,2025-12-27,0.6997,Positive,0.5 to 1.0
+1325,66,Isabella Martinez,Sweden,12,Ice Skates,3,"I  love  this  product,  will  buy  again!",2024-08-07,0.6696,Mixed Positive,0.5 to 1.0
+1326,69,Emma Gonzalez,Spain,4,Dumbbells,5,"Great  purchase,  very  satisfied.",2024-06-09,0.8016,Positive,0.5 to 1.0
+1327,37,Olivia Lopez,Germany,9,Baseball Glove,2,"Average  experience,  nothing  special.",2025-05-20,-0.3089,Negative,-0.49 to 0.0
+1328,97,Emily Rodriguez,France,11,Ski Boots,4,Customer  support  was  very  helpful.,2025-12-23,0.6997,Positive,0.5 to 1.0
+1329,45,Sarah Hernandez,Italy,19,Hockey Stick,2,Not  worth  the  money.,2024-01-03,-0.1695,Negative,-0.49 to 0.0
+1330,24,Chris Hernandez,Italy,12,Ice Skates,2,Not  worth  the  money.,2025-05-31,-0.1695,Negative,-0.49 to 0.0
+1331,88,James Brown,France,5,Soccer Ball,4,The  quality  is  top-notch.,2025-06-02,0.0,Positive,0.0 to 0.49
+1332,72,Sophia Miller,Sweden,4,Dumbbells,5,Amazing  value  for  the    price.,2024-06-15,0.7351,Positive,0.5 to 1.0
+1333,6,Daniel Rodriguez,Belgium,3,Yoga Mat,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2023-12-06,-0.2617,Mixed Negative,-0.49 to 0.0
+1334,39,Jane Miller,Italy,11,Ski Boots,4,"I  love  this  product,  will  buy  again!",2025-04-03,0.6696,Positive,0.5 to 1.0
+1335,43,Olivia Hernandez,Sweden,15,Climbing Rope,4,The  quality  is  top-notch.,2025-03-06,0.0,Positive,0.0 to 0.49
+1336,95,James Jones,Germany,9,Baseball Glove,1,"Not  satisfied,  the    product  broke  after  a  week.",2023-11-27,-0.6288,Negative,-1.0 to -0.5
+1337,89,Alex Rodriguez,Sweden,4,Dumbbells,3,"Average  experience,  nothing  special.",2023-10-09,-0.3089,Mixed Negative,-0.49 to 0.0
+1338,44,Olivia Brown,Switzerland,13,Swim Goggles,2,Disappointed  with  the  performance.,2025-02-01,-0.4767,Negative,-0.49 to 0.0
+1339,76,Michael Lopez,Austria,19,Hockey Stick,5,The  quality  is  top-notch.,2024-11-01,0.0,Positive,0.0 to 0.49
+1340,62,Michael Hernandez,Sweden,7,Basketball,3,Not  worth    the  money.,2025-07-10,-0.1695,Mixed Negative,-0.49 to 0.0
+1341,64,Sarah Martinez,Belgium,7,Basketball,2,"Average  experience,  nothing    special.",2023-06-21,-0.3089,Negative,-0.49 to 0.0
+1342,91,John Brown,Spain,1,Running Shoes,5,Customer  support  was  very  helpful.,2025-06-03,0.6997,Positive,0.5 to 1.0
+1343,39,Jane Miller,Italy,4,Dumbbells,5,The  build  quality  is  impressive.,2025-04-10,0.5106,Positive,0.5 to 1.0
+1344,31,Daniel Jones,Austria,20,Boxing Gloves,5,The  quality  is  top-notch.,2025-05-16,0.0,Positive,0.0 to 0.49
+1345,55,Emily Lopez,UK,18,Volleyball,5,"Excellent  product,  highly  recommend!",2023-10-14,0.7773,Positive,0.5 to 1.0
+1346,47,Sophia Thomas,Netherlands,6,Tennis Racket,2,The  product  arrived  late.,2024-10-14,0.0,Negative,0.0 to 0.49
+1347,21,Olivia Gonzalez,Spain,11,Ski Boots,4,Shipping  was  fast  and  the  item  was  well-packaged.,2025-07-16,0.0,Positive,0.0 to 0.49
+1348,45,Sarah Hernandez,Italy,19,Hockey Stick,5,"I  love  this  product,  will  buy  again!",2024-02-14,0.6696,Positive,0.5 to 1.0
+1349,22,Alex Wilson,Germany,10,Golf Clubs,4,Five  stars  for  the  quick  delivery.,2025-04-11,0.0,Positive,0.0 to 0.49
+1350,69,Emma Gonzalez,Spain,9,Baseball Glove,3,"The  product  is  okay,  but  the  instructions  were  unclear.",2024-02-01,-0.2617,Mixed Negative,-0.49 to 0.0
+1351,30,Alex Garcia,Belgium,20,Boxing Gloves,1,"Not  satisfied,  the  product  broke    after  a  week.",2023-07-23,-0.6288,Negative,-1.0 to -0.5
+1352,50,Olivia Miller,France,14,Cycling Helmet,5,The  quality  is    top-notch.,2025-06-25,0.0,Positive,0.0 to 0.49
+1353,34,Daniel Miller,France,5,Soccer Ball,5,The  quality  is  top-notch.,2024-06-30,0.0,Positive,0.0 to 0.49
+1354,53,Emma Thomas,Germany,8,Football Helmet,5,"Excellent    product,  highly  recommend!",2024-05-08,0.7773,Positive,0.5 to 1.0
+1355,9,Emily Thomas,Austria,20,Boxing Gloves,5,Customer  support  was  very  helpful.,2025-05-29,0.6997,Positive,0.5 to 1.0
+1356,14,Olivia Wilson,Spain,15,Climbing Rope,4,The  quality  is  top-notch.,2025-04-18,0.0,Positive,0.0 to 0.49
+1357,23,Isabella Garcia,Italy,17,Surfboard,1,"Terrible    customer  service,  would  not  buy  again.",2024-01-03,-0.4767,Negative,-0.49 to 0.0
+1358,90,John Wilson,UK,10,Golf Clubs,3,Not  worth    the  money.,2024-01-16,-0.1695,Mixed Negative,-0.49 to 0.0
+1359,28,Emily Davis,Switzerland,4,Dumbbells,3,Not  worth  the  money.,2023-05-25,-0.1695,Mixed Negative,-0.49 to 0.0
+1360,58,Jane Williams,Austria,12,Ice Skates,2,"Average    experience,  nothing  special.",2023-11-13,-0.3089,Negative,-0.49 to 0.0
+1361,96,Emily Gonzalez,Austria,15,Climbing Rope,5,Customer  support  was  very  helpful.,2023-03-07,0.6997,Positive,0.5 to 1.0
+1362,99,Laura Hernandez,Italy,2,Fitness Tracker,1,Product  did  not  meet  my  expectations.,2025-12-03,0.0,Negative,0.0 to 0.49
+1363,16,Michael Martinez,Italy,4,Dumbbells,2,The  product  arrived  late.,2024-07-16,0.0,Negative,0.0 to 0.49

@@ -1,0 +1,9 @@
+archive_local_files/
+.DS_Store
+*.bak
+*.dmg
+*.exe
+__pycache__/
+*.pyc
+.env
+.claude/
